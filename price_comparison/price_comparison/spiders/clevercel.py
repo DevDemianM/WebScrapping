@@ -35,7 +35,16 @@ class ClevercelSpider(scrapy.Spider):
         for product in products:
             item = PriceComparisonItem()
             item['name'] = product.css('a.product-item-meta__title::text').get(default='').strip()
-            item['price'] = product.css('span.price--highlight::text').get(default='').strip()
+            
+            # Obtener el precio que está después del span visually-hidden
+            price_text = product.css('span.price--highlight::text').getall()
+            if len(price_text) > 1:  # Si hay más de un elemento de texto
+                price_text = price_text[1]  # Tomamos el segundo elemento que contiene el precio
+                if 'Desde' in price_text:
+                    price_text = price_text.replace('Desde', '').strip()
+            else:
+                price_text = ''
+            item['price'] = price_text
             
             yield item
 
