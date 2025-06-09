@@ -42,7 +42,8 @@ class CeludmovilSpider(scrapy.Spider):
 
         for product in products:
             item = PriceComparisonItem()
-            item['name'] = product.css('div.grid-product__title::text').get(default='').strip()
+            product_name = product.css('div.grid-product__title::text').get(default='').strip()
+            item['name'] = f"{product_name.upper()} - {collection.upper()}"
             item['price'] = product.css('span.sale-price::text').get(default='').strip()
             
             yield item

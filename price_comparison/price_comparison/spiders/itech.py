@@ -51,7 +51,7 @@ class ItechSpider(scrapy.Spider):
             # Verificar si el producto ya fue procesado
             if product_id not in self.processed_products:
                 self.processed_products.add(product_id)
-                item['name'] = name
+                item['name'] = f"{name.upper()} - {collection.upper()}"
                 item['price'] = price
                 new_products_count += 1
                 yield item

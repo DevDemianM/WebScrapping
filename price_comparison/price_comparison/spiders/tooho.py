@@ -39,7 +39,8 @@ class ToohoSpider(scrapy.Spider):
 
         for product in products:
             item = PriceComparisonItem()
-            item['name'] = product.css('span.vtex-product-summary-2-x-productBrand.vtex-product-summary-2-x-brandName.t-body::text').get(default='').strip()
+            product_name = product.css('span.vtex-product-summary-2-x-productBrand.vtex-product-summary-2-x-brandName.t-body::text').get(default='').strip()
+            item['name'] = f"{product_name.upper()} - {collection.upper()}"
             price_parts = product.css('span.vtex-product-price-1-x-currencyContainer span::text').getall()
             item['price'] = ''.join([p.strip() for p in price_parts])
             

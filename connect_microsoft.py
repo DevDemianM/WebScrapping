@@ -53,9 +53,9 @@ def crear_carpeta_sharepoint(headers, drive_id, ruta_carpeta):
                 }
             )
             create_response.raise_for_status()
-            print(f"Carpeta '{ruta_carpeta}' creada exitosamente")
+            print(f"📁 Carpeta '{ruta_carpeta}' creada exitosamente")
     except requests.exceptions.RequestException as e:
-        print(f"Error al crear/verificar carpeta: {str(e)}")
+        print(f"❌ Error al crear/verificar carpeta: {str(e)}")
         raise
 
 def subir_archivo(ruta_archivo_local, ruta_destino_sharepoint):
@@ -63,7 +63,7 @@ def subir_archivo(ruta_archivo_local, ruta_destino_sharepoint):
     try:
         # Obtener token de acceso
         access_token = obtener_token()
-        print("Token obtenido exitosamente")
+        print("🔑 Token obtenido exitosamente")
         
         headers = {
             "Authorization": f"Bearer {access_token}",
@@ -71,26 +71,24 @@ def subir_archivo(ruta_archivo_local, ruta_destino_sharepoint):
         }
 
         # Obtener el ID del sitio usando el nombre
-        print(f"Intentando obtener el sitio: micelu.sharepoint.com:/sites/{SITE_NAME}")
+        print(f"🔍 Intentando obtener el sitio: micelu.sharepoint.com:/sites/{SITE_NAME}")
         site_response = requests.get(
             f"https://graph.microsoft.com/v1.0/sites/micelu.sharepoint.com:/sites/{SITE_NAME}",
             headers=headers
         )
-        print(f"Respuesta del sitio: {site_response.text}")
         site_response.raise_for_status()
         site_id = site_response.json()["id"]
-        print(f"ID del sitio obtenido: {site_id}")
+        print(f"✅ ID del sitio obtenido: {site_id}")
 
         # Obtener la drive de documentos
-        print("Obteniendo drives del sitio...")
+        print("📂 Obteniendo drives del sitio...")
         drive_response = requests.get(
             f"https://graph.microsoft.com/v1.0/sites/{site_id}/drives",
             headers=headers
         )
-        print(f"Respuesta de drives: {drive_response.text}")
         drive_response.raise_for_status()
         drive_id = drive_response.json()["value"][0]["id"]
-        print(f"ID de drive obtenido: {drive_id}")
+        print(f"✅ ID de drive obtenido: {drive_id}")
 
         # Crear la estructura de carpetas si no existe
         ruta_carpetas = os.path.dirname(ruta_destino_sharepoint)
@@ -108,14 +106,67 @@ def subir_archivo(ruta_archivo_local, ruta_destino_sharepoint):
             data=file_content
         )
         upload_response.raise_for_status()
-        print(f"Archivo subido exitosamente a {ruta_destino_sharepoint}")
+        print(f"📤 Archivo subido exitosamente a {ruta_destino_sharepoint}")
 
     except Exception as e:
-        print(f"Error al subir el archivo: {str(e)}")
+        print(f"❌ Error al subir el archivo: {str(e)}")
         raise
 
+def subir_archivos_normalizados():
+    """Sube todos los archivos JSON normalizados a SharePoint"""
+    try:
+        # Obtener la fecha actual
+        fecha_actual = datetime.now().strftime("%Y-%m-%d")
+        
+        # Ruta de la carpeta results_normalized
+        carpeta_normalized = os.path.join(os.path.dirname(os.path.abspath(__file__)), "price_comparison", "results_normalized")
+        
+        # Verificar si la carpeta existe
+        if not os.path.exists(carpeta_normalized):
+            raise FileNotFoundError(f"La carpeta {carpeta_normalized} no existe")
+        
+        # Obtener lista de archivos JSON normalizados
+        archivos_json = [f for f in os.listdir(carpeta_normalized) if f.endswith('_normalized.json')]
+        
+        if not archivos_json:
+            print("⚠️ No se encontraron archivos JSON normalizados")
+            return False
+        
+        print(f"\n📊 Encontrados {len(archivos_json)} archivos normalizados para subir")
+        print("=" * 60)
+        
+        # Subir cada archivo
+        archivos_subidos = 0
+        for archivo in archivos_json:
+            try:
+                # Crear nombre del archivo con fecha
+                nombre_base = os.path.splitext(archivo)[0]
+                nombre_archivo_sharepoint = f"{nombre_base}_{fecha_actual}.json"
+                
+                # Rutas completas
+                ruta_local = os.path.join(carpeta_normalized, archivo)
+                ruta_sharepoint = f"results_normalized/{nombre_archivo_sharepoint}"
+                
+                print(f"\n📤 Subiendo archivo: {archivo}")
+                subir_archivo(ruta_local, ruta_sharepoint)
+                archivos_subidos += 1
+                
+            except Exception as e:
+                print(f"❌ Error subiendo {archivo}: {str(e)}")
+                continue
+        
+        print("\n" + "=" * 60)
+        print(f"✅ {archivos_subidos} de {len(archivos_json)} archivos subidos exitosamente")
+        print("=" * 60)
+        
+        return archivos_subidos > 0
+        
+    except Exception as e:
+        print(f"❌ Error al procesar los archivos: {str(e)}")
+        return False
+
 def subir_archivos_results_scrap():
-    """Sube todos los archivos CSV de la carpeta results_scrap a SharePoint"""
+    """Sube todos los archivos JSON de la carpeta results_scrap a SharePoint (función legacy)"""
     try:
         # Obtener la fecha actual
         fecha_actual = datetime.now().strftime("%Y-%m-%d")
@@ -127,34 +178,37 @@ def subir_archivos_results_scrap():
         if not os.path.exists(carpeta_results):
             raise FileNotFoundError(f"La carpeta {carpeta_results} no existe")
         
-        # Obtener lista de archivos CSV
-        archivos_csv = [f for f in os.listdir(carpeta_results) if f.endswith('.csv')]
+        # Obtener lista de archivos JSON
+        archivos_json = [f for f in os.listdir(carpeta_results) if f.endswith('.json')]
         
-        if not archivos_csv:
-            print("No se encontraron archivos CSV en la carpeta results_scrap")
-            return
+        if not archivos_json:
+            print("⚠️ No se encontraron archivos JSON en la carpeta results_scrap")
+            return False
         
-        print(f"Encontrados {len(archivos_csv)} archivos CSV para subir")
+        print(f"📊 Encontrados {len(archivos_json)} archivos JSON para subir")
         
         # Subir cada archivo
-        for archivo in archivos_csv:
+        for archivo in archivos_json:
             # Crear nombre del archivo con fecha
             nombre_base = os.path.splitext(archivo)[0]
-            nombre_archivo_sharepoint = f"{nombre_base}_{fecha_actual}.csv"
+            nombre_archivo_sharepoint = f"{nombre_base}_{fecha_actual}.json"
             
             # Rutas completas
             ruta_local = os.path.join(carpeta_results, archivo)
             ruta_sharepoint = f"results_scrap/{nombre_archivo_sharepoint}"
             
-            print(f"\nSubiendo archivo: {archivo}")
+            print(f"\n📤 Subiendo archivo: {archivo}")
             subir_archivo(ruta_local, ruta_sharepoint)
             
         print("\n✅ Todos los archivos han sido subidos exitosamente")
+        return True
         
     except Exception as e:
-        print(f"Error al procesar los archivos: {str(e)}")
-        raise
+        print(f"❌ Error al procesar los archivos: {str(e)}")
+        return False
 
 # Ejecutar el script
 if __name__ == "__main__":
-    subir_archivos_results_scrap() 
+    print("🚀 SUBIENDO ARCHIVOS NORMALIZADOS A SHAREPOINT")
+    print("=" * 60)
+    subir_archivos_normalizados()

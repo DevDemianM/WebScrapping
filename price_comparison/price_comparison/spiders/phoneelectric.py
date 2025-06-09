@@ -57,7 +57,8 @@ class PhoneelectricSpider(scrapy.Spider):
         for product in products:
             item = PriceComparisonItem()
             # Extraer nombre del producto
-            item['name'] = product.css('h3.card__heading a::text').get(default='').strip()
+            product_name = product.css('h3.card__heading a::text').get(default='').strip()
+            item['name'] = f"{product_name.upper()} - {collection.upper()}"
             
             # Extraer precio de oferta
             sale_price = product.css('span.price-item--sale::text').get(default='').strip()
