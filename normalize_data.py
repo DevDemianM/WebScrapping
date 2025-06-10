@@ -287,11 +287,47 @@ class DataNormalizer:
         # Lista de palabras a eliminar completamente
         words_to_remove = [
             'CELULARES', 'ALL', 'DE', 'GADGETS', 'ACCESORIOS', 'ACCESORIO',
-            'OTRAS MARCAS', 'ELECTRONICA', 'TECNOLOGIA', 'TECH'
+            'ELECTRONICA', 'TECNOLOGIA', 'TECH'
         ]
         
-        # Patrones específicos a limpiar
-        name = re.sub(r'\b(OTRAS\s+MARCAS?)\b', '', name, flags=re.IGNORECASE)
+        # PATRONES ESPECÍFICOS MUY IMPORTANTES - Ejecutar PRIMERO
+        
+        # 1. Eliminar "OTRAS MARCAS" o "OTRAS - MARCAS" COMPLETAMENTE
+        name = re.sub(r'\b(OTRAS\s*-?\s*MARCAS?)\b', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\b(OTRAS)\s*-\s*(MARCAS?)\b', '', name, flags=re.IGNORECASE)
+        
+        # 2. Eliminar "AUDIFONOS" SOLO cuando aparece con AIRPODS
+        if 'AIRPODS' in name.upper():
+            name = re.sub(r'\b(AUDIFONOS)\b', '', name, flags=re.IGNORECASE)
+        
+        # 3. Eliminar "CELULAR" cuando aparece con IPHONE
+        if 'IPHONE' in name.upper():
+            name = re.sub(r'\b(CELULAR)\b', '', name, flags=re.IGNORECASE)
+        
+        # 4. Eliminar patrones técnicos generales
+        
+        # Eliminar patrones de RED (4G, 5G, LTE, etc.)
+        name = re.sub(r'\b(4G|5G|LTE|3G|2G)\+?\b', '', name, flags=re.IGNORECASE)
+        
+        # Eliminar patrones de RAM (SOLO números de 1 dígito: 4+, 8+, 6+, etc.)
+        # NO eliminar almacenamiento válido como 128+, 256+, etc.
+        name = re.sub(r'\b([1-9])\+\s*(GB)?\b', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\b([1-9])\s*\+\b', '', name, flags=re.IGNORECASE)
+        
+        # Eliminar patrones de SIM (S-FIS, E-SIM, etc.) ya que se maneja por separado
+        name = re.sub(r'\b(S\s*-?\s*FIS)\b', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\b(E\s*-?\s*SIM)\b', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\b(SFIS|ESIM)\b', '', name, flags=re.IGNORECASE)
+        
+        # Eliminar años entre paréntesis (2020), (2022), etc.
+        name = re.sub(r'\s*\((\d{4})\)\s*', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\s*\(\s*(\d{4})\s*\)\s*', '', name, flags=re.IGNORECASE)
+        
+        # Eliminar colores sueltos que quedan después de limpiar patrones técnicos
+        colors_to_remove = ['BLANCO', 'NEGRO', 'AZUL', 'ROJO', 'VERDE', 'AMARILLO', 'MORADO', 'ROSADO', 'ROSA', 'DORADO', 'GRIS', 'PLATEADO']
+        for color in colors_to_remove:
+            # Solo eliminar si está solo (no como parte de un nombre de producto)
+            name = re.sub(rf'\b{color}\b(?!\s+\w)', '', name, flags=re.IGNORECASE)
         
         # Eliminar "+6" solo si es un celular/dispositivo móvil
         if self.is_mobile_device(name):
@@ -301,7 +337,7 @@ class DataNormalizer:
         name = re.sub(r'\bEXH\s*PREMIUM\b', 'USADO', name, flags=re.IGNORECASE)
         name = re.sub(r'\bEXH\b', 'USADO', name, flags=re.IGNORECASE)
         
-        # Eliminar palabras no deseadas
+        # Eliminar palabras no deseadas generales
         for word in words_to_remove:
             name = re.sub(rf'\b{re.escape(word)}\b', '', name, flags=re.IGNORECASE)
         
