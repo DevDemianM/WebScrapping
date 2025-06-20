@@ -83,4 +83,6 @@ WebScrappingMicelu/
 
 ---
 
+#El archivo Automatización es el Workflow de N8N
+
 **Desarrollado para MICELU** | *Última actualización: Junio 2025*

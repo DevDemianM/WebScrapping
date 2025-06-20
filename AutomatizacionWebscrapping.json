@@ -1,0 +1,357 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -2040,
+        -300
+      ],
+      "id": "57139a9a-fe28-4f20-8f14-8e740a6964fd",
+      "name": "When clicking ‘Test workflow’"
+    },
+    {
+      "parameters": {
+        "url": "https://graph.microsoft.com/v1.0/sites/micelu.sharepoint.com,ee75c2ed-998f-45f0-9d6b-6f5197a314d8,bdc3c908-bdce-4235-9ce3-9f18529f918a/drives",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "oAuth2Api",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1760,
+        60
+      ],
+      "id": "30051b4b-cca1-435d-a0e3-35dc2ca50d43",
+      "name": "HTTP Request DRIVE ID",
+      "credentials": {
+        "oAuth2Api": {
+          "id": "n6pflszg0RD1cLnM",
+          "name": "Microsoft"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://graph.microsoft.com/v1.0/sites/micelu.sharepoint.com:/sites/ProyectosMICELU",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "oAuth2Api",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1980,
+        60
+      ],
+      "id": "ed45cedd-c09b-4873-be31-0460abccd8e1",
+      "name": "HTTP Request SITE ID",
+      "credentials": {
+        "oAuth2Api": {
+          "id": "n6pflszg0RD1cLnM",
+          "name": "Microsoft"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://graph.microsoft.com/v1.0/drives/b!7cJ17o-Z8EWda29Rl6MU2AjJw73OvTVCnOOfGFKfkYqa-O5yMuPJS6vCIsiGNMoe/root/children",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "oAuth2Api",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -1540,
+        60
+      ],
+      "id": "e030ddad-69aa-4faf-84d0-76219e6bceb1",
+      "name": "HTTP Documentos compartidos",
+      "credentials": {
+        "oAuth2Api": {
+          "id": "n6pflszg0RD1cLnM",
+          "name": "Microsoft"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "url": "https://graph.microsoft.com/v1.0/drives/b!7cJ17o-Z8EWda29Rl6MU2AjJw73OvTVCnOOfGFKfkYqa-O5yMuPJS6vCIsiGNMoe/root:/results_normalized:/children",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "oAuth2Api",
+        "options": {}
+      },
+      "id": "c1f73523-9298-4215-bf4d-ced08646a606",
+      "name": "HTTP results_scrap1",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4,
+      "position": [
+        -1320,
+        60
+      ],
+      "credentials": {
+        "oAuth2Api": {
+          "id": "n6pflszg0RD1cLnM",
+          "name": "Microsoft"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "return items[0].json.value.map(file => ({ json: file }));"
+      },
+      "id": "71ff4dfb-54d4-4a1c-b4f7-4f9c2880c38b",
+      "name": "Extract File Items1",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -1100,
+        60
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json[\"@microsoft.graph.downloadUrl\"] }}",
+        "options": {
+          "response": {
+            "response": {
+              "responseFormat": "file"
+            }
+          }
+        }
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        -880,
+        60
+      ],
+      "id": "fc7f0fb2-9845-4eb0-a2be-e6a10242a3b5",
+      "name": "HTTP Request"
+    },
+    {
+      "parameters": {
+        "jsCode": "/**\n * Agrupa y ordena todos los productos JSON ya normalizados recibidos de varias tiendas.\n * Ahora ordena por:\n *  1. Nombre de producto (alfabético)\n *  2. Número de SIM (single vs dual)\n *  3. Almacenamiento (numérico, en GB)\n */\n\nconst results = [];\nconst CELULAR_REGEX = /(iphone|samsung|galaxy|xiaomi|motorola|celular|redmi|honor|huawei|nokia|realme|oppo|oneplus|apple|sony|nintendo)/i;\nconst PRECIO_REGEX = /[0-9].*[0-9].*[0-9].*[0-9]/;\n\nfunction quitarTildes(str) {\n  return str\n    .normalize('NFD')\n    .replace(/[\\u0300-\\u036f]/g, '')\n    .replace(/Ñ/g, 'N')\n    .replace(/ñ/g, 'n');\n}\n\n// Helper: extrae un número de SIM\nfunction parseSimCount(name) {\n  const simMatch = name.match(/(\\d+)\\s*SIM/i);\n  if (simMatch) return parseInt(simMatch[1], 10);\n  // si no especifica, asumimos 1 SIM\n  return 1;\n}\n\n// Helper: extrae GB de almacenamiento\nfunction parseStorageGB(name) {\n  const gbMatch = name.match(/(\\d+)\\s*GB/i);\n  if (gbMatch) return parseInt(gbMatch[1], 10);\n  return 0;\n}\n\n// --- Recorrido y acumulación ---\nfor (let i = 0; i < items.length; i++) {\n  const buffer = await helpers.getBinaryDataBuffer(i, 'data');\n  const tienda = quitarTildes(items[i].json.name.replace(/\\.json$/i, '')).toUpperCase();\n  const texto = buffer.toString('utf8');\n\n  let records = [];\n  try {\n    records = JSON.parse(texto);\n    if (!Array.isArray(records)) {\n      throw new Error(`El archivo ${tienda} no contiene un array JSON válido`);\n    }\n  } catch (err) {\n    throw new Error(`Error parseando ${tienda}: ${err.message}`);\n  }\n\n  for (const rec of records) {\n    const nombreRaw = typeof rec.normalized_name === 'string' ? rec.normalized_name.trim() : '';\n    const precioRaw = typeof rec.price === 'string' ? rec.price.trim() : '';\n    if (!nombreRaw || !PRECIO_REGEX.test(precioRaw)) continue;\n    const productoFinal = nombreRaw.toUpperCase().trim();\n    results.push({\n      json: {\n        product: productoFinal,\n        [tienda]: precioRaw\n      }\n    });\n  }\n}\n\n// --- Agrupar productos ---\nconst productosMap = {};\nfor (const item of results) {\n  const { product, ...precios } = item.json;\n  if (!productosMap[product]) productosMap[product] = { product };\n  Object.entries(precios).forEach(([t, val]) => {\n    if (t !== 'product') productosMap[product][t] = val;\n  });\n}\nlet finalArray = Object.values(productosMap).map(obj => ({ json: obj }));\n\n// --- Ordenar multinivel ---\nfinalArray.sort((a, b) => {\n  const nameA = a.json.product, nameB = b.json.product;\n  // 1) Nombre alfabético\n  const cmpName = nameA.localeCompare(nameB, 'es', { sensitivity: 'base' });\n  if (cmpName !== 0) return cmpName;\n\n  // 2) Número de SIM (menos SIM primero)\n  const simA = parseSimCount(nameA), simB = parseSimCount(nameB);\n  const cmpSim = simA - simB;\n  if (cmpSim !== 0) return cmpSim;\n\n  // 3) Almacenamiento (GB)\n  const storA = parseStorageGB(nameA), storB = parseStorageGB(nameB);\n  return storA - storB;\n});\n\nreturn finalArray;\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -660,
+        60
+      ],
+      "id": "ccef56e3-86a8-4ecc-a2f4-1a2756153efa",
+      "name": "organiza el json"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Agrupa productos por nombre, acumulando precios por tienda\nconst productosMap = {};\n\nfor (const item of items) {\n  const { product, ...resto } = item.json;\n\n  if (!productosMap[product]) {\n    productosMap[product] = { product };\n  }\n\n  for (const [tienda, precio] of Object.entries(resto)) {\n    if (tienda !== \"product\") {\n      productosMap[product][tienda] = precio;\n    }\n  }\n}\n\n// Retornar como array para que sea tabular\nreturn Object.values(productosMap).map(obj => ({ json: obj }));\n"
+      },
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        -440,
+        60
+      ],
+      "id": "a3092157-4e3b-4482-ba82-975c09f378ef",
+      "name": "Code"
+    },
+    {
+      "parameters": {
+        "operation": "xlsx",
+        "options": {
+          "fileName": "results_comparison_complete.xlsx"
+        }
+      },
+      "type": "n8n-nodes-base.convertToFile",
+      "typeVersion": 1.1,
+      "position": [
+        -220,
+        60
+      ],
+      "id": "5db8412e-b4c4-44fa-ba87-f8e8e712e895",
+      "name": "Convert to File"
+    },
+    {
+      "parameters": {
+        "method": "PUT",
+        "url": "https://graph.microsoft.com/v1.0/drives/b!7cJ17o-Z8EWda29Rl6MU2AjJw73OvTVCnOOfGFKfkYqa-O5yMuPJS6vCIsiGNMoe/root:/competition_comparison/results_comparison_complete.xlsx:/content",
+        "authentication": "genericCredentialType",
+        "genericAuthType": "oAuth2Api",
+        "sendBody": true,
+        "contentType": "binaryData",
+        "inputDataFieldName": "data",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        0,
+        60
+      ],
+      "id": "ce615006-c4d0-4061-a7ce-620b335d9ac3",
+      "name": "HTTP Request1",
+      "credentials": {
+        "oAuth2Api": {
+          "id": "n6pflszg0RD1cLnM",
+          "name": "Microsoft"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "weeks",
+              "triggerAtDay": [
+                2
+              ],
+              "triggerAtHour": 10
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        -2220,
+        60
+      ],
+      "id": "4ca44b12-81e1-45e2-aac0-b3081a14f902",
+      "name": "Schedule Trigger"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Test workflow’": {
+      "main": [
+        []
+      ]
+    },
+    "HTTP Request DRIVE ID": {
+      "main": [
+        [
+          {
+            "node": "HTTP Documentos compartidos",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request SITE ID": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request DRIVE ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Documentos compartidos": {
+      "main": [
+        [
+          {
+            "node": "HTTP results_scrap1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP results_scrap1": {
+      "main": [
+        [
+          {
+            "node": "Extract File Items1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract File Items1": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "HTTP Request": {
+      "main": [
+        [
+          {
+            "node": "organiza el json",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "organiza el json": {
+      "main": [
+        [
+          {
+            "node": "Code",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Code": {
+      "main": [
+        [
+          {
+            "node": "Convert to File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Convert to File": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request1",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "HTTP Request SITE ID",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "170112c5-d3d8-4e19-98c7-e80a5b72ba0f",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "cf0700a85145d0300daf0ab46fb3b4784a3e16691d72f1b1d7ad0ff97a905e23"
+  },
+  "id": "38wvmXJVsXRfBDlw",
+  "tags": []
+}
