@@ -49,19 +49,20 @@ class DataNormalizer:
         }
         
         # Patrones para detectar marcas dentro del texto del producto
+        # ORDEN IMPORTANTE: Marcas más específicas primero para evitar solapamientos
         self.brand_patterns = {
-            'APPLE': ['APPLE', 'IPHONE', 'IPAD', 'MACBOOK', 'AIRPODS', 'IMAC', 'WATCH SERIES', 'WATCH ULTRA'],
-            'SAMSUNG': ['SAMSUNG', 'GALAXY'],
-            'XIAOMI': ['XIAOMI', 'REDMI', 'POCO', 'MI '],
-            'HUAWEI': ['HUAWEI', 'HONOR'],
-            'SONY': ['SONY', 'PLAYSTATION', 'PS5', 'PS4'],
+            'APPLE': ['IPHONE', 'IPAD', 'MACBOOK', 'AIRPODS', 'IMAC', 'WATCH SERIES', 'WATCH ULTRA', 'APPLE'],
+            'SAMSUNG': ['GALAXY', 'SAMSUNG'],
+            'HUAWEI': ['HONOR', 'HUAWEI'],  # HONOR antes que HUAWEI
+            'MOTOROLA': ['MOTOROLA', 'MOTO'],  # MOTOROLA antes que otros
+            'OPPO': ['ONEPLUS', 'REALME', 'OPPO'],  # Submarcas antes de OPPO
+            'VIVO': ['IQOO', 'VIVO'],  # IQOO antes que VIVO
+            'XIAOMI': ['POCOPHONE', 'REDMI', 'POCO', 'XIAOMI', 'MI '],  # XIAOMI al final para evitar conflictos
+            'SONY': ['PLAYSTATION', 'PS5', 'PS4', 'SONY'],
             'NINTENDO': ['NINTENDO', 'SWITCH'],
             'JBL': ['JBL'],
             'BOSE': ['BOSE'],
-            'MICROSOFT': ['MICROSOFT', 'XBOX', 'SURFACE'],
-            'MOTOROLA': ['MOTOROLA', 'MOTO'],
-            'OPPO': ['OPPO', 'REALME', 'ONEPLUS'],
-            'VIVO': ['VIVO', 'IQOO'],
+            'MICROSOFT': ['XBOX', 'SURFACE', 'MICROSOFT'],
             'TECNO': ['TECNO'],
             'INFINIX': ['INFINIX'],
             'LENOVO': ['LENOVO'],
@@ -92,16 +93,17 @@ class DataNormalizer:
             'COMO NUEVO': 'COMO NUEVO',
             'SEMINUEVO': 'SEMINUEVO',
             'SEMI NUEVO': 'SEMINUEVO',
+            'SEMI': 'SEMINUEVO',
             'EXH': 'SEMINUEVO',
             'EXH PREMIUM': 'SEMINUEVO',
             'DE EXH': 'SEMINUEVO',
             'DE EXH PREMIUM': 'SEMINUEVO',
-            'CPO': 'SEMINUEVO',
+            'CPO': 'USADO',
             'PREMIUM': 'SEMINUEVO',
             'NUEVO': 'NUEVO',
-            'REFURBISHED': 'SEMINUEVO',
-            'REACONDICIONADO': 'SEMINUEVO',
-            'OPEN BOX': 'SEMINUEVO'
+            'REFURBISHED': 'USADO',
+            'REACONDICIONADO': 'USADO',
+            'OPEN BOX': 'USADO'
         }
         
         # Diccionario de tipos de SIM normalizados
@@ -124,7 +126,8 @@ class DataNormalizer:
             'ROSA', 'DORADO', 'GRIS', 'PLATEADO', 'TITANIUM', 'NATURAL', 'DESERT',
             'MIDNIGHT', 'STARLIGHT', 'PURPLE', 'BLUE', 'RED', 'GREEN', 'YELLOW',
             'PINK', 'GOLD', 'SILVER', 'SPACE', 'GRAY', 'GREY', 'LILA', 'GRAPHITE',
-            'ORIGINAL', 'GARANTIA', 'SELLADO', 'OFERTA', 'PROMOCION', 'ESPECIAL'
+            'ORIGINAL', 'GARANTIA', 'SELLADO', 'OFERTA', 'PROMOCION', 'ESPECIAL',
+            'CALIDAD', 'EN', 'SONIDO', 'TITANNIUM', 'ADAPTADORES', 'CABLES', 'ª', 'FULL'
         ]
         
         # Orden de prioridad para condiciones (de mayor a menor prioridad)
@@ -137,19 +140,20 @@ class DataNormalizer:
                       if unicodedata.category(c) != 'Mn')
 
     def detect_brand_from_product_name(self, product_name):
-        """Detecta la marca a partir del nombre del producto"""
+        """Detecta la marca a partir del nombre del producto - UNA SOLA MARCA"""
         product_upper = product_name.upper()
         
-        # Buscar patrones de marca en el texto
-        for brand, patterns in self.brand_patterns.items():
-            for pattern in patterns:
-                if pattern in product_upper:
-                    return brand
-        
-        # Buscar marcas implícitas (productos que sabemos de qué marca son)
+        # PRIMERO: Buscar marcas implícitas (más específicas)
         for product_key, brand in self.implicit_brands.items():
             if product_key in product_upper:
                 return brand
+        
+        # SEGUNDO: Buscar patrones de marca en ORDEN DE PRIORIDAD
+        # Esto evita que XIAOMI capture HONOR, MOTOROLA, etc.
+        for brand, patterns in self.brand_patterns.items():
+            for pattern in patterns:
+                if f' {pattern} ' in f' {product_upper} ' or product_upper.startswith(pattern + ' ') or product_upper.endswith(' ' + pattern):
+                    return brand
                 
         return None
 
@@ -286,8 +290,9 @@ class DataNormalizer:
         
         # Lista de palabras a eliminar completamente
         words_to_remove = [
-            'CELULARES', 'ALL', 'DE', 'GADGETS', 'ACCESORIOS', 'ACCESORIO',
-            'ELECTRONICA', 'TECNOLOGIA', 'TECH'
+            'CELULAR', 'CELULARES', 'ALL', 'DE', 'GADGETS', 'ACCESORIOS', 'ACCESORIO',
+            'ELECTRONICA', 'TECNOLOGIA', 'TECH', 'CALIDAD', 'EN', 'SONIDO', 
+            'TITANNIUM', 'ADAPTADORES', 'CABLES', 'ª', 'FULL'
         ]
         
         # PATRONES ESPECÍFICOS MUY IMPORTANTES - Ejecutar PRIMERO
@@ -300,19 +305,21 @@ class DataNormalizer:
         if 'AIRPODS' in name.upper():
             name = re.sub(r'\b(AUDIFONOS)\b', '', name, flags=re.IGNORECASE)
         
-        # 3. Eliminar "CELULAR" cuando aparece con IPHONE
-        if 'IPHONE' in name.upper():
-            name = re.sub(r'\b(CELULAR)\b', '', name, flags=re.IGNORECASE)
+        # 3. Eliminar "CELULAR" de TODOS los dispositivos móviles
+        if self.is_mobile_device(name):
+            name = re.sub(r'\b(CELULAR|CELULARES)\b', '', name, flags=re.IGNORECASE)
         
         # 4. Eliminar patrones técnicos generales
         
-        # Eliminar patrones de RED (4G, 5G, LTE, etc.)
-        name = re.sub(r'\b(4G|5G|LTE|3G|2G)\+?\b', '', name, flags=re.IGNORECASE)
+        # Eliminar patrones de RED solo para productos NO Android
+        # Mantener 4G/5G para dispositivos Android (celulares)
+        if not self.is_mobile_device(name):
+            name = re.sub(r'\b(4G|5G|LTE|3G|2G)\+?\b', '', name, flags=re.IGNORECASE)
         
-        # Eliminar patrones de RAM (SOLO números de 1 dígito: 4+, 8+, 6+, etc.)
+        # Eliminar patrones de RAM (SOLO números de 1-2 dígitos: 4+, 8+, 6+, 12+, etc.)
         # NO eliminar almacenamiento válido como 128+, 256+, etc.
-        name = re.sub(r'\b([1-9])\+\s*(GB)?\b', '', name, flags=re.IGNORECASE)
-        name = re.sub(r'\b([1-9])\s*\+\b', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\b([1-9]|1[0-6])\+\s*(GB)?\b', '', name, flags=re.IGNORECASE)
+        name = re.sub(r'\b([1-9]|1[0-6])\s*\+\b', '', name, flags=re.IGNORECASE)
         
         # Eliminar patrones de SIM (S-FIS, E-SIM, etc.) ya que se maneja por separado
         name = re.sub(r'\b(S\s*-?\s*FIS)\b', '', name, flags=re.IGNORECASE)
@@ -323,11 +330,11 @@ class DataNormalizer:
         name = re.sub(r'\s*\((\d{4})\)\s*', '', name, flags=re.IGNORECASE)
         name = re.sub(r'\s*\(\s*(\d{4})\s*\)\s*', '', name, flags=re.IGNORECASE)
         
-        # Eliminar colores sueltos que quedan después de limpiar patrones técnicos
-        colors_to_remove = ['BLANCO', 'NEGRO', 'AZUL', 'ROJO', 'VERDE', 'AMARILLO', 'MORADO', 'ROSADO', 'ROSA', 'DORADO', 'GRIS', 'PLATEADO']
+        # Eliminar colores y materiales SIEMPRE
+        colors_to_remove = ['BLANCO', 'NEGRO', 'AZUL', 'ROJO', 'VERDE', 'AMARILLO', 'MORADO', 'ROSADO', 'ROSA', 'DORADO', 'GRIS', 'PLATEADO', 'LILA', 'TITANIUM', 'TITANIO', 'NATURAL']
         for color in colors_to_remove:
-            # Solo eliminar si está solo (no como parte de un nombre de producto)
-            name = re.sub(rf'\b{color}\b(?!\s+\w)', '', name, flags=re.IGNORECASE)
+            # Eliminar SIEMPRE estos colores/materiales
+            name = re.sub(rf'\b{color}\b', '', name, flags=re.IGNORECASE)
         
         # Eliminar "+6" solo si es un celular/dispositivo móvil
         if self.is_mobile_device(name):
@@ -341,50 +348,44 @@ class DataNormalizer:
         for word in words_to_remove:
             name = re.sub(rf'\b{re.escape(word)}\b', '', name, flags=re.IGNORECASE)
         
-        # Limpiar espacios múltiples y separadores
+        # Eliminar TODOS los guiones, pipes y limpiar espacios múltiples
+        name = re.sub(r'[-|]', '', name)
         name = re.sub(r'\s+', ' ', name).strip()
-        name = re.sub(r'\s*-\s*', ' - ', name)
         
         return name
 
     def remove_brand_duplication(self, name, brand):
-        """Elimina duplicaciones de la marca en el nombre de forma más inteligente"""
+        """Elimina TODAS las menciones de marca del nombre para evitar duplicaciones"""
         if not name or not brand or brand == 'UNKNOWN':
             return name
         
         name_upper = name.upper()
         brand_upper = brand.upper()
         
-        # Casos especiales para APPLE
-        if brand_upper == 'APPLE':
-            # Para productos Apple iPhone, eliminar duplicaciones de APPLE E IPHONE
-            if 'IPHONE' in name_upper:
-                # Eliminar TODAS las instancias de APPLE del nombre
-                name_clean = re.sub(r'\bAPPLE\b', '', name_upper, flags=re.IGNORECASE)
-                # Contar cuántas veces aparece IPHONE
-                iphone_count = name_clean.count('IPHONE')
-                if iphone_count > 1:
-                    # Si hay múltiples IPHONE, reemplazar todos con uno solo
-                    name_clean = re.sub(r'\bIPHONE\b', '###IPHONE###', name_clean)
-                    name_clean = name_clean.replace('###IPHONE###', 'IPHONE', 1)
-                    name_clean = name_clean.replace('###IPHONE###', '')
-                name_clean = re.sub(r'\s+', ' ', name_clean).strip()
-                return name_clean
-            # Para otros productos Apple (AirPods, iPad), eliminar duplicaciones de APPLE
-            else:
-                name_clean = re.sub(r'\bAPPLE\b', '', name_upper, flags=re.IGNORECASE)
-                name_clean = re.sub(r'\s+', ' ', name_clean).strip()
-                return name_clean
+        # Eliminar TODAS las menciones de la marca detectada
+        name_clean = re.sub(rf'\b{re.escape(brand_upper)}\b', '', name_upper, flags=re.IGNORECASE)
         
-        # Para otras marcas, eliminar duplicaciones normalmente
-        brand_count = name_upper.count(brand_upper)
+        # También eliminar submarcas relacionadas para evitar duplicaciones
+        related_brands = {
+            'HUAWEI': ['HONOR'],
+            'XIAOMI': ['REDMI', 'POCO', 'POCOPHONE', 'MI'],
+            'OPPO': ['REALME', 'ONEPLUS'],
+            'VIVO': ['IQOO'],
+            'APPLE': ['IPHONE', 'IPAD', 'MACBOOK', 'AIRPODS'],
+            'SAMSUNG': ['GALAXY'],
+            'MOTOROLA': ['MOTO']
+        }
         
-        if brand_count > 0:
-            name_clean = re.sub(rf'\b{re.escape(brand_upper)}\b', '', name_upper, flags=re.IGNORECASE)
-            name_clean = re.sub(r'\s+', ' ', name_clean).strip()
-            return name_clean
+        # Si es una marca principal, eliminar también sus submarcas
+        if brand_upper in related_brands:
+            for submarca in related_brands[brand_upper]:
+                # Solo eliminar si no es el producto principal (ej: mantener IPHONE en productos iPhone)
+                if brand_upper == 'APPLE' and submarca in ['IPHONE', 'IPAD', 'MACBOOK', 'AIRPODS']:
+                    continue  # No eliminar estos ya que son el nombre del producto
+                name_clean = re.sub(rf'\b{re.escape(submarca)}\b', '', name_clean, flags=re.IGNORECASE)
         
-        return name
+        name_clean = re.sub(r'\s+', ' ', name_clean).strip()
+        return name_clean
 
     def normalize_brand(self, brand, product_name=None):
         """Normaliza la marca, detectando desde el nombre del producto si es necesario"""
@@ -458,32 +459,20 @@ class DataNormalizer:
         return self.capacity_mapping.get(capacity, capacity)
 
     def clean_multiple_separators(self, text):
-        """Limpia guiones múltiples y espacios de forma más agresiva"""
+        """Elimina TODOS los guiones, pipes y limpia espacios"""
         if not text:
             return text
         
-        # Reemplazar múltiples guiones consecutivos
-        text = re.sub(r'-{2,}', '-', text)
-        
-        # Reemplazar patrones como "- -" o "- - -" con un solo guión
-        text = re.sub(r'(\s*-\s*){2,}', ' - ', text)
+        # Eliminar TODOS los guiones y pipes
+        text = re.sub(r'[-|]', '', text)
         
         # Limpiar espacios múltiples
         text = re.sub(r'\s{2,}', ' ', text)
         
-        # Limpiar guiones al inicio y final
-        text = re.sub(r'^[\s\-]+|[\s\-]+$', '', text)
+        # Limpiar espacios al inicio y final
+        text = text.strip()
         
-        # Dividir por guiones, limpiar partes vacías y reconstruir
-        parts = text.split(' - ')
-        clean_parts = []
-        
-        for part in parts:
-            part = part.strip()
-            if part and part != '-' and len(part) > 0:
-                clean_parts.append(part)
-        
-        return ' - '.join(clean_parts)
+        return text
 
     def normalize_product(self, name, brand, price, store, url):
         """Normaliza un producto completo con mejor detección y sin duplicaciones"""
@@ -507,7 +496,7 @@ class DataNormalizer:
         # Limpiar nombre final
         final_name = self.clean_final_name(name_after_storage, brand_info)
         
-        # Construir el nombre normalizado SIN DUPLICACIONES
+        # Construir el nombre normalizado SIN GUIONES
         parts = []
         
         if brand_info:
@@ -527,13 +516,25 @@ class DataNormalizer:
         if storage_capacity:
             parts.append(storage_capacity)
         
-        normalized_name = ' - '.join(parts)
+        normalized_name = ' '.join(parts)
         
         # Validación final: eliminar duplicaciones que puedan quedar
         normalized_name = self.remove_final_duplications(normalized_name)
         
         # Validar que el producto tenga información mínima
         if not normalized_name or len(normalized_name.strip()) < 3:
+            return None
+        
+        # FILTRO: Solo incluir productos NUEVOS y SEMINUEVOS
+        if condition not in ['NUEVO', 'SEMINUEVO']:
+            return None
+        
+        # FILTRO: Eliminar productos de LAMPERT
+        if 'LAMPERT' in original_name.upper():
+            return None
+        
+        # FILTRO: Eliminar productos OPEN BOX y CPO explícitamente
+        if any(term in original_name.upper() for term in ['OPEN BOX', 'CPO']):
             return None
         
         return {
@@ -552,17 +553,18 @@ class DataNormalizer:
         if not text:
             return text
         
-        parts = text.split(' - ')
+        # Dividir por espacios y eliminar duplicados consecutivos
+        words = text.split()
         seen = set()
-        clean_parts = []
+        clean_words = []
         
-        for part in parts:
-            part = part.strip()
-            if part and part not in seen:
-                seen.add(part)
-                clean_parts.append(part)
+        for word in words:
+            word = word.strip()
+            if word and word not in seen:
+                seen.add(word)
+                clean_words.append(word)
         
-        return ' - '.join(clean_parts)
+        return ' '.join(clean_words)
 
     def normalize_store_data(self, input_file, output_file):
         """Normaliza los datos de una tienda específica, manejando múltiples arrays JSON"""
@@ -677,7 +679,7 @@ class DataNormalizer:
         if brand:
             cleaned = self.remove_brand_duplication(cleaned, brand)
         
-        # Limpiar separadores múltiples
+        # Limpiar separadores múltiples (elimina todos los guiones)
         cleaned = self.clean_multiple_separators(cleaned)
         
         # Eliminar palabras sueltas comunes que quedan
@@ -685,9 +687,8 @@ class DataNormalizer:
         for word in words_to_clean:
             cleaned = re.sub(rf'\b{re.escape(word)}\b', '', cleaned, flags=re.IGNORECASE)
         
-        # Limpiar espacios y separadores finales
+        # Limpiar espacios finales
         cleaned = re.sub(r'\s+', ' ', cleaned).strip()
-        cleaned = re.sub(r'^[\s\-]+|[\s\-]+$', '', cleaned)
         
         return cleaned.strip()
 

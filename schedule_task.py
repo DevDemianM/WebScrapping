@@ -7,7 +7,7 @@ def create_scheduled_task(test_mode=False):
     """Creates a Windows scheduled task to run the spiders script"""
     try:
         # Get absolute paths
-        script_path = os.path.abspath("run_all_spiders.py")
+        script_path = os.path.abspath("run_complete_process.py")
         python_path = os.path.abspath("venv/Scripts/python.exe")
         
         if test_mode:
@@ -33,7 +33,7 @@ def create_scheduled_task(test_mode=False):
             return
         
         # Create the scheduled task command
-        command = f'schtasks /create /tn "WebScrappingMicelu" /tr "{python_path} {script_path}" /sc weekly /d TUE /st 09:00 /f'
+        command = f'schtasks /create /tn "WebScrappingMicelu_CompleteProcess" /tr "{python_path} {script_path}" /sc weekly /d TUE /st 09:00 /f'
         
         print("[INFO] Configurando tarea programada...")
         result = subprocess.run(command, shell=True, capture_output=True, text=True)
@@ -41,10 +41,11 @@ def create_scheduled_task(test_mode=False):
         if result.returncode == 0:
             print("[OK] Tarea programada creada exitosamente")
             print("\nDetalles de la tarea:")
-            print("- Nombre: WebScrappingMicelu")
+            print("- Nombre: WebScrappingMicelu_CompleteProcess")
             print("- Frecuencia: Semanal")
             print("- Día: Martes")
-            print("- Hora: 9:00 AM (Hora Colombia)")
+            print("- Hora: 9:00 AM")
+            print("- Proceso: Scraping + Normalización + Subida a SharePoint")
             print(f"- Script: {script_path}")
         else:
             print("[ERROR] Error al crear la tarea programada:")
