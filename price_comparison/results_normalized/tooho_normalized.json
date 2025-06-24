@@ -1,16 +1,6 @@
 [
   {
     "normalized_name": "APPLE IPHONE 16 PRO MAX 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM NATURAL TITANIUM NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.987.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G SIM FISICA NUEVO 256GB",
     "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM NATURAL TITANIUM NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
@@ -80,386 +70,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE SMARTWATCH WATCH SERIE 10 46 MM RELOJES NUEVO",
-    "original_name": "SMARTWATCH APPLE WATCH SERIE 10 46 MM NEGRO NUEVO - RELOJES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.879.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE CARGADOR CUBO 20W ORIGINAL NUEVO",
-    "original_name": "CARGADOR APPLE CUBO 20W ORIGINAL BLANCO NUEVO - ACCESORIOS",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$105.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE CABLE 1 METRO USB C A LIGHTNING ORIGINAL NUEVO",
-    "original_name": "CABLE APPLE 1 METRO USB-C A LIGHTNING ORIGINAL BLANCO NUEVO - ACCESORIOS",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$56.700",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 16 5G 8+128GB E-SIM BLANCO NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.696.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS NEGRO NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.310.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 16 5G 8+128GB E-SIM BLANCO NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.696.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS NEGRO NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.310.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE AIRPODS 2DA GEN AUDIO NUEVO",
-    "original_name": "AUDIFONOS APPLE AIRPODS 2DA GEN BLANCO NUEVO - AUDIO",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$514.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "AUDIFONOS EARBUDS PROBUDS BRONCE AUDIO NUEVO",
-    "original_name": "AUDIFONOS EARBUDS PROBUDS BRONCE NUEVO - AUDIO",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$94.489,5",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S24 ULTRA 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR SAMSUNG GALAXY S24 ULTRA 5G 12+256GB S-FIS LILA TITANIUM NUEVO - CELULARES",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.093.950",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G DESERT SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM DESERT TITANIUM NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.987.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE TABLET IPAD 10WIFI +64GB NUEVO",
-    "original_name": "TABLET APPLE IPAD 10 (2022) WIFI +64GB AZUL NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.627.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "CELULAR SAMSUNG S25 ULTRA 5G 4+512GB S-FIS BLANCO  NUEVO - CELULARES",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$5.355.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G DESERT SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM DESERT TITANIUM NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.987.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE TABLET IPAD 10WIFI +64GB NUEVO",
-    "original_name": "TABLET APPLE IPAD 10 (2022) WIFI +64GB AZUL NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.627.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 15 5G 6+128GB S-FIS ROSADO NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.097.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S24 ULTRA 5G SIM FISICA NUEVO 512GB",
-    "original_name": "CELULAR SAMSUNG GALAXY S24 ULTRA 5G 12+512GB S-FIS LILA TITANIUM NUEVO - CELULARES",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$4.252.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM NEGRO TITANIUM NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.987.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE TABLET IPAD 10WIFI + NUEVO 256GB",
-    "original_name": "TABLET APPLE IPAD 10 (2022) WIFI +256GB BLANCO NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$2.415.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 16 5G 8+128GB E-SIM NEGRO NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.696.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 15 5G 6+128GB S-FIS AZUL NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.097.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM BLANCO TITANIUM NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.987.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 16 5G 8+128GB E-SIM VERDE NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.832.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 16 5G 8+128GB E-SIM AZUL NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.696.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 14 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 14 5G 6+128GB S-FIS NEGRO NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.782.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS VERDE NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.310.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS ROSADO NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.310.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM NATURAL TITANIUM NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.914.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO 5G DESERT SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM DESERT TITANIUM NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.914.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS AZUL NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.310.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM BLANCO TITANIUM NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.914.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM NEGRO TITANIUM NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.914.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 15 5G 6+128GB E-SIM AZUL NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.307.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 15 5G 6+128GB E-SIM ROSADO NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.307.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 14 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 14 5G 6+128GB E-SIM AZUL NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.782.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 15 5G 6+128GB S-FIS VERDE NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.139.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS BLANCO NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.310.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "CELULAR SAMSUNG S25 ULTRA 5G 4+512GB S-FIS AZUL NUEVO - CELULARES",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$5.355.000",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE IPHONE 16 PRO MAX 5G SIM FISICA NUEVO 256GB",
     "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM NATURAL TITANIUM NUEVO - CELULARES",
     "brand": "APPLE",
@@ -470,76 +80,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM NATURAL TITANIUM NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.987.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S24 ULTRA 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR SAMSUNG GALAXY S24 ULTRA 5G 12+256GB S-FIS LILA TITANIUM NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.093.950",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "CELULAR SAMSUNG S25 ULTRA 5G 4+512GB S-FIS BLANCO  NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$5.355.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S24 ULTRA 5G SIM FISICA NUEVO 512GB",
-    "original_name": "CELULAR SAMSUNG GALAXY S24 ULTRA 5G 12+512GB S-FIS NEGRO TITANIUM NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$4.252.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "CELULAR SAMSUNG S25 ULTRA 5G 4+512GB S-FIS NEGRO NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$5.355.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "CELULAR SAMSUNG S25 ULTRA 5G 4+512GB S-FIS GRIS NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$5.355.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S24 ULTRA 5G SIM FISICA NUEVO 512GB",
-    "original_name": "CELULAR SAMSUNG GALAXY S24 ULTRA 5G 12+512GB S-FIS LILA TITANIUM NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$4.252.500",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE SMARTWATCH WATCH SERIE 10 46 MM RELOJES NUEVO",
     "original_name": "SMARTWATCH APPLE WATCH SERIE 10 46 MM NEGRO NUEVO - RELOJES",
     "brand": "APPLE",
@@ -591,6 +131,26 @@
   },
   {
     "normalized_name": "APPLE IPHONE 16 5G SIM FISICA NUEVO 128GB",
+    "original_name": "CELULAR APPLE IPHONE 16 5G 8+128GB E-SIM BLANCO NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$3.696.000",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
+    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS NEGRO NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$2.310.000",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16 5G SIM FISICA NUEVO 128GB",
     "original_name": "CELULAR APPLE IPHONE 16 5G 8+128GB E-SIM BLANCO NUEVO - CELULARES",
     "brand": "APPLE",
     "condition": "NUEVO",
@@ -610,23 +170,33 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 16 5G 8+128GB E-SIM BLANCO NUEVO - APPLE",
+    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G DESERT SIM FISICA NUEVO 256GB",
+    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM DESERT TITANIUM NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.696.000",
+    "storage_capacity": "256GB",
+    "price": "$4.987.500",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS NEGRO NUEVO - APPLE",
+    "normalized_name": "APPLE TABLET IPAD 10WIFI +64GB NUEVO",
+    "original_name": "TABLET APPLE IPAD 10 (2022) WIFI +64GB AZUL NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.627.500",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 5G SIM FISICA NUEVO 128GB",
+    "original_name": "CELULAR APPLE IPHONE 15 5G 6+128GB S-FIS ROSADO NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$2.310.000",
+    "price": "$3.097.500",
     "url": ""
   },
   {
@@ -670,8 +240,8 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G DESERT SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM DESERT TITANIUM NUEVO - APPLE",
+    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G SIM FISICA NUEVO 256GB",
+    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM BLANCO TITANIUM NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -680,18 +250,18 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE TABLET IPAD 10WIFI +64GB NUEVO",
-    "original_name": "TABLET APPLE IPAD 10 (2022) WIFI +64GB AZUL NUEVO - APPLE",
+    "normalized_name": "APPLE TABLET IPAD 10WIFI + NUEVO 256GB",
+    "original_name": "TABLET APPLE IPAD 10 (2022) WIFI +256GB BLANCO NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.627.500",
+    "storage_capacity": "256GB",
+    "price": "$2.415.000",
     "url": ""
   },
   {
     "normalized_name": "APPLE IPHONE 15 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 15 5G 6+128GB S-FIS ROSADO NUEVO - APPLE",
+    "original_name": "CELULAR APPLE IPHONE 15 5G 6+128GB S-FIS AZUL NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -720,13 +290,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE TABLET IPAD 10WIFI + NUEVO 256GB",
-    "original_name": "TABLET APPLE IPAD 10 (2022) WIFI +256GB BLANCO NUEVO - APPLE",
+    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
+    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS ROSADO NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$2.415.000",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$2.310.000",
     "url": ""
   },
   {
@@ -737,26 +307,6 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
     "price": "$3.696.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 15 5G 6+128GB S-FIS AZUL NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.097.500",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO MAX 5G 8+256GB E-SIM BLANCO TITANIUM NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.987.500",
     "url": ""
   },
   {
@@ -780,23 +330,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS VERDE NUEVO - CELULARES",
+    "normalized_name": "APPLE IPHONE 16 PRO 5G DESERT SIM FISICA NUEVO 256GB",
+    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM DESERT TITANIUM NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.310.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS ROSADO NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.310.000",
+    "storage_capacity": "256GB",
+    "price": "$4.914.000",
     "url": ""
   },
   {
@@ -810,8 +350,18 @@
     "url": ""
   },
   {
+    "normalized_name": "APPLE IPHONE 13 5G SIM FISICA NUEVO 128GB",
+    "original_name": "CELULAR APPLE IPHONE 13 5G 4+128GB S-FIS VERDE NUEVO - CELULARES",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$2.310.000",
+    "url": ""
+  },
+  {
     "normalized_name": "APPLE IPHONE 16 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM NATURAL TITANIUM NUEVO - CELULARES",
+    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM BLANCO TITANIUM NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -820,8 +370,8 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO 5G DESERT SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM DESERT TITANIUM NUEVO - CELULARES",
+    "normalized_name": "APPLE IPHONE 16 PRO 5G SIM FISICA NUEVO 256GB",
+    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM NATURAL TITANIUM NUEVO - CELULARES",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -837,36 +387,6 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
     "price": "$2.310.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM NEGRO TITANIUM NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.914.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM BLANCO TITANIUM NUEVO - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$4.914.000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 14 5G SIM FISICA NUEVO 128GB",
-    "original_name": "CELULAR APPLE IPHONE 14 5G 6+128GB E-SIM AZUL NUEVO - CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.782.500",
     "url": ""
   },
   {
@@ -890,13 +410,13 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "CELULAR SAMSUNG S25 ULTRA 5G 4+512GB S-FIS AZUL NUEVO - CELULARES",
-    "brand": "SAMSUNG",
+    "normalized_name": "APPLE IPHONE 16 PRO 5G SIM FISICA NUEVO 256GB",
+    "original_name": "CELULAR APPLE IPHONE 16 PRO 5G 8+256GB E-SIM NEGRO TITANIUM NUEVO - CELULARES",
+    "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$5.355.000",
+    "storage_capacity": "256GB",
+    "price": "$4.914.000",
     "url": ""
   },
   {
@@ -917,6 +437,26 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
     "price": "$2.310.000",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 14 5G SIM FISICA NUEVO 128GB",
+    "original_name": "CELULAR APPLE IPHONE 14 5G 6+128GB E-SIM AZUL NUEVO - CELULARES",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$2.782.500",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 512GB",
+    "original_name": "CELULAR SAMSUNG S25 ULTRA 5G 4+512GB S-FIS AZUL NUEVO - CELULARES",
+    "brand": "SAMSUNG",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$5.355.000",
     "url": ""
   }
 ]

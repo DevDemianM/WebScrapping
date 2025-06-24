@@ -30,13 +30,16 @@ except ImportError:
 def ejecutar_spider(spider_name):
     """Ejecuta un spider específico y guarda los resultados en JSON"""
     try:
+        # Ruta del archivo de salida
+        output_path = f"price_comparison/results_scrap/{spider_name}.json"
+        # Borrar el archivo si existe antes de ejecutar el spider
+        if os.path.exists(output_path):
+            os.remove(output_path)
         # Crear el comando para ejecutar el spider
         comando = f"scrapy crawl {spider_name} -o results_scrap/{spider_name}.json"
-        
         # Ejecutar el comando
         print(f"🕷️ Ejecutando spider: {spider_name}")
         resultado = subprocess.run(comando, shell=True, capture_output=True, text=True, cwd="price_comparison")
-        
         if resultado.returncode == 0:
             print(f"✅ Spider {spider_name} ejecutado exitosamente")
             return True
@@ -44,7 +47,6 @@ def ejecutar_spider(spider_name):
             print(f"❌ Error al ejecutar spider {spider_name}:")
             print(resultado.stderr)
             return False
-            
     except Exception as e:
         print(f"❌ Error inesperado al ejecutar spider {spider_name}: {str(e)}")
         return False
