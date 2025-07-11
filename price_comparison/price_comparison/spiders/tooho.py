@@ -6,7 +6,7 @@ from urllib.parse import urljoin, urlparse, parse_qs
 
 class ToohoSpider(scrapy.Spider):
     name = "tooho"
-    allowed_domains = ["https://www.tohoo.store/"]
+    allowed_domains = ["www.tohoo.store"]
     start_urls = [
         "https://www.tohoo.store/Celulares",
         "https://www.tohoo.store/Celulares/apple",
@@ -16,7 +16,6 @@ class ToohoSpider(scrapy.Spider):
         "https://www.tohoo.store/computadores-y-tablets",
         "https://www.tohoo.store/audio",
         "https://www.tohoo.store/accesorios"
-        
     ]
 
     def parse(self, response):

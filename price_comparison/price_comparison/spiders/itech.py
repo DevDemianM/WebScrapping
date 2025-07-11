@@ -12,7 +12,7 @@ class ItechSpider(scrapy.Spider):
         "https://itechcolombia.co/product-category/samsung/?orderby=date",
         "https://itechcolombia.co/product-category/playstation/?orderby=date",
         "https://itechcolombia.co/product-category/xiaomi/?orderby=date",
-        "https://itechcolombia.co/shop/"
+        "https://itechcolombia.co/shop/?orderby=date"
     ]
 
     def __init__(self, *args, **kwargs):

@@ -236,9 +236,9 @@ class DataNormalizer:
         
         # Mapeo de condiciones con prioridad (mayor número = mayor prioridad)
         condition_priority = {
-            'USADO': 4,      # EXH y OUTLET también se convierten a USADO
+            'USADO': 4,      # OUTLET se convierte a USADO
             'COMO NUEVO': 3, 
-            'SEMINUEVO': 2,
+            'SEMINUEVO': 2,  # EXH se convierte a SEMINUEVO
             'SEMI NUEVO': 2,
             'NUEVO': 1
         }
@@ -248,9 +248,13 @@ class DataNormalizer:
             (r'\b(COMO\s+NUEVO)\b', 'COMO NUEVO'),
             (r'\b(SEMI\s*NUEVO)\b', 'SEMINUEVO'),
             (r'\b(SEMINUEVO)\b', 'SEMINUEVO'),
-            (r'\b(USADO)\b', 'USADO'),           # EXH ya se convirtió a USADO
-            (r'\b(OUTLET)\b', 'USADO'),         # OUTLET = USADO
-            (r'\b(NUEVO)\s+DUAL\b', 'NUEVO'),   # NUEVO DUAL -> NUEVO
+            (r'\bDE\s+EXH\s*PREMIUM\b', 'SEMINUEVO'),  # Mejorado: DE EXH PREMIUM
+            (r'\bDE\s+EXH\b', 'SEMINUEVO'),            # Mejorado: DE EXH
+            (r'\bEXH\s*PREMIUM\b', 'SEMINUEVO'),       # Mejorado: EXH PREMIUM
+            (r'\bEXH\b', 'SEMINUEVO'),                 # Mejorado: EXH solo
+            (r'\b(USADO)\b', 'USADO'),                 # EXH ya se convirtió a USADO
+            (r'\b(OUTLET)\b', 'USADO'),                # OUTLET = USADO
+            (r'\b(NUEVO)\s+DUAL\b', 'NUEVO'),          # NUEVO DUAL -> NUEVO
             (r'\b(NUEVO)\b', 'NUEVO')
         ]
         
@@ -290,10 +294,15 @@ class DataNormalizer:
         
         # Lista de palabras a eliminar completamente
         words_to_remove = [
-            'CELULAR', 'CELULARES', 'ALL', 'DE', 'GADGETS', 'ACCESORIOS', 'ACCESORIO',
+            'CELULAR', 'CELULARES', 'ALL', 'GADGETS', 'ACCESORIOS', 'ACCESORIO',
             'ELECTRONICA', 'TECNOLOGIA', 'TECH', 'CALIDAD', 'EN', 'SONIDO', 
             'TITANNIUM', 'ADAPTADORES', 'CABLES', 'ª', 'FULL'
         ]
+        
+        # NO eliminar la palabra "DE" cuando forma parte de "DE EXH" o "DE EXH PREMIUM"
+        # Esto preserva los patrones importantes para la detección de condición
+        if not re.search(r'\bDE\s+EXH', name, re.IGNORECASE):
+            words_to_remove.append('DE')
         
         # PATRONES ESPECÍFICOS MUY IMPORTANTES - Ejecutar PRIMERO
         
@@ -340,9 +349,8 @@ class DataNormalizer:
         if self.is_mobile_device(name):
             name = re.sub(r'\+\s*6\b', '', name, flags=re.IGNORECASE)
         
-        # Limpiar patrones EXH PRIMERO (antes de extraer condiciones)
-        name = re.sub(r'\bEXH\s*PREMIUM\b', 'USADO', name, flags=re.IGNORECASE)
-        name = re.sub(r'\bEXH\b', 'USADO', name, flags=re.IGNORECASE)
+        # NO eliminar patrones EXH aquí, ya que son importantes para la condición
+        # y se manejan en extract_condition_with_priority
         
         # Eliminar palabras no deseadas generales
         for word in words_to_remove:
@@ -483,9 +491,16 @@ class DataNormalizer:
         original_name = name
         cleaned_name = self.clean_name(name)
         
+        # Verificar explícitamente patrones de productos seminuevos
+        is_seminuevo = any(pattern in cleaned_name.upper() for pattern in ['SEMINUEVO', 'SEMI NUEVO', 'EXH', 'DE EXH'])
+        
         # Extraer información del producto
         brand_info = self.extract_brand(cleaned_name, brand)
         condition, name_after_condition = self.extract_condition_with_priority(cleaned_name)
+        
+        # Verificación adicional para productos seminuevos que no se detectaron automáticamente
+        if is_seminuevo and condition not in ['SEMINUEVO', 'USADO']:
+            condition = 'SEMINUEVO'
         
         # SIM type solo para dispositivos móviles
         sim_type, name_after_sim = self.extract_sim_type(name_after_condition)
@@ -536,6 +551,10 @@ class DataNormalizer:
         # FILTRO: Eliminar productos OPEN BOX y CPO explícitamente
         if any(term in original_name.upper() for term in ['OPEN BOX', 'CPO']):
             return None
+        
+        # Registro de depuración para productos seminuevos
+        if condition == 'SEMINUEVO':
+            print(f"✓ Producto SEMINUEVO detectado: {normalized_name}")
         
         return {
             'normalized_name': normalized_name,
@@ -611,6 +630,15 @@ class DataNormalizer:
                 print(f"⚠️ No se pudieron extraer productos de {input_file}")
                 return 0
             
+            # Contadores para estadísticas
+            total_products = len(all_products)
+            normalized_count = 0
+            nuevos_count = 0
+            seminuevos_count = 0
+            filtrados_count = 0
+            
+            print(f"\n🔍 Procesando {total_products} productos de {input_file}")
+            
             # Normalizar todos los productos
             normalized_data = []
             for product in all_products:
@@ -621,9 +649,23 @@ class DataNormalizer:
                 store = product.get('store', '')  # Campo que puede no existir  
                 url = product.get('url', '')      # Campo que puede no existir
                 
+                # Verificar si el nombre contiene patrones de seminuevo
+                contains_seminuevo = any(pattern in name.upper() for pattern in ['EXH', 'DE EXH', 'SEMINUEVO', 'SEMI NUEVO'])
+                if contains_seminuevo:
+                    print(f"👉 Producto potencialmente SEMINUEVO: {name}")
+                
                 normalized_product = self.normalize_product(name, brand, price, store, url)
                 if normalized_product:  # Solo agregar si la normalización fue exitosa
                     normalized_data.append(normalized_product)
+                    normalized_count += 1
+                    
+                    # Contar por condición
+                    if normalized_product['condition'] == 'NUEVO':
+                        nuevos_count += 1
+                    elif normalized_product['condition'] == 'SEMINUEVO':
+                        seminuevos_count += 1
+                else:
+                    filtrados_count += 1
             
             # Crear directorio de salida si no existe
             os.makedirs(os.path.dirname(output_file), exist_ok=True)
@@ -631,7 +673,14 @@ class DataNormalizer:
             with open(output_file, 'w', encoding='utf-8') as f:
                 json.dump(normalized_data, f, ensure_ascii=False, indent=2)
             
-            print(f"✅ Normalizado {input_file} → {output_file} ({len(normalized_data)} productos)")
+            # Mostrar estadísticas detalladas
+            print(f"✅ Normalizado {input_file} → {output_file}")
+            print(f"   📊 Total productos originales: {total_products}")
+            print(f"   ✓ Productos normalizados: {normalized_count}")
+            print(f"   🆕 Productos NUEVOS: {nuevos_count}")
+            print(f"   🔄 Productos SEMINUEVOS: {seminuevos_count}")
+            print(f"   ❌ Productos filtrados: {filtrados_count}")
+            
             return len(normalized_data)
             
         except Exception as e:
@@ -646,9 +695,11 @@ class DataNormalizer:
         # Remover tildes y convertir a mayúsculas
         cleaned = self.remove_accents(name).upper()
         
-        # Limpiar EXH ANTES de otras operaciones
-        cleaned = re.sub(r'\bEXH\s*PREMIUM\b', 'USADO', cleaned, flags=re.IGNORECASE)
-        cleaned = re.sub(r'\bEXH\b', 'USADO', cleaned, flags=re.IGNORECASE)
+        # Limpiar EXH ANTES de otras operaciones - MEJORADO para capturar más patrones
+        cleaned = re.sub(r'\bDE\s+EXH\s*PREMIUM\b', 'SEMINUEVO', cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r'\bDE\s+EXH\b', 'SEMINUEVO', cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r'\bEXH\s*PREMIUM\b', 'SEMINUEVO', cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r'\bEXH\b', 'SEMINUEVO', cleaned, flags=re.IGNORECASE)
         
         # Limpiar espacios múltiples
         cleaned = re.sub(r'\s+', ' ', cleaned).strip()
@@ -713,6 +764,7 @@ def main():
     }
     
     total_products = 0
+    total_seminuevos = 0
     
     print("🔄 Iniciando normalización de datos...\n")
     
@@ -720,9 +772,20 @@ def main():
         output_file = f'price_comparison/results_normalized/{store_name}_normalized.json'
         count = normalizer.normalize_store_data(input_file, output_file)
         total_products += count
+        
+        # Contar productos seminuevos en el archivo normalizado
+        try:
+            with open(output_file, 'r', encoding='utf-8') as f:
+                normalized_data = json.load(f)
+                seminuevos = sum(1 for item in normalized_data if item.get('condition') == 'SEMINUEVO')
+                total_seminuevos += seminuevos
+                print(f"   📱 {store_name}: {seminuevos} productos SEMINUEVOS de {count} totales")
+        except Exception as e:
+            print(f"   ⚠️ Error contando seminuevos en {output_file}: {str(e)}")
     
     print(f"\n✅ Normalización completada!")
     print(f"📊 Total de productos normalizados: {total_products}")
+    print(f"🔄 Total de productos SEMINUEVOS: {total_seminuevos} ({(total_seminuevos/total_products*100) if total_products > 0 else 0:.1f}%)")
     print("📁 Archivos normalizados guardados en: price_comparison/results_normalized/")
 
 if __name__ == "__main__":

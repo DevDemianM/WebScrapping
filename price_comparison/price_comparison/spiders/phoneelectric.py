@@ -6,7 +6,7 @@ from urllib.parse import urljoin, urlparse, parse_qs
 
 class PhoneelectricSpider(scrapy.Spider):
     name = "phoneelectric"
-    allowed_domains = ["www.phoneelectric.co"]
+    allowed_domains = ["www.phonelectrics.com"]
     start_urls = [
         "https://www.phonelectrics.com/collections/celulares-xiaomi",
         "https://www.phonelectrics.com/collections/xiaomi-redmi",
@@ -31,9 +31,7 @@ class PhoneelectricSpider(scrapy.Spider):
         "https://www.phonelectrics.com/collections/apple",
         "https://www.phonelectrics.com/collections/bose",
         "https://www.phonelectrics.com/collections/consolas",
-        "https://www.phonelectrics.com/collections/accesorios-playstation",
-        ""
-
+        "https://www.phonelectrics.com/collections/accesorios-playstation"
     ]
 
     def parse(self, response):

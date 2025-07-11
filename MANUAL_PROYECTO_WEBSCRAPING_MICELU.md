@@ -341,11 +341,6 @@ resultado = normalizer.normalize_product(
 print(resultado)
 ```
 
-### 📞 Contacto de Soporte
-- **Desarrollador**: [Tu información de contacto]
-- **Documentación**: Este archivo
-- **Repositorio**: [URL del repositorio]
-
 ---
 
 ## 📈 ESTADÍSTICAS TÍPICAS
