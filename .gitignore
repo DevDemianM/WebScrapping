@@ -1,4 +1,24 @@
+# Python
 venv/
-.env
+env/
+ENV/
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Variables de entorno
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Resultados de scraping - NO versionar
+price_comparison/results_scrap/*.json
+price_comparison/results_normalized/*.json
+
+# Otros
+.DS_Store
+*.log

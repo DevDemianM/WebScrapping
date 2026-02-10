@@ -1,12 +1,62 @@
 [
   {
+    "normalized_name": "APPLE IPHONE 17 PRO MAX SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO MAX 256GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "5,799,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17 256GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "4,099,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE AIR SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE AIR 256GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "4,299,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO 256GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "5,299,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE MACBOOK PRO M4 NUEVO 512GB",
+    "original_name": "MACBOOK PRO M4 512GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "512GB",
+    "price": "6,999,999",
+    "url": ""
+  },
+  {
     "normalized_name": "APPLE MACBOOK AIR M4 NUEVO 256GB",
     "original_name": "MACBOOK AIR M4 256GB - ",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "256GB",
-    "price": "4,999,999",
+    "price": "4,299,999",
     "url": ""
   },
   {
@@ -16,7 +66,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "2,799,999",
+    "price": "2,599,999",
     "url": ""
   },
   {
@@ -26,7 +76,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "1,850,000",
+    "price": "1,699,999",
     "url": ""
   },
   {
@@ -36,7 +86,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "1,950,000",
+    "price": "1,799,999",
     "url": ""
   },
   {
@@ -46,7 +96,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "4,999,999",
+    "price": "5,199,999",
     "url": ""
   },
   {
@@ -56,7 +106,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "4,699,999",
+    "price": "4,750,000",
     "url": ""
   },
   {
@@ -66,7 +116,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "4,399,999",
+    "price": "4,299,999",
     "url": ""
   },
   {
@@ -76,7 +126,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "3,599,999",
+    "price": "3,199,999",
     "url": ""
   },
   {
@@ -110,63 +160,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE WATCH SERIE 9 45MM NUEVO",
-    "original_name": "APPLE WATCH SERIE 9 45MM - ",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "1,750,000",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH SERIE 9 41MM NUEVO",
-    "original_name": "APPLE WATCH SERIE 9 41MM - ",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "1,599,999",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 PRO SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 15 PRO 256GB - ",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "4,699,999",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 15 128GB - ",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "3,099,999",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 PRO SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 15 PRO 128GB - ",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "4,299,999",
-    "url": ""
-  },
-  {
     "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 256GB",
     "original_name": "SAMSUNG GALAXY S25 ULTRA 256GB - ",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "4,499,999",
+    "price": "3,999,999",
     "url": ""
   },
   {
@@ -176,7 +176,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "4,799,999",
+    "price": "4,399,999",
     "url": ""
   },
   {
@@ -186,7 +186,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "4,299,999",
+    "price": "4,099,999",
     "url": ""
   },
   {
@@ -196,7 +196,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "4,099,999",
+    "price": "3,699,999",
     "url": ""
   },
   {
@@ -326,7 +326,27 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "999,999",
+    "price": "949,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE WATCH SERIE 9 41MM NUEVO",
+    "original_name": "APPLE WATCH SERIE 9 41MM - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "1,599,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE WATCH SERIE 9 45MM NUEVO",
+    "original_name": "APPLE WATCH SERIE 9 45MM - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "1,750,000",
     "url": ""
   },
   {
@@ -376,7 +396,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "2,799,999",
+    "price": "2,399,999",
     "url": ""
   }
 ]

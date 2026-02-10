@@ -139,9 +139,9 @@ def subir_archivos_normalizados():
         archivos_subidos = 0
         for archivo in archivos_json:
             try:
-                # Crear nombre del archivo con fecha
+                # Crear nombre del archivo sin fecha (sobrescribe el anterior)
                 nombre_base = os.path.splitext(archivo)[0]
-                nombre_archivo_sharepoint = f"{nombre_base}_{fecha_actual}.json"
+                nombre_archivo_sharepoint = f"{nombre_base}.json"
                 
                 # Rutas completas
                 ruta_local = os.path.join(carpeta_normalized, archivo)

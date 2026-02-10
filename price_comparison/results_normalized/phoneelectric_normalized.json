@@ -6,7 +6,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$4.859.900",
+    "price": "$4.699.900",
     "url": ""
   },
   {
@@ -16,47 +16,67 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$3.499.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI F7 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F7 ULTRA 512GB | 16GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
     "price": "$3.099.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI F7 ULTRA SIM FISICA NUEVO 256GB",
-    "original_name": "POCO F7 ULTRA 256GB | 12GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$2.629.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI F7 PRO SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F7 PRO 512GB | 12GB - CELULARES-XIAOMI",
+    "normalized_name": "XIAOMI 15T PRO SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI 15T PRO 512GB | 12GB - CELULARES-XIAOMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$2.099.900",
+    "price": "$3.019.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI F7 PRO SIM FISICA NUEVO 256GB",
-    "original_name": "POCO F7 PRO 256GB | 12GB - CELULARES-XIAOMI",
+    "normalized_name": "XIAOMI 15T SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI 15T 512GB | 12GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$2.199.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI F8 ULTRA SIM FISICA NUEVO 512GB",
+    "original_name": "POCO F8 ULTRA 512GB | 16GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$3.419.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI F8 ULTRA SIM FISICA NUEVO 256GB",
+    "original_name": "POCO F8 ULTRA 256GB | 12GB - CELULARES-XIAOMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$2.029.900",
+    "price": "$3.149.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI F8 PRO SIM FISICA NUEVO 512GB",
+    "original_name": "POCO F8 PRO 512GB | 12GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$2.399.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI F8 PRO SIM FISICA NUEVO 256GB",
+    "original_name": "POCO F8 PRO 256GB | 12GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$2.149.900",
     "url": ""
   },
   {
@@ -66,17 +86,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.479.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI X7 PRO SIM FISICA NUEVO 256GB",
-    "original_name": "POCO X7 PRO 256GB | 8GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.249.900",
+    "price": "$1.399.900",
     "url": ""
   },
   {
@@ -86,7 +96,17 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.319.900",
+    "price": "$1.229.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI X7 PRO SIM FISICA NUEVO 256GB",
+    "original_name": "POCO X7 PRO 256GB | 8GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$1.169.900",
     "url": ""
   },
   {
@@ -96,17 +116,77 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.099.900",
+    "price": "$1.069.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI X7 SIM FISICA NUEVO 256GB",
-    "original_name": "POCO X7 256GB | 8GB - CELULARES-XIAOMI",
+    "normalized_name": "XIAOMI NOTE 15 PRO+ SIM FISICA NUEVO 512GB",
+    "original_name": "REDMI NOTE 15 PRO+ 512GB | 12GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$1.799.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 PRO+ SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 PRO+ 256GB | 8GB - CELULARES-XIAOMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.049.900",
+    "price": "$1.549.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 PRO 5G SIM FISICA NUEVO 512GB",
+    "original_name": "REDMI NOTE 15 PRO 5G 512GB | 8GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$1.399.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 PRO 5G SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 PRO 5G 256GB | 8GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$1.299.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 PRO 4G SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 PRO 4G 256GB | 8GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$1.099.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 5G SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 5G 256GB | 8GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$999.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 4G SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 4G 256GB - CELULARES-XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$889.900",
     "url": ""
   },
   {
@@ -116,7 +196,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.599.900",
+    "price": "$1.499.900",
     "url": ""
   },
   {
@@ -126,17 +206,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.329.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI NOTE 14 PRO 4G SIM FISICA NUEVO 256GB",
-    "original_name": "REDMI NOTE 14 PRO 4G 256GB | 8GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$979.900",
+    "price": "$1.249.900",
     "url": ""
   },
   {
@@ -146,12 +216,12 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.179.900",
+    "price": "$1.119.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI NOTE 14 5G SIM FISICA NUEVO 256GB",
-    "original_name": "REDMI NOTE 14 5G 256GB | 8GB - CELULARES-XIAOMI",
+    "normalized_name": "XIAOMI NOTE 14 PRO 4G SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 14 PRO 4G 256GB | 8GB - CELULARES-XIAOMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -166,37 +236,17 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$699.900",
+    "price": "$649.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI 14C SIM FISICA NUEVO 256GB",
-    "original_name": "REDMI 14C 256GB | 8GB - CELULARES-XIAOMI",
+    "normalized_name": "XIAOMI 15C SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI 15C 256GB | 8GB - CELULARES-XIAOMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
     "price": "$519.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 14 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "XIAOMI 14 ULTRA 512GB | 16GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$4.529.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 14T PRO SIM FISICA NUEVO 512GB",
-    "original_name": "XIAOMI 14T PRO 512GB | 12GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$2.549.900",
     "url": ""
   },
   {
@@ -206,87 +256,87 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$2.019.900",
+    "price": "$1.899.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI 14 5G SIM FISICA NUEVO 512GB",
-    "original_name": "XIAOMI 14 5G 512GB | 12GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$2.899.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI F6 PRO SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F6 PRO 512GB | 12GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$1.749.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI F6 PRO SIM FISICA NUEVO 256GB",
-    "original_name": "POCO F6 PRO 256GB | 12GB - CELULARES-XIAOMI",
+    "normalized_name": "XIAOMI NOTE 15 5G SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 5G 256GB | 8GB - XIAOMI-REDMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.849.900",
+    "price": "$999.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI F6 SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F6 512GB | 12GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$1.529.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI X6 PRO 5G SIM FISICA NUEVO 512GB",
-    "original_name": "POCO X6 PRO 5G 512GB | 12GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$1.179.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI X6 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "POCO X6 PRO 5G 256GB | 8GB - CELULARES-XIAOMI",
+    "normalized_name": "XIAOMI NOTE 15 PRO+ SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 PRO+ 256GB | 8GB - XIAOMI-REDMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.169.900",
+    "price": "$1.549.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI NOTE 13 PRO PLUS 5G SIM FISICA NUEVO 256GB",
-    "original_name": "REDMI NOTE 13 PRO PLUS 5G 256GB | 8GB - CELULARES-XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.249.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI NOTE 13 PRO PLUS 5G SIM FISICA NUEVO 512GB",
-    "original_name": "REDMI NOTE 13 PRO PLUS 5G 512GB | 12GB - CELULARES-XIAOMI",
+    "normalized_name": "XIAOMI NOTE 15 PRO+ SIM FISICA NUEVO 512GB",
+    "original_name": "REDMI NOTE 15 PRO+ 512GB | 12GB - XIAOMI-REDMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.499.900",
+    "price": "$1.799.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 PRO 5G SIM FISICA NUEVO 512GB",
+    "original_name": "REDMI NOTE 15 PRO 5G 512GB | 8GB - XIAOMI-REDMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$1.399.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 PRO 5G SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 PRO 5G 256GB | 8GB - XIAOMI-REDMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$1.299.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 PRO 4G SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 PRO 4G 256GB | 8GB - XIAOMI-REDMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$1.099.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 4G SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI NOTE 15 4G 256GB - XIAOMI-REDMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$889.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI 15C SIM FISICA NUEVO 256GB",
+    "original_name": "REDMI 15C 256GB | 8GB - XIAOMI-REDMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$519.900",
     "url": ""
   },
   {
@@ -296,7 +346,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$979.900",
+    "price": "$899.900",
     "url": ""
   },
   {
@@ -306,7 +356,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.599.900",
+    "price": "$1.499.900",
     "url": ""
   },
   {
@@ -316,7 +366,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.329.900",
+    "price": "$1.249.900",
     "url": ""
   },
   {
@@ -326,17 +376,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.179.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI NOTE 14 5G SIM FISICA NUEVO 256GB",
-    "original_name": "REDMI NOTE 14 5G 256GB | 8GB - XIAOMI-REDMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$899.900",
+    "price": "$1.119.900",
     "url": ""
   },
   {
@@ -346,37 +386,27 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$699.900",
+    "price": "$649.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI 14C SIM FISICA NUEVO 256GB",
-    "original_name": "REDMI 14C 256GB | 8GB - XIAOMI-REDMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$519.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI NOTE 13 PRO PLUS 5G SIM FISICA NUEVO 512GB",
-    "original_name": "REDMI NOTE 13 PRO PLUS 5G 512GB | 12GB - XIAOMI-REDMI",
+    "normalized_name": "XIAOMI 15T PRO SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI 15T PRO 512GB | 12GB - XIAOMI-MI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.499.900",
+    "price": "$3.019.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI NOTE 13 PRO PLUS 5G SIM FISICA NUEVO 256GB",
-    "original_name": "REDMI NOTE 13 PRO PLUS 5G 256GB | 8GB - XIAOMI-REDMI",
+    "normalized_name": "XIAOMI 15T SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI 15T 512GB | 12GB - XIAOMI-MI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.249.900",
+    "storage_capacity": "512GB",
+    "price": "$2.199.900",
     "url": ""
   },
   {
@@ -386,7 +416,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$4.859.900",
+    "price": "$4.699.900",
     "url": ""
   },
   {
@@ -396,17 +426,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$3.499.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 14T PRO SIM FISICA NUEVO 512GB",
-    "original_name": "XIAOMI 14T PRO 512GB | 12GB - XIAOMI-MI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$2.549.900",
+    "price": "$3.099.900",
     "url": ""
   },
   {
@@ -416,47 +436,47 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$2.019.900",
+    "price": "$1.899.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI 14 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "XIAOMI 14 ULTRA 512GB | 16GB - XIAOMI-MI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$4.529.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 14 5G SIM FISICA NUEVO 512GB",
-    "original_name": "XIAOMI 14 5G 512GB | 12GB - XIAOMI-MI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$2.899.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI F7 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F7 ULTRA 512GB | 16GB - XIAOMI-POCOPHONE",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$3.099.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI F7 ULTRA SIM FISICA NUEVO 256GB",
-    "original_name": "POCO F7 ULTRA 256GB | 12GB - XIAOMI-POCOPHONE",
+    "normalized_name": "XIAOMI F8 PRO SIM FISICA NUEVO 256GB",
+    "original_name": "POCO F8 PRO 256GB | 12GB - XIAOMI-POCOPHONE",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$2.629.900",
+    "price": "$2.149.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI F8 ULTRA SIM FISICA NUEVO 256GB",
+    "original_name": "POCO F8 ULTRA 256GB | 12GB - XIAOMI-POCOPHONE",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$3.149.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI F8 ULTRA SIM FISICA NUEVO 512GB",
+    "original_name": "POCO F8 ULTRA 512GB | 16GB - XIAOMI-POCOPHONE",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$3.419.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI F8 PRO SIM FISICA NUEVO 512GB",
+    "original_name": "POCO F8 PRO 512GB | 12GB - XIAOMI-POCOPHONE",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$2.399.900",
     "url": ""
   },
   {
@@ -466,27 +486,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.099.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI F7 PRO SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F7 PRO 512GB | 12GB - XIAOMI-POCOPHONE",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$2.099.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI F7 PRO SIM FISICA NUEVO 256GB",
-    "original_name": "POCO F7 PRO 256GB | 12GB - XIAOMI-POCOPHONE",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$2.029.900",
+    "price": "$1.069.900",
     "url": ""
   },
   {
@@ -496,17 +496,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.249.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI X7 SIM FISICA NUEVO 256GB",
-    "original_name": "POCO X7 256GB | 8GB - XIAOMI-POCOPHONE",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.049.900",
+    "price": "$1.169.900",
     "url": ""
   },
   {
@@ -516,7 +506,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.479.900",
+    "price": "$1.399.900",
     "url": ""
   },
   {
@@ -526,67 +516,47 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.319.900",
+    "price": "$1.229.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI F6 SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F6 512GB | 12GB - XIAOMI-POCOPHONE",
-    "brand": "XIAOMI",
+    "normalized_name": "SAMSUNG Z FOLD 7 SIM FISICA NUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY Z FOLD 7 512GB | 12GB - CELULARES-SAMSUNG-GALAXY",
+    "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.529.900",
+    "price": "$6.659.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI F6 PRO SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F6 PRO 512GB | 12GB - XIAOMI-POCOPHONE",
-    "brand": "XIAOMI",
+    "normalized_name": "SAMSUNG Z FLIP 7 SIM FISICA NUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY Z FLIP 7 512GB | 12GB - CELULARES-SAMSUNG-GALAXY",
+    "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.749.900",
+    "price": "$3.829.900",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI F6 PRO SIM FISICA NUEVO 256GB",
-    "original_name": "POCO F6 PRO 256GB | 12GB - XIAOMI-POCOPHONE",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.849.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI X6 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "POCO X6 PRO 5G 256GB | 8GB - XIAOMI-POCOPHONE",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.169.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A56 5G SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A56 5G 256GB - CELULARES-SAMSUNG-GALAXY",
+    "normalized_name": "SAMSUNG Z FLIP 7 FE SIM FISICA NUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY Z FLIP 7 FE 256GB - CELULARES-SAMSUNG-GALAXY",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.619.900",
+    "price": "$2.699.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A36 SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A36 256GB - CELULARES-SAMSUNG-GALAXY",
+    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 1TB",
+    "original_name": "SAMSUNG GALAXY S25 ULTRA 1TB | 12GB - CELULARES-SAMSUNG-GALAXY",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.289.900",
+    "storage_capacity": "1TB",
+    "price": "$4.499.900",
     "url": ""
   },
   {
@@ -596,7 +566,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$4.469.900",
+    "price": "$4.149.900",
     "url": ""
   },
   {
@@ -606,7 +576,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$4.149.900",
+    "price": "$3.949.900",
     "url": ""
   },
   {
@@ -616,7 +586,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$3.749.900",
+    "price": "$3.399.900",
     "url": ""
   },
   {
@@ -626,7 +596,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$3.499.900",
+    "price": "$3.199.900",
     "url": ""
   },
   {
@@ -636,7 +606,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$2.999.900",
+    "price": "$2.849.900",
     "url": ""
   },
   {
@@ -646,47 +616,27 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$2.749.900",
+    "price": "$2.549.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG Z FOLD 6 SIM FISICA NUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY Z FOLD 6 512GB | 12GB - CELULARES-SAMSUNG-GALAXY",
+    "normalized_name": "SAMSUNG S25 FE SIM FISICA NUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY S25 FE 512GB | 8GB - CELULARES-SAMSUNG-GALAXY",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$6.199.900",
+    "price": "$2.779.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG Z FLIP 6 SIM FISICA NUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY Z FLIP 6 512GB | 12GB - CELULARES-SAMSUNG-GALAXY",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$3.699.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG Z FLIP 6 SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY Z FLIP 6 256GB | 12GB - CELULARES-SAMSUNG-GALAXY",
+    "normalized_name": "SAMSUNG S25 FE SIM FISICA NUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S25 FE 256GB | 8GB - CELULARES-SAMSUNG-GALAXY",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$3.649.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S24 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY S24 ULTRA 512GB - CELULARES-SAMSUNG-GALAXY",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$3.899.900",
+    "price": "$2.619.900",
     "url": ""
   },
   {
@@ -696,157 +646,127 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$3.699.900",
+    "price": "$3.449.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S24+ SIM FISICA NUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY S24+ 512GB | 12GB - CELULARES-SAMSUNG-GALAXY",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$3.349.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S24+ SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S24+ 256GB | 12GB - CELULARES-SAMSUNG-GALAXY",
+    "normalized_name": "SAMSUNG A56 5G SIM FISICA NUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY A56 5G 256GB - CELULARES-SAMSUNG-GALAXY",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$2.849.900",
+    "price": "$1.419.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S24 SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S24 256GB - CELULARES-SAMSUNG-GALAXY",
+    "normalized_name": "SAMSUNG A36 SIM FISICA NUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY A36 256GB - CELULARES-SAMSUNG-GALAXY",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$2.719.900",
+    "price": "$1.109.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S24 SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY S24 128GB - CELULARES-SAMSUNG-GALAXY",
+    "normalized_name": "SAMSUNG A16 SIM FISICA NUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A16 128GB - CELULARES-SAMSUNG-GALAXY",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$2.599.900",
+    "price": "$539.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S24 FE SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S24 FE 256GB |8GB - CELULARES-SAMSUNG-GALAXY",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$2.249.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A55 5G SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A55 5G 256GB | 8GB - CELULARES-SAMSUNG-GALAXY",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.529.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A35 5G SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A35 5G 256GB | 8GB - CELULARES-SAMSUNG-GALAXY",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.119.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A05S SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A05S 128GB |4GB - CELULARES-SAMSUNG-GALAXY",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$499.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16E SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 16E 128GB - APPLE-CELULARES",
+    "normalized_name": "APPLE IPHONE 17 PRO MAX SIM FISICA NUEVO 1TB",
+    "original_name": "IPHONE 17 PRO MAX 1TB - APPLE-CELULARES",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.649.900",
+    "storage_capacity": "1TB",
+    "price": "$7.299.900",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX SIM FISICA NUEVO 512GB",
-    "original_name": "IPHONE 16 PRO MAX 512GB - APPLE-CELULARES",
+    "normalized_name": "APPLE IPHONE 17 PRO MAX SIM FISICA NUEVO 512GB",
+    "original_name": "IPHONE 17 PRO MAX 512GB - APPLE-CELULARES",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$5.779.900",
+    "price": "$6.499.900",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16 PRO MAX 256GB SIM FISICA - APPLE-CELULARES",
+    "normalized_name": "APPLE IPHONE 17 PRO MAX SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO MAX 256GB - APPLE-CELULARES",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$5.449.900",
+    "price": "$5.599.900",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16 PRO MAX 256GB - APPLE-CELULARES",
+    "normalized_name": "APPLE IPHONE 17 PRO SIM FISICA NUEVO 1TB",
+    "original_name": "IPHONE 17 PRO 1TB - APPLE-CELULARES",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "1TB",
+    "price": "$6.599.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO SIM FISICA NUEVO 512GB",
+    "original_name": "IPHONE 17 PRO 512GB - APPLE-CELULARES",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$5.499.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO 256GB - APPLE-CELULARES",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$4.899.900",
+    "price": "$5.099.900",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16 PRO 256GB - APPLE-CELULARES",
+    "normalized_name": "APPLE IPHONE 17 AIR SIM FISICA NUEVO 512GB",
+    "original_name": "IPHONE 17 AIR 512GB - APPLE-CELULARES",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$4.399.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 AIR SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17 AIR 256GB - APPLE-CELULARES",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$4.599.900",
+    "price": "$3.979.900",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 16 PRO 128GB - APPLE-CELULARES",
+    "normalized_name": "APPLE IPHONE 17 SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17 256GB - APPLE-CELULARES",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$4.199.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PLUS SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 16 PLUS 128GB - APPLE-CELULARES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$4.299.900",
+    "storage_capacity": "256GB",
+    "price": "$3.899.900",
     "url": ""
   },
   {
@@ -856,7 +776,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$3.999.900",
+    "price": "$3.299.000",
     "url": ""
   },
   {
@@ -866,7 +786,17 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$3.319.900",
+    "price": "$3.149.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16E SIM FISICA NUEVO 128GB",
+    "original_name": "IPHONE 16E 128GB - APPLE-CELULARES",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$2.399.900",
     "url": ""
   },
   {
@@ -876,7 +806,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$2.999.900",
+    "price": "$2.699.900",
     "url": ""
   },
   {
@@ -886,7 +816,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$2.519.900",
+    "price": "$2.149.900",
     "url": ""
   },
   {
@@ -896,7 +826,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$2.109.900",
+    "price": "$2.069.900",
     "url": ""
   },
   {
@@ -1090,6 +1020,46 @@
     "url": ""
   },
   {
+    "normalized_name": "APPLE SAMSUNG GALAXY WATCH ULTRA 47MM NUEVO",
+    "original_name": "SAMSUNG GALAXY WATCH ULTRA 47MM - ACCESORIOS-ACCESORIOS-SAMSUNG",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.499.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SAMSUNG GALAXY WATCH 8 CLASSIC 46MM NUEVO",
+    "original_name": "SAMSUNG GALAXY WATCH 8 CLASSIC 46MM - ACCESORIOS-ACCESORIOS-SAMSUNG",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.249.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SAMSUNG GALAXY WATCH 8 44MM NUEVO",
+    "original_name": "SAMSUNG GALAXY WATCH 8 44MM - ACCESORIOS-ACCESORIOS-SAMSUNG",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.199.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SAMSUNG GALAXY WATCH 8 40MM NUEVO",
+    "original_name": "SAMSUNG GALAXY WATCH 8 40MM - ACCESORIOS-ACCESORIOS-SAMSUNG",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.159.900",
+    "url": ""
+  },
+  {
     "normalized_name": "SAMSUNG CARGADOR 45W + CABLE NUEVO",
     "original_name": "CARGADOR SAMSUNG 45W + CABLE - ACCESORIOS-ACCESORIOS-SAMSUNG",
     "brand": "SAMSUNG",
@@ -1100,13 +1070,53 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG CAARGADOR 25W NUEVO",
-    "original_name": "CAARGADOR SAMSUNG 25W - ACCESORIOS-ACCESORIOS-SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "APPLE WATCH ULTRA 3 49MM GPS + NUEVO",
+    "original_name": "APPLE WATCH ULTRA 3 49MM GPS + CELULAR - ACCESORIOS-ACCESORIOS-APPLE",
+    "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$99.900",
+    "price": "$3.149.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE WATCH SERIES 11 46MM GPS NUEVO",
+    "original_name": "APPLE WATCH SERIES 11 46MM GPS - ACCESORIOS-ACCESORIOS-APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.899.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE WATCH SERIES 11 42MM GPS NUEVO",
+    "original_name": "APPLE WATCH SERIES 11 42MM GPS - ACCESORIOS-ACCESORIOS-APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.699.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE AIRPODS PRO 3 NUEVO",
+    "original_name": "AIRPODS PRO 3 - ACCESORIOS-ACCESORIOS-APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.099.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE PENCIL PRO NUEVO",
+    "original_name": "APPLE PENCIL PRO - ACCESORIOS-ACCESORIOS-APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$549.900",
     "url": ""
   },
   {
@@ -1116,7 +1126,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$1.949.900",
+    "price": "$1.649.900",
     "url": ""
   },
   {
@@ -1126,7 +1136,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$1.849.900",
+    "price": "$1.549.900",
     "url": ""
   },
   {
@@ -1136,7 +1146,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$2.059.900",
+    "price": "$2.049.900",
     "url": ""
   },
   {
@@ -1146,37 +1156,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$919.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH ULTRA 49MM GPS + NUEVO",
-    "original_name": "APPLE WATCH ULTRA 49MM GPS + CELULAR - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$3.699.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH SERIES 9 45MM NUEVO",
-    "original_name": "APPLE WATCH SERIES 9 45MM - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.599.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH SERIES 9 41MM NUEVO",
-    "original_name": "APPLE WATCH SERIES 9 41MM - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.649.900",
+    "price": "$819.900",
     "url": ""
   },
   {
@@ -1196,7 +1176,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$99.900",
+    "price": "$69.900",
     "url": ""
   },
   {
@@ -1210,13 +1190,33 @@
     "url": ""
   },
   {
+    "normalized_name": "APPLE IPAD AIR M3 11\" NUEVO 256GB",
+    "original_name": "IPAD AIR M3 11\" 256GB - APPLE-IPAD",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "256GB",
+    "price": "$2.599.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPAD AIR M3 11\" NUEVO 128GB",
+    "original_name": "IPAD AIR M3 11\" 128GB - APPLE-IPAD",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "128GB",
+    "price": "$2.199.900",
+    "url": ""
+  },
+  {
     "normalized_name": "APPLE IPAD A16 WIFI NUEVO 256GB",
     "original_name": "IPAD 256GB A16 WIFI - APPLE-IPAD",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "256GB",
-    "price": "$2.049.900",
+    "price": "$1.999.900",
     "url": ""
   },
   {
@@ -1240,6 +1240,16 @@
     "url": ""
   },
   {
+    "normalized_name": "APPLE IPAD A16 WIFI NUEVO 128GB",
+    "original_name": "IPAD 128GB A16 WIFI - APPLE-IPAD",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "128GB",
+    "price": "$1.599.900",
+    "url": ""
+  },
+  {
     "normalized_name": "APPLE MACBOOK AIR M2 13\" NUEVO 256GB",
     "original_name": "MACBOOK AIR M2 13\" 256GB - APPLE",
     "brand": "APPLE",
@@ -1256,7 +1266,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "256GB",
-    "price": "$3.199.900",
+    "price": "$2.949.900",
     "url": ""
   },
   {

@@ -10,23 +10,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE AIRPODS 2 GENERACION ORIGINALES + CASE PROTECTOR NUEVO",
-    "original_name": "AIRPODS 2 GENERACIÓN ORIGINALES + CASE PROTECTOR - ALL",
-    "brand": "APPLE",
+    "normalized_name": "AIRBUDS CON PANTALLA T22 NUEVO",
+    "original_name": "AIRBUDS CON PANTALLA T22 - ALL",
+    "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$549.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE AIRPODS 3RD GENERACION NUEVO",
-    "original_name": "AIRPODS 3RD GENERACIÓN - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$699.990,00",
+    "price": "$219.990,00",
     "url": ""
   },
   {
@@ -36,7 +26,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$899.990,00",
+    "price": "$749.990,00",
     "url": ""
   },
   {
@@ -50,23 +40,33 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE AIRPODS MAX NUEVO",
-    "original_name": "AIRPODS MAX - ALL",
+    "normalized_name": "APPLE AIRPODS MAX LIGHTNING NUEVO",
+    "original_name": "AIRPODS MAX LIGHTNING - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$2.399.990,00",
+    "price": "$2.049.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE AIRPODS PRO SEGUNDA GENERACION NUEVO",
-    "original_name": "AIRPODS PRO SEGUNDA GENERACIÓN APPLE - ALL",
+    "normalized_name": "APPLE AIRPODS PRO 2 GENERACION NUEVO",
+    "original_name": "AIRPODS PRO 2 GENERACIÓN - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$999.990,00",
+    "price": "$899.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE AIRPODS PRO 3RA GENERACION NUEVO",
+    "original_name": "AIRPODS PRO 3RA GENERACIÓN - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.199.990,00",
     "url": ""
   },
   {
@@ -80,28 +80,18 @@
     "url": ""
   },
   {
-    "normalized_name": "JBL ALTAVOZ PARLANTE CHARGE 4 NUEVO",
-    "original_name": "ALTAVOZ PARLANTE JBL CHARGE 4 - ALL",
-    "brand": "JBL",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$599.990,00",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE AIRTAG X1 NUEVO",
     "original_name": "APPLE AIRTAG X1 - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$119.990,00",
+    "price": "$159.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE AIRTAG X4 NUEVO",
-    "original_name": "APPLE AIRTAG X4 - ALL",
+    "normalized_name": "APPLE PENCIL 3. GENERACION USB C NUEVO",
+    "original_name": "APPLE PENCIL 3.ª GENERACIÓN USB-C NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -111,7 +101,7 @@
   },
   {
     "normalized_name": "APPLE PENCIL PRO NUEVO",
-    "original_name": "APPLE PENCIL PRO - ALL",
+    "original_name": "APPLE PENCIL PRO NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -120,63 +110,43 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE WATCH SERIE 10 42MM GPS NUEVO",
-    "original_name": "APPLE WATCH SERIE 10 42MM GPS - ALL",
+    "normalized_name": "APPLE WATCH SE 2DA GENERACION 44MM (PREVENTA) NUEVO",
+    "original_name": "APPLE WATCH SE 2DA GENERACIÓN 44MM (PREVENTA) - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$1.639.990,00",
+    "price": "$989.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE WATCH SERIE 10 42MM MILANESE LOOP NUEVO",
-    "original_name": "APPLE WATCH SERIE 10 42MM MILANESE LOOP NATURAL - ALL",
+    "normalized_name": "APPLE WATCH SE 3ERA GENERACION 40MM NUEVO",
+    "original_name": "APPLE WATCH SE 3ERA GENERACIÓN 40MM - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$2.999.990,00",
+    "price": "$1.349.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE WATCH SERIE 10 46MM GPS NUEVO",
-    "original_name": "APPLE WATCH SERIE 10 46MM GPS - ALL",
+    "normalized_name": "APPLE WATCH SERIE 11 42MM GPS NUEVO",
+    "original_name": "APPLE WATCH SERIE 11 42MM GPS NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$1.739.990,00",
+    "price": "$1.749.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE WATCH SERIE 9 45MM NUEVO",
-    "original_name": "APPLE WATCH SERIE 9 45MM NUEVO - ALL",
+    "normalized_name": "APPLE WATCH SERIE 11 46MM GPS NUEVO",
+    "original_name": "APPLE WATCH SERIE 11 46MM GPS NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$1.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH ULTRA 2 49MM NUEVO",
-    "original_name": "APPLE WATCH ULTRA 2 49MM - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$3.449.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "ARO LUZ PARA SIM FISICA NUEVO",
-    "original_name": "ARO DE LUZ PARA CELULAR - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "$19.990,00",
+    "price": "$1.949.990,00",
     "url": ""
   },
   {
@@ -200,13 +170,23 @@
     "url": ""
   },
   {
-    "normalized_name": "AUDIFONOS G TIDE BUDS 2 NUEVO",
-    "original_name": "AUDÍFONOS G-TIDE BUDS 2 - ALL",
+    "normalized_name": "AUDIFONOS INALAMBRICOS AIRBUDS 3° GEN NUEVO",
+    "original_name": "AUDIFONOS INALAMBRICOS AIRBUDS 3° GEN - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$119.990,00",
+    "price": "$165.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "AUDIFONOS WIWU CONDUCCION OSEA TWS T30 NUEVO",
+    "original_name": "AUDIFONOS WIWU CONDUCCION OSEA TWS- T30 - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$223.990,00",
     "url": ""
   },
   {
@@ -220,68 +200,198 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 13 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 13 128GB EXH - APPLE",
+    "normalized_name": "AURICULARES CELUDMOVIL EARPHONES C PRO SIM FISICA NUEVO",
+    "original_name": "AURICULARES CELUDMOVIL EARPHONES C PRO - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "",
+    "price": "$179.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "AURICULARES CHACHA B2 MOVISUN 3.5MM NUEVO",
+    "original_name": "AURICULARES CHACHA B2  MOVISUN 3.5MM - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$9.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 AIR SIM VIRTUAL SEMINUEVO 256GB",
+    "original_name": "IPHONE 17 AIR 256GB EXH SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$3.249.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17 256GB NUEVO DUAL SIM FISICA - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$3.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO MAX ACTIVADO (SIN CAJA) (PREVENTA) SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO MAX 256GB SIM VIRTUAL NUEVO ACTIVADO (SIN CAJA) (PREVENTA) - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$4.949.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 AIR ACTIVADO SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 AIR 256GB NUEVO ACTIVADO - SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$3.499.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO ACTIVADO (SIN CAJA) (PREVENTA) SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO 256GB SIM VIRTUAL NUEVO ACTIVADO (SIN CAJA) (PREVENTA) - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$4.499.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO MAX SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO MAX 256GB SIM VIRTUAL NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$5.599.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPAD PRO M5 13❞ WIFI NUEVO 256GB",
+    "original_name": "IPAD PRO M5 13❞ 256GB WIFI - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "256GB",
+    "price": "$5.399.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO MAX 2TERAS SIM VIRTUAL NUEVO",
+    "original_name": "IPHONE 17 PRO MAX 2TERAS SIM VIRTUAL NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "",
+    "price": "$8.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 256GB SIM VIRTUAL  NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$3.899.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 AIR SIM VIRTUAL NUEVO 512GB",
+    "original_name": "IPHONE 17 AIR 512GB SIM VIRTUAL NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "512GB",
+    "price": "$5.499.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO MAX SIM VIRTUAL NUEVO 512GB",
+    "original_name": "IPHONE 17 PRO MAX 512GB SIM VIRTUAL NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "512GB",
+    "price": "$6.799.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 AIR (PREVENTA) SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 AIR 256GB SIM VIRTUAL NUEVO (PREVENTA) - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$3.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO 256GB SIM VIRTUAL NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$5.099.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 13 PRO SIM FISICA SEMINUEVO 512GB",
+    "original_name": "IPHONE 13 PRO 512GB DE EXH - APPLE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$1.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 SIM FISICA NUEVO 128GB",
+    "original_name": "IPHONE 15 128GB SIM FISICA NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$2.789.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPAD 11❞ CHIP A16 NUEVA NUEVO 128GB",
+    "original_name": "IPAD 11❞ CHIP A16 128GB NUEVA - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
     "storage_capacity": "128GB",
     "price": "$1.599.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 11 PRO MAX + VIDRIO ATOMIC SEMIAUTOMATICO SEMINUEVO 256GB",
-    "original_name": "IPHONE 11 PRO MAX  256GB DE EXH + VIDRIO ATOMIC SEMIAUTOMATICO - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$1.449.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE ADAPTADOR LIGHTNING A AUDIO 3.5MM NUEVO",
-    "original_name": "ADAPTADOR APPLE LIGHTNING A AUDIO 3.5MM - BLANCO - APPLE",
+    "normalized_name": "APPLE IPHONE 16E SIM FISICA NUEVO 128GB",
+    "original_name": "IPHONE 16E 128GB SIM FISICA NUEVO - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$49.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPAD MINI 7TH GENERACION NUEVO 128GB",
-    "original_name": "IPAD MINI 7TH GENERACIÓN 128GB - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
+    "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$2.699.990,00",
+    "price": "",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 15 PRO SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 15 PRO 128GB EXH PREMIUM SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "128GB",
-    "price": "$3.099.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK AIR M2 13” NUEVO 256GB",
-    "original_name": "MACBOOK AIR M2 13” 256GB - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$4.049.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPAD AIR 11❞ M3 NUEVO 128GB",
-    "original_name": "IPAD AIR 11❞ M3 128GB - APPLE",
+    "normalized_name": "APPLE IPAD AIR 13❞ M3 NUEVA (PREVENTA) NUEVO 128GB",
+    "original_name": "IPAD AIR 13❞ M3 128GB NUEVA (PREVENTA) - APPLE",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -290,173 +400,63 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 / SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 16 128GB NUEVO SIM FISICA/DUAL SIM FISICA - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.249.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 12 PRO + VIDRIO ATOMIC SEMIAUTOMATICO SEMINUEVO 128GB",
-    "original_name": "IPHONE 12 PRO 128GB DE EXH + VIDRIO ATOMIC SEMIAUTOMATICO - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": null,
-    "storage_capacity": "128GB",
-    "price": "$1.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL NUEVO 128GB",
-    "original_name": "IPHONE 16 PRO 128GB NUEVO SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "128GB",
-    "price": "$3.999.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 MINI SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 13 MINI 128GB DE EXH - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$1.299.999,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 PRO MAX SIM VIRTUAL SEMINUEVO 256GB",
-    "original_name": "IPHONE 15 PRO MAX  256GB DE EXH SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "256GB",
-    "price": "$3.699.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16 PRO MAX 256GB NUEVO SIM FISICA - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$6.299.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 16 PRO 128GB EXH PREMIUM SIM VIRTUAL - APPLE",
+    "normalized_name": "APPLE IPHONE 15 PLUS SIM VIRTUAL SEMINUEVO 128GB",
+    "original_name": "IPHONE 15 PLUS 128GB EXH SIM VIRTUAL - APPLE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "128GB",
-    "price": "$3.699.990,00",
+    "price": "$2.299.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 15 PRO SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 15 PRO 128GB EXH SIM VIRTUAL - APPLE",
+    "normalized_name": "APPLE IPHONE 15 SIM VIRTUAL SEMINUEVO 128GB",
+    "original_name": "IPHONE 15 128GB EXH SIM VIRTUAL - APPLE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "128GB",
-    "price": "$2.999.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL NUEVO 512GB",
-    "original_name": "IPHONE 16 PRO 512GB NUEVO SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "512GB",
-    "price": "$5.599.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX SIM VIRTUAL NUEVO 512GB",
-    "original_name": "IPHONE 16 PRO MAX 512GB NUEVO SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "512GB",
-    "price": "$5.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 1TERA SIM VIRTUAL NUEVO",
-    "original_name": "IPHONE 16 PRO MAX 1TERA NUEVO SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "",
-    "price": "$6.549.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16E SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16E 256GB NUEVO SIM FISICA - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$3.699.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX SIM VIRTUAL NUEVO 256GB",
-    "original_name": "IPHONE 16 PRO MAX 256GB NUEVO SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "256GB",
-    "price": "$4.699.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PLUS SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16 PLUS 256GB NUEVO SIM FISICA - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$5.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 12 MINI 64GB SIM FISICA SEMINUEVO",
-    "original_name": "IPHONE 12 MINI 64GB EXH - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "$1.199.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PLUS SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 16 PLUS 128GB EXH SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "128GB",
-    "price": "$3.049.990,00",
+    "price": "$1.899.990,00",
     "url": ""
   },
   {
     "normalized_name": "APPLE IPHONE 14 SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 14 128GB DE EXH SIM VIRTUAL - APPLE",
+    "original_name": "IPHONE 14 128GB EXH SIM VIRTUAL - APPLE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "128GB",
-    "price": "$1.749.990,00",
+    "price": "$1.589.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL SEMINUEVO 256GB",
+    "original_name": "IPHONE 16 PRO 256GB EXH SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$3.329.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16E SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 16E 256GB SIM FISICA NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$3.699.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI 15C SIM FISICA NUEVO 256GB",
+    "original_name": "XIAOMI REDMI 15C 256GB - XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$519.990,00",
     "url": ""
   },
   {
@@ -466,47 +466,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$899.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI NOTE 14 SIM FISICA NUEVO 128GB",
-    "original_name": "XIAOMI REDMI NOTE 14 128GB - XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$599.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI NOTE 14 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "XIAOMI NOTE 14 PRO 5G 256GB - XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.189.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 14C SIM FISICA NUEVO 256GB",
-    "original_name": "XIAOMI REDMI 14C 256GB - XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$489.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 14T PRO SIM FISICA NUEVO 512GB",
-    "original_name": "XIAOMI 14T PRO 512GB NUEVO - XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$2.539.990,00",
+    "price": "$949.990,00",
     "url": ""
   },
   {
@@ -520,23 +480,13 @@
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI NOTE 14 PRO PLUS 5G SIM FISICA NUEVO 256GB",
-    "original_name": "XIAOMI NOTE 14 PRO PLUS 5G 256GB - XIAOMI",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.449.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI X7 5G SIM FISICA NUEVO 512GB",
-    "original_name": "POCO X7  5G 512GB - XIAOMI",
+    "normalized_name": "XIAOMI NOTE 14 PRO PLUS 5G SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI NOTE 14 PRO PLUS 5G 512GB NUEVO - XIAOMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$1.249.990,00",
+    "price": "$1.499.990,00",
     "url": ""
   },
   {
@@ -546,77 +496,77 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "",
-    "price": "$369.990,00",
+    "price": "$289.990,00",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI F7 PRO SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F7 PRO 512GB - XIAOMI",
+    "normalized_name": "XIAOMI X7 PRO 5G SIM FISICA NUEVO 256GB",
+    "original_name": "POCO X7 PRO 5G 256GB - XIAOMI",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$1.299.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI 15T PRO CAMARA LEICA SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI 15T PRO 512GB CÁMARA LEICA NUEVO - XIAOMI",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "De $2.499.990,00",
+    "price": "$3.499.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S24 ULTRA SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S24 ULTRA 256GB NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "XIAOMI NOTE 14 SIM FISICA NUEVO 256GB",
+    "original_name": "XIAOMI REDMI NOTE 14 256GB - XIAOMI",
+    "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$3.599.990,00",
+    "price": "$649.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S24 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY S24 ULTRA 512GB NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "XIAOMI 15T PRO + PAD 2 SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI 15T PRO 512GB + XIAOMI REDMI PAD 2 128GB - XIAOMI",
+    "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$3.899.990,00",
+    "price": "$3.749.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S24 FE SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S24 FE 256GB NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "XIAOMI NOTE 15 PRO 5G SIM FISICA NUEVO 256GB",
+    "original_name": "XIAOMI REDMI NOTE 15 PRO 5G 256GB NUEVO - XIAOMI",
+    "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$2.499.990,00",
+    "price": "$1.199.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY S25 ULTRA 512GB NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$4.349.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A55 5G SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A55 5G 256GB NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "XIAOMI NOTE 15 PRO 4G SIM FISICA NUEVO 256GB",
+    "original_name": "XIAOMI REDMI NOTE 15 PRO 4G 256GB NUEVO - XIAOMI",
+    "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.549.990,00",
+    "price": "$1.049.990,00",
     "url": ""
   },
   {
     "normalized_name": "SAMSUNG A06 SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A06 128GB - SAMSUNG",
+    "original_name": "SAMSUNG GALAXY A06 128GB NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$399.990,00",
+    "price": "$369.990,00",
     "url": ""
   },
   {
@@ -626,7 +576,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.899.990,00",
+    "price": "$1.599.990,00",
     "url": ""
   },
   {
@@ -636,17 +586,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$4.099.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A26 5G SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A26 5G 256GB - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$899.990,00",
+    "price": "$3.849.990,00",
     "url": ""
   },
   {
@@ -660,53 +600,43 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A16 SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A16 128GB NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG A16 4 RAM SIM FISICA NUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A16 128GB 4 RAM NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$499.990,00",
+    "price": "$434.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S25 ULTRA 256GB EXH - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$3.949.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A36 5G SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A36 5G 128GB - SAMSUNG",
+    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY S25 ULTRA 512GB NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$999.990,00",
+    "storage_capacity": "512GB",
+    "price": "$4.299.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A16 5G SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A16 5G 128GB NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG A17 5G SIM FISICA NUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A17 5G 128GB NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$619.990,00",
+    "price": "$699.990,00",
     "url": ""
   },
   {
-    "normalized_name": "NOKIA 105 4G SIM FISICA NUEVO",
-    "original_name": "NOKIA 105 4G NUEVO - NOKIA",
-    "brand": "NOKIA",
+    "normalized_name": "SAMSUNG A17 SIM FISICA NUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A17 128GB NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "$99.990,00",
+    "storage_capacity": "128GB",
+    "price": "$599.990,00",
     "url": ""
   },
   {
@@ -730,18 +660,18 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPAD AIR 11❞ M3 TABLETS NUEVO 128GB",
-    "original_name": "IPAD AIR 11❞ M3 128GB - TABLETS",
-    "brand": "APPLE",
+    "normalized_name": "XIAOMI PAD 2 NUEVA TABLETS NUEVO 128GB",
+    "original_name": "XIAOMI REDMI PAD 2 128GB NUEVA - TABLETS",
+    "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "128GB",
-    "price": "$2.999.990,00",
+    "price": "$399.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPAD 11❞ CHIP A16 TABLETS NUEVO 128GB",
-    "original_name": "IPAD 11❞ CHIP A16 128GB - TABLETS",
+    "normalized_name": "APPLE IPAD 11❞ CHIP A16 NUEVA TABLETS NUEVO 128GB",
+    "original_name": "IPAD 11❞ CHIP A16 128GB NUEVA - TABLETS",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -750,18 +680,48 @@
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI PAD SE 8.7\" TABLETS NUEVO 128GB",
-    "original_name": "XIAOMI REDMI PAD SE 8.7\"  128GB - TABLETS",
-    "brand": "XIAOMI",
+    "normalized_name": "SAMSUNG TAB S10FE WIFI TABLETS NUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY TAB S10FE WIFI 128GB - TABLETS",
+    "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "128GB",
-    "price": "$449.990,00",
+    "price": "$1.449.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPAD MINI 7TH GENERACION TABLETS NUEVO 128GB",
-    "original_name": "IPAD MINI 7TH GENERACIÓN 128GB - TABLETS",
+    "normalized_name": "TABLET HYUNDAI HYTAB PLUS TABLETS NUEVO 128GB",
+    "original_name": "TABLET HYUNDAI HYTAB PLUS 128GB - TABLETS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "128GB",
+    "price": "$549.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPAD PRO M5 13❞ WIFI TABLETS NUEVO 256GB",
+    "original_name": "IPAD PRO M5 13❞ 256GB WIFI - TABLETS",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "256GB",
+    "price": "$5.399.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPAD AIR 13❞ M3 NUEVA (PREVENTA) TABLETS NUEVO 128GB",
+    "original_name": "IPAD AIR 13❞ M3 128GB NUEVA (PREVENTA) - TABLETS",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "128GB",
+    "price": "$2.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPAD MINI CHIP A17 PRO NUEVA TABLETS NUEVO 128GB",
+    "original_name": "IPAD MINI CHIP A17 PRO 128GB NUEVA - TABLETS",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -770,8 +730,28 @@
     "url": ""
   },
   {
+    "normalized_name": "APPLE OPPO RENO 12 + SMARTWATCH OBSEQUIO NUEVO 512GB",
+    "original_name": "OPPO RENO 12 5G 512GB NUEVO + SMARTWATCH OBSEQUIO - CELULARES-OPPO",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "512GB",
+    "price": "$2.499.990,00",
+    "url": ""
+  },
+  {
     "normalized_name": "OPPO A78 SIM FISICA NUEVO 256GB",
     "original_name": "OPPO A78 256GB NUEVO - CELULARES-OPPO",
+    "brand": "OPPO",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "OPPO A5 5G SIM FISICA NUEVO 256GB",
+    "original_name": "OPPO A5 5G 256GB - CELULARES-OPPO",
     "brand": "OPPO",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -786,67 +766,27 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$3.299.990,00",
+    "price": "$3.099.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE OPPO RENO 13F + SMARTWATCH NUEVO 512GB",
-    "original_name": "OPPO RENO 13F 5G 512GB + SMARTWATCH - CELULARES-OPPO",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "512GB",
-    "price": "$2.299.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO A60 SIM FISICA NUEVO 256GB",
-    "original_name": "OPPO A60 256GB NUEVO - CELULARES-OPPO",
+    "normalized_name": "OPPO RENO7 SIM FISICA NUEVO 256GB",
+    "original_name": "OPPO RENO7 256GB NUEVO - CELULARES-OPPO",
     "brand": "OPPO",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$849.990,00",
+    "price": "$1.169.990,00",
     "url": ""
   },
   {
-    "normalized_name": "OPPO A20 SIM FISICA NUEVO 128GB",
-    "original_name": "OPPO A20 128GB NUEVO - CELULARES-OPPO",
+    "normalized_name": "OPPO A5X SIM FISICA NUEVO 128GB",
+    "original_name": "OPPO A5X 128GB NUEVO - CELULARES-OPPO",
     "brand": "OPPO",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO A80 5G SIM FISICA NUEVO 256GB",
-    "original_name": "OPPO A80 5G 256GB NUEVO - CELULARES-OPPO",
-    "brand": "OPPO",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$909.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE OPPO RENO 12 + SMARTWATCH OBSEQUIO NUEVO 512GB",
-    "original_name": "OPPO RENO 12 5G 512GB NUEVO + SMARTWATCH OBSEQUIO - CELULARES-OPPO",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "512GB",
-    "price": "$2.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO A79 5G SIM FISICA NUEVO 256GB",
-    "original_name": "OPPO A79 5G 256GB - CELULARES-OPPO",
-    "brand": "OPPO",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$999.990,00",
+    "price": "$549.990,00",
     "url": ""
   },
   {
@@ -857,16 +797,6 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
     "price": "$2.169.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO RENO 10 SIM FISICA NUEVO 256GB",
-    "original_name": "OPPO RENO 10 256GB NUEVO - CELULARES-OPPO",
-    "brand": "OPPO",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.799.990,00",
     "url": ""
   },
   {
@@ -900,13 +830,33 @@
     "url": ""
   },
   {
+    "normalized_name": "POWER BANK 10000 MAH SMARTBANK A+ Y NUEVO",
+    "original_name": "POWER BANK 10000 MAH - SMARTBANK A+ - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$209.990,00",
+    "url": ""
+  },
+  {
     "normalized_name": "CABLE USB C A LIGHTNING 1 METRO ORIGINAL CELUDMOVIL Y NUEVO",
-    "original_name": "CABLE USB - C A LIGHTNING 1 METRO ORIGINAL CELUDMOVIL - ADAPTADORES-Y-CABLES",
+    "original_name": "CABLE USB-C A LIGHTNING DE 1 METRO ORIGINAL CELUDMOVIL - ADAPTADORES-Y-CABLES",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
     "price": "$59.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE MAGSAFE DUO CHARGER Y NUEVO",
+    "original_name": "MAGSAFE DUO CHARGER - APPLE - ADAPTADORES-Y-CABLES",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$499.990,00",
     "url": ""
   },
   {
@@ -920,8 +870,8 @@
     "url": ""
   },
   {
-    "normalized_name": "CARGADOR COMPLETO CELUDMOVIL CUBO 20WTS + CABLE LIGHTNING Y NUEVO",
-    "original_name": "CARGADOR COMPLETO CELUDMOVIL CUBO 20WTS + CABLE LIGHTNING - ADAPTADORES-Y-CABLES",
+    "normalized_name": "CARGADOR CELUDMOVIL CUBO 20W + CABLE LIGHTNING Y NUEVO",
+    "original_name": "CARGADOR CELUDMOVIL CUBO 20W + CABLE LIGHTNING - ADAPTADORES-Y-CABLES",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
@@ -950,6 +900,16 @@
     "url": ""
   },
   {
+    "normalized_name": "BELKIN BOOSTCHARGE DUAL WALL CHARGER 30W + CABLE USB C Y NUEVO",
+    "original_name": "BELKIN BOOSTCHARGE DUAL WALL CHARGER 30W + CABLE USB-C - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$134.990,00",
+    "url": ""
+  },
+  {
     "normalized_name": "APPLE CARGADOR MAGNETICO PARA WATCH Y NUEVO",
     "original_name": "CARGADOR MAGNÉTICO PARA  APPLE WATCH - FULL CALIDAD - ADAPTADORES-Y-CABLES",
     "brand": "APPLE",
@@ -966,7 +926,17 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$84.990,00",
+    "price": "$64.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG CARGADOR ORIGINAL 45W Y NUEVO",
+    "original_name": "CARGADOR SAMSUNG ORIGINAL 45W - ADAPTADORES-Y-CABLES",
+    "brand": "SAMSUNG",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$199.990,00",
     "url": ""
   },
   {
@@ -980,46 +950,6 @@
     "url": ""
   },
   {
-    "normalized_name": "CARGADOR CARGA RAPIDA MC 60 MOVISUN Y NUEVO",
-    "original_name": "CARGADOR CARGA RAPIDA  MC - 60 MOVISUN - ADAPTADORES-Y-CABLES",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$29.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "CARGADOR CARGA RAPIDA MQC 50 MOVISUN Y NUEVO",
-    "original_name": "CARGADOR CARGA RAPIDA  MQC- 50 MOVISUN - ADAPTADORES-Y-CABLES",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$24.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG CABLE CARGA RAPIDA TIPO C A Y NUEVO",
-    "original_name": "CABLE DE CARGA RÁPIDA  TIPO C A TIPO  C SAMSUNG | FULL CALIDAD - ADAPTADORES-Y-CABLES",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$19.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "CARGADOR PARA CARRO C10 MOVISUN Y NUEVO",
-    "original_name": "CARGADOR PARA CARRO C10 - MOVISUN - ADAPTADORES-Y-CABLES",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$22.990,00",
-    "url": ""
-  },
-  {
     "normalized_name": "CABLE CARGA MOVISUN L434 Y NUEVO",
     "original_name": "CABLE DE CARGA - MOVISUN L434 - ADAPTADORES-Y-CABLES",
     "brand": "",
@@ -1027,6 +957,16 @@
     "sim_type": null,
     "storage_capacity": "",
     "price": "$14.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK WIWU WI P032 BATERIA PORTATIL 10.000MAH Y NUEVO",
+    "original_name": "POWER BANK WIWU WI-P032 BATERÍA PORTÁTIL 10.000MAH - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$119.990,00",
     "url": ""
   },
   {
@@ -1080,53 +1020,23 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE CUBO ORIGINAL + CABLE (LIGHTNING 1 METRO) Y NUEVO",
-    "original_name": "CUBO ORIGINAL DE APPLE + CABLE ORIGINAL (LIGHTNING  1 METRO) - ADAPTADORES-Y-CABLES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$209.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "CARGADOR CARGA RAPIDA MC 80 MOVISUN Y NUEVO",
-    "original_name": "CARGADOR CARGA RAPIDA  MC - 80 MOVISUN - ADAPTADORES-Y-CABLES",
+    "normalized_name": "POWER BANK TRUNK 10.000MAH Y NUEVO",
+    "original_name": "POWER BANK TRUNK 10.000MAH - ADAPTADORES-Y-CABLES",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$29.990,00",
+    "price": "$214.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE CUBO ORIGINAL + CABLE (TIPO C A 1 METRO) Y NUEVO",
-    "original_name": "CUBO ORIGINAL DE APPLE + CABLE ORIGINAL (TIPO C A C  1 METRO) - ADAPTADORES-Y-CABLES",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$209.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE AIRPODS 2 GENERACION ORIGINALES + CASE PROTECTOR NUEVO",
-    "original_name": "AIRPODS 2 GENERACIÓN ORIGINALES + CASE PROTECTOR - AUDIFONOS",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$549.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "AURICULARES INALAMBRICOS MONSTER AIR MARS XKT 01 AUDIFONOS NUEVO",
-    "original_name": "AURICULARES INALÁMBRICOS MONSTER AIR MARS XKT 01 - AUDIFONOS",
+    "normalized_name": "POWER BANK WIWU ROCK 20.000MAH Y NUEVO",
+    "original_name": "POWER BANK WIWU ROCK 20.000MAH - ADAPTADORES-Y-CABLES",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$189.990,00",
+    "price": "$215.990,00",
     "url": ""
   },
   {
@@ -1140,48 +1050,18 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE AIRPODS 3RD GENERACION NUEVO",
-    "original_name": "AIRPODS 3RD GENERACIÓN - AUDIFONOS",
+    "normalized_name": "APPLE AIRPODS PRO 2 GENERACION NUEVO",
+    "original_name": "AIRPODS PRO 2 GENERACIÓN - AUDIFONOS",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$699.990,00",
+    "price": "$899.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE AIRPODS PRO SEGUNDA GENERACION NUEVO",
-    "original_name": "AIRPODS PRO SEGUNDA GENERACIÓN APPLE - AUDIFONOS",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$999.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "BOSE DIADEMAS QUIETCOMFORT 45 AUDIFONOS NUEVO",
-    "original_name": "DIADEMAS BOSE QUIETCOMFORT 45 - BLANCO - AUDIFONOS",
-    "brand": "BOSE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.549.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "AUDIFONOS G TIDE BUDS 2 NUEVO",
-    "original_name": "AUDÍFONOS G-TIDE BUDS 2 - AUDIFONOS",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$119.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG AURICULARES TYPE C EARPHONES AUDIFONOS NUEVO",
-    "original_name": "AURICULARES SAMSUNG - TYPE C EARPHONES - AUDIFONOS",
+    "normalized_name": "SAMSUNG AURICULARES TIPO C EARPHONES AUDIFONOS NUEVO",
+    "original_name": "AURICULARES SAMSUNG - TIPO C EARPHONES - AUDIFONOS",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": null,
@@ -1190,13 +1070,13 @@
     "url": ""
   },
   {
-    "normalized_name": "AURICULARES BLUETOOTH DIADEMA K10 Y K20 MOVISUN AUDIFONOS NUEVO",
-    "original_name": "AURICULARES BLUETOOTH DIADEMA K10 Y K20 - MOVISUN - AUDIFONOS",
+    "normalized_name": "DIADEMA K10 MOVISUN AUDIFONOS NUEVO",
+    "original_name": "DIADEMA K10 - MOVISUN - AUDIFONOS",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$74.990,00",
+    "price": "$56.990,00",
     "url": ""
   },
   {
@@ -1270,16 +1150,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE AIRPODS MAX NUEVO",
-    "original_name": "AIRPODS MAX - AUDIFONOS",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$2.399.990,00",
-    "url": ""
-  },
-  {
     "normalized_name": "AURICULARES CELUDMOVIL EARPHONES C PRO AUDIFONOS NUEVO",
     "original_name": "AURICULARES CELUDMOVIL EARPHONES C PRO - AUDIFONOS",
     "brand": "",
@@ -1287,16 +1157,6 @@
     "sim_type": null,
     "storage_capacity": "",
     "price": "$179.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "AURICULARES ENJOY P2 AUDIFONOS NUEVO",
-    "original_name": "AURICULARES ENJOY P2 - AUDIFONOS",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$19.990,00",
     "url": ""
   },
   {
@@ -1336,7 +1196,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$899.990,00",
+    "price": "$749.990,00",
     "url": ""
   },
   {
@@ -1350,8 +1210,78 @@
     "url": ""
   },
   {
+    "normalized_name": "APPLE AIRPODS MAX LIGHTNING NUEVO",
+    "original_name": "AIRPODS MAX LIGHTNING - AUDIFONOS",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$2.049.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE AIRPODS PRO 3RA GENERACION NUEVO",
+    "original_name": "AIRPODS PRO 3RA GENERACIÓN - AUDIFONOS",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.199.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG BUDS CORE AUDIFONOS NUEVO",
+    "original_name": "SAMSUNG GALAXY BUDS CORE NUEVO - AUDIFONOS",
+    "brand": "SAMSUNG",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$209.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "AUDIFONOS INALAMBRICOS AIRBUDS 3° GEN NUEVO",
+    "original_name": "AUDIFONOS INALAMBRICOS AIRBUDS 3° GEN - AUDIFONOS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$165.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "AIRBUDS CON PANTALLA T22 AUDIFONOS NUEVO",
+    "original_name": "AIRBUDS CON PANTALLA T22 - AUDIFONOS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$219.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "DIADEMA ELITE HEADSET AUDIFONOS NUEVO",
+    "original_name": "DIADEMA ELITE HEADSET - AUDIFONOS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$144.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "AUDIFONOS WIWU CONDUCCION OSEA TWS T30 NUEVO",
+    "original_name": "AUDIFONOS WIWU CONDUCCION OSEA TWS- T30 - AUDIFONOS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$223.990,00",
+    "url": ""
+  },
+  {
     "normalized_name": "JBL PARLANTE GO4 NUEVO",
-    "original_name": "PARLANTE JBL GO4 - CALIDAD-EN-SONIDO",
+    "original_name": "PARLANTE JBL GO4 NUEVO - CALIDAD-EN-SONIDO",
     "brand": "JBL",
     "condition": "NUEVO",
     "sim_type": null,
@@ -1361,62 +1291,22 @@
   },
   {
     "normalized_name": "BOSE PARLANTE S01 PRO PLUS NUEVO",
-    "original_name": "PARLANTE S01 PRO PLUS - BOSE - CALIDAD-EN-SONIDO",
+    "original_name": "PARLANTE S01 PRO PLUS - BOSE NUEVO - CALIDAD-EN-SONIDO",
     "brand": "BOSE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$3.249.990,00",
+    "price": "$3.219.990,00",
     "url": ""
   },
   {
     "normalized_name": "BOSE PARLANTE SOUNDLINK MICRO NUEVO",
-    "original_name": "PARLANTE BOSE SOUNDLINK MICRO - CALIDAD-EN-SONIDO",
+    "original_name": "PARLANTE BOSE SOUNDLINK MICRO NUEVO - CALIDAD-EN-SONIDO",
     "brand": "BOSE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
     "price": "$599.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "JBL ALTAVOZ PARLANTE CHARGE 4 NUEVO",
-    "original_name": "ALTAVOZ PARLANTE JBL CHARGE 4 - CALIDAD-EN-SONIDO",
-    "brand": "JBL",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$599.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "BOOMBOX 3 CAMUFLADO NUEVO",
-    "original_name": "BOOMBOX 3 CAMUFLADO - CALIDAD-EN-SONIDO",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.799.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "PARLANTE FUERZA 20 MOVISUN NUEVO",
-    "original_name": "PARLANTE FUERZA-20 MOVISUN - CALIDAD-EN-SONIDO",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$159.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "JBL PARLANTE CHARGE 5 NUEVO",
-    "original_name": "PARLANTE JBL CHARGE 5 - CALIDAD-EN-SONIDO",
-    "brand": "JBL",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$699.990,00",
     "url": ""
   },
   {
@@ -1431,7 +1321,7 @@
   },
   {
     "normalized_name": "JBL PARLANTE PULSE 5 NUEVO",
-    "original_name": "PARLANTE JBL PULSE 5 - CALIDAD-EN-SONIDO",
+    "original_name": "PARLANTE JBL PULSE 5 NUEVO - CALIDAD-EN-SONIDO",
     "brand": "JBL",
     "condition": "NUEVO",
     "sim_type": null,
@@ -1440,63 +1330,33 @@
     "url": ""
   },
   {
-    "normalized_name": "JBL PARLANTE CLIP 5 NUEVO",
-    "original_name": "PARLANTE JBL CLIP 5 - CALIDAD-EN-SONIDO",
-    "brand": "JBL",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$249.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "JBL PARLANTE XTREME 4 NUEVO",
-    "original_name": "PARLANTE JBL XTREME 4 - CALIDAD-EN-SONIDO",
-    "brand": "JBL",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.399.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "PARLANTE PUMPA MOVISUN NUEVO",
-    "original_name": "PARLANTE PUMPA - MOVISUN - CALIDAD-EN-SONIDO",
+    "normalized_name": "BOOMBOX 3 CAMUFLADO NUEVO",
+    "original_name": "BOOMBOX 3 CAMUFLADO - CALIDAD-EN-SONIDO",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$49.990,00",
+    "price": "$1.799.990,00",
     "url": ""
   },
   {
-    "normalized_name": "PARLANTE POWER SOLAR MOVISUN NUEVO",
-    "original_name": "PARLANTE POWER SOLAR - MOVISUN - CALIDAD-EN-SONIDO",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$69.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "JBL PARLANTE CLIP 4 NUEVO",
-    "original_name": "PARLANTE JBL CLIP 4 - CALIDAD-EN-SONIDO",
+    "normalized_name": "JBL PARLANTE BOOMBOX 4 NUEVO",
+    "original_name": "PARLANTE JBL BOOMBOX 4 NUEVO - CALIDAD-EN-SONIDO",
     "brand": "JBL",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$209.990,00",
+    "price": "$1.999.990,00",
     "url": ""
   },
   {
     "normalized_name": "JBL PARLANTE FLIP 6 NUEVO",
-    "original_name": "PARLANTE JBL FLIP 6 - CALIDAD-EN-SONIDO",
+    "original_name": "PARLANTE JBL FLIP 6 NUEVO - CALIDAD-EN-SONIDO",
     "brand": "JBL",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$599.990,00",
+    "price": "$499.990,00",
     "url": ""
   },
   {
@@ -1510,53 +1370,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE MANILLA PARA WATCH SMARTWATCH NUEVO",
-    "original_name": "MANILLA PARA APPLE WATCH - SMARTWATCH",
+    "normalized_name": "APPLE GALAXY WATCH8 40MM SMARTWATCH NUEVO",
+    "original_name": "GALAXY WATCH8 40MM NUEVO - SMARTWATCH",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$19.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE SMARTWATCH G TIDE S1 LITE NUEVO",
-    "original_name": "SMARTWATCH G-TIDE S1 LITE - SMARTWATCH",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$199.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE SMARTWATCH SK10 MOBULAA NUEVO",
-    "original_name": "SMARTWATCH SK10 - MOBULAA - SMARTWATCH",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$159.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE SMARTWATCH SK8 MOBULAA NUEVO",
-    "original_name": "SMARTWATCH SK8 - MOBULAA - SMARTWATCH",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$199.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE SMARTWATCH SK1 MOBULAA NUEVO",
-    "original_name": "SMARTWATCH SK1 - MOBULAA - SMARTWATCH",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$139.990,00",
+    "price": "$1.149.990,00",
     "url": ""
   },
   {
@@ -1570,23 +1390,33 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE WATCH SERIE 9 45MM SMARTWATCH NUEVO",
-    "original_name": "APPLE WATCH SERIE 9 45MM NUEVO - SMARTWATCH",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE SMARTWATCH H9 PLUS + 3 MANILLAS INTERCAMBIABLES NUEVO",
-    "original_name": "SMARTWATCH H9 PLUS + 3 MANILLAS INTERCAMBIABLES - SMARTWATCH",
+    "normalized_name": "APPLE SMARTWATCH H10 PLUS NUEVO",
+    "original_name": "SMARTWATCH H10 PLUS NUEVO - SMARTWATCH",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
     "price": "$149.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE WATCH SE 2DA GENERACION 44MM (PREVENTA) SMARTWATCH NUEVO",
+    "original_name": "APPLE WATCH SE 2DA GENERACIÓN 44MM (PREVENTA) - SMARTWATCH",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$989.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SMART WATCH SW02 SMARTWATCH NUEVO",
+    "original_name": "SMART WATCH SW02 - SMARTWATCH",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$264.990,00",
     "url": ""
   },
   {
@@ -1600,36 +1430,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE WATCH SERIE 10 42MM GPS SMARTWATCH NUEVO",
-    "original_name": "APPLE WATCH SERIE 10 42MM GPS - SMARTWATCH",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.639.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH SERIE 10 46MM GPS SMARTWATCH NUEVO",
-    "original_name": "APPLE WATCH SERIE 10 46MM GPS - SMARTWATCH",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.739.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH ULTRA 2 49MM SMARTWATCH NUEVO",
-    "original_name": "APPLE WATCH ULTRA 2 49MM - SMARTWATCH",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$3.449.990,00",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE ATOMIC IWATCH PROTECTOR SMARTWATCH NUEVO",
     "original_name": "ATOMIC IWATCH PROTECTOR - SMARTWATCH",
     "brand": "APPLE",
@@ -1640,53 +1440,83 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE OPPO RENO 13F + SMARTWATCH NUEVO 512GB",
-    "original_name": "OPPO RENO 13F 5G 512GB + SMARTWATCH - SMARTWATCH",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "512GB",
-    "price": "$2.299.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH SERIE 10 42MM MILANESE LOOP SMARTWATCH NUEVO",
-    "original_name": "APPLE WATCH SERIE 10 42MM MILANESE LOOP NATURAL - SMARTWATCH",
+    "normalized_name": "APPLE WATCH SERIE 11 42MM GPS SMARTWATCH NUEVO",
+    "original_name": "APPLE WATCH SERIE 11 42MM GPS NUEVO - SMARTWATCH",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$2.999.990,00",
+    "price": "$1.749.990,00",
     "url": ""
   },
   {
-    "normalized_name": "AURICULARES BLUETOOTH DIADEMA K10 Y K20 MOVISUN NUEVO",
-    "original_name": "AURICULARES BLUETOOTH DIADEMA K10 Y K20 - MOVISUN - ALL",
-    "brand": "",
+    "normalized_name": "APPLE WATCH SERIE 11 46MM GPS SMARTWATCH NUEVO",
+    "original_name": "APPLE WATCH SERIE 11 46MM GPS NUEVO - SMARTWATCH",
+    "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$74.990,00",
+    "price": "$1.949.990,00",
     "url": ""
   },
   {
-    "normalized_name": "AURICULARES CELUDMOVIL EARPHONES C PRO SIM FISICA NUEVO",
-    "original_name": "AURICULARES CELUDMOVIL EARPHONES C PRO - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "$179.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "AURICULARES CHACHA B2 MOVISUN 3.5MM NUEVO",
-    "original_name": "AURICULARES CHACHA B2  MOVISUN 3.5MM - ALL",
-    "brand": "",
+    "normalized_name": "APPLE SMART WATCH SW01 ULTRA SMARTWATCH NUEVO",
+    "original_name": "SMART WATCH SW01 ULTRA - SMARTWATCH",
+    "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$9.990,00",
+    "price": "$189.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SMART WATCH SW01 PRO SMARTWATCH NUEVO",
+    "original_name": "SMART WATCH SW01 PRO - SMARTWATCH",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$199.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SMART WATCH SW01 ULTRA MAX SMARTWATCH NUEVO",
+    "original_name": "SMART WATCH SW01 ULTRA MAX - SMARTWATCH",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$239.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SMART WATCH SW01 SMARTWATCH NUEVO",
+    "original_name": "SMART WATCH SW01 - SMARTWATCH",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$184.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SMARTWATCH NOVA 46MM A+ NUEVO",
+    "original_name": "SMARTWATCH NOVA 46MM A+ - SMARTWATCH",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$429.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE WATCH SE 3ERA GENERACION 40MM SMARTWATCH NUEVO",
+    "original_name": "APPLE WATCH SE 3ERA GENERACIÓN 40MM - SMARTWATCH",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$1.349.990,00",
     "url": ""
   },
   {
@@ -1707,16 +1537,6 @@
     "sim_type": null,
     "storage_capacity": "",
     "price": "$24.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "AURICULARES ENJOY P2 NUEVO",
-    "original_name": "AURICULARES ENJOY P2 - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$19.990,00",
     "url": ""
   },
   {
@@ -1770,16 +1590,6 @@
     "url": ""
   },
   {
-    "normalized_name": "AURICULARES INALAMBRICOS MONSTER AIR MARS XKT 01 NUEVO",
-    "original_name": "AURICULARES INALÁMBRICOS MONSTER AIR MARS XKT 01 - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$189.990,00",
-    "url": ""
-  },
-  {
     "normalized_name": "AURICULARES INALAMBRICOS SMARTPODS MAX A+ NUEVO",
     "original_name": "AURICULARES INALÁMBRICOS SMARTPODS MAX A+ - ALL",
     "brand": "",
@@ -1800,16 +1610,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE AURICULARES ORIGINALES TIPO C NUEVO",
-    "original_name": "AURICULARES ORIGINALES DE  APPLE - TIPO-C - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$99.990,00",
-    "url": ""
-  },
-  {
     "normalized_name": "AURICULARES PROBUDS NUEVO",
     "original_name": "AURICULARES PROBUDS - ALL",
     "brand": "",
@@ -1820,8 +1620,8 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG AURICULARES TYPE C EARPHONES NUEVO",
-    "original_name": "AURICULARES SAMSUNG - TYPE C EARPHONES - ALL",
+    "normalized_name": "SAMSUNG AURICULARES TIPO C EARPHONES NUEVO",
+    "original_name": "AURICULARES SAMSUNG - TIPO C EARPHONES - ALL",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": null,
@@ -1846,17 +1646,67 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$599.990,00",
+    "price": "$499.990,00",
     "url": ""
   },
   {
-    "normalized_name": "BOLSO MANO BMW ORIGINAL TRICOLOR NUEVO",
-    "original_name": "BOLSO DE MANO BMW ORIGINAL -  TRICOLOR NEGRO - ALL",
+    "normalized_name": "APPLE BATERIA MAGSAFE IPHONE AIR NUEVO",
+    "original_name": "BATERIA MAGSAFE IPHONE AIR - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$549.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "BELKIN BOOSTCHARGE DUAL WALL CHARGER 30W + CABLE USB C NUEVO",
+    "original_name": "BELKIN BOOSTCHARGE DUAL WALL CHARGER 30W + CABLE USB-C - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$229.990,00",
+    "price": "$134.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "BELKIN BOOSTCHARGE PRO 2 IN 1 NUEVO",
+    "original_name": "BELKIN BOOSTCHARGE PRO 2 IN 1 - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$299.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "BELKIN COMPACT USB C WALL CHARGER 30W NUEVO",
+    "original_name": "BELKIN COMPACT USB-C WALL CHARGER 30W - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "BELKIN MAGNETIC CHARGING PAD NUEVO",
+    "original_name": "BELKIN MAGNETIC CHARGING PAD - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$149.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "BELKIN POWER BANK 10.000 MAH 15W NUEVO",
+    "original_name": "BELKIN POWER BANK 10.000 MAH 15W - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$109.990,00",
     "url": ""
   },
   {
@@ -1870,6 +1720,386 @@
     "url": ""
   },
   {
+    "normalized_name": "CABLE ARMOR 100W TIPO C NUEVO",
+    "original_name": "CABLE ARMOR 100W TIPO C - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$24.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CABLE ARMOR 20W LIGHTNING NUEVO",
+    "original_name": "CABLE ARMOR 20W LIGHTNING - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$24.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CABLE CONCISE 100W TIPO C NUEVO",
+    "original_name": "CABLE CONCISE 100W TIPO C - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$34.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CABLE CONCISE 2 METROS (TIPO C O LIGHTNING) NUEVO",
+    "original_name": "CABLE CONCISE 2 METROS (TIPO C O LIGHTNING) - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$39.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16E SIM VIRTUAL SEMINUEVO 128GB",
+    "original_name": "IPHONE 16E 128GB EXH PREMIUM SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "128GB",
+    "price": "$1.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 PRO SIM VIRTUAL SEMINUEVO 128GB",
+    "original_name": "IPHONE 15 PRO 128GB EXH SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "128GB",
+    "price": "$2.399.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL SEMINUEVO 128GB",
+    "original_name": "IPHONE 16 PRO 128GB EXH SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "128GB",
+    "price": "$3.179.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16 PRO MAX SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 16 PRO MAX 256GB SIM FISICA NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$6.299.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 PRO MAX SIM VIRTUAL SEMINUEVO 256GB",
+    "original_name": "IPHONE 15 PRO MAX  256GB EXH SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$2.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 14 PRO SIM VIRTUAL SEMINUEVO 256GB",
+    "original_name": "IPHONE 14 PRO 256GB DE EXH SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$2.299.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL SEMINUEVO 512GB",
+    "original_name": "IPHONE 16 PRO 512GB EXH SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "512GB",
+    "price": "$3.499.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE MACBOOK PRO M5 14❞ 16 RAM NUEVO 512GB",
+    "original_name": "MACBOOK PRO M5 14❞ 512GB 16 RAM - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "512GB",
+    "price": "$6.599.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16 SIM FISICA NUEVO 128GB",
+    "original_name": "IPHONE 16 128GB SIM FISICA NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$3.099.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 15 256GB SIM FISICA NUEVO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$2.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 PRO MAX SIM VIRTUAL SEMINUEVO 512GB",
+    "original_name": "IPHONE 15 PRO MAX  512GB EXH SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "512GB",
+    "price": "$3.099.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 PRO SIM VIRTUAL SEMINUEVO 256GB",
+    "original_name": "IPHONE 15 PRO 256GB EXH SIM VIRTUAL - APPLE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$2.579.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPAD MINI CHIP A17 PRO NUEVA NUEVO 128GB",
+    "original_name": "IPAD MINI CHIP A17 PRO 128GB NUEVA - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "128GB",
+    "price": "$2.699.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE ADAPTADOR LIGHTNING A AUDIO 3.5MM NUEVO",
+    "original_name": "ADAPTADOR APPLE LIGHTNING A AUDIO 3.5MM - BLANCO - APPLE",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$49.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG POWER BANK 20.000MAH Y NUEVO",
+    "original_name": "POWER BANK GALAXY 20.000MAH - ADAPTADORES-Y-CABLES",
+    "brand": "SAMSUNG",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$246.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK ELITE 10.000MAH Y NUEVO",
+    "original_name": "POWER BANK ELITE 10.000MAH - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$234.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CARGADOR ESSEN 30W Y NUEVO",
+    "original_name": "CARGADOR ESSEN 30W - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$89.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK SNAP CUBE 10.000MAH Y NUEVO",
+    "original_name": "POWER BANK SNAP CUBE 10.000MAH - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$189.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK MAGNETIC 10.000MAH Y NUEVO",
+    "original_name": "POWER BANK MAGNETIC 10.000MAH - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$164.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CUBO ESSEN 30W TIPO C Y NUEVO",
+    "original_name": "CUBO ESSEN 30W TIPO C - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$89.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CARGADOR CUBE 33W TIPO C Y NUEVO",
+    "original_name": "CARGADOR CUBE 33W TIPO C - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$89.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CARGADOR CUBE 33W LIGHTNING Y NUEVO",
+    "original_name": "CARGADOR CUBE 33W LIGHTNING - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$89.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "BELKIN BOOSTCHARGE PRO 2 IN 1 Y NUEVO",
+    "original_name": "BELKIN BOOSTCHARGE PRO 2 IN 1 - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$299.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "BELKIN COMPACT USB C WALL CHARGER 30W Y NUEVO",
+    "original_name": "BELKIN COMPACT USB-C WALL CHARGER 30W - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "BELKIN MAGNETIC CHARGING PAD Y NUEVO",
+    "original_name": "BELKIN MAGNETIC CHARGING PAD - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$149.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "BELKIN POWER BANK 10.000 MAH 15W Y NUEVO",
+    "original_name": "BELKIN POWER BANK 10.000 MAH 15W - ADAPTADORES-Y-CABLES",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$109.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE BATERIA MAGSAFE IPHONE AIR Y NUEVO",
+    "original_name": "BATERIA MAGSAFE IPHONE AIR - ADAPTADORES-Y-CABLES",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$549.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE CUBO CARGA RAPIDA IPHONE ORIGINAL DINAMO 40W (60W) Y NUEVO",
+    "original_name": "CUBO CARGA RÁPIDA IPHONE ORIGINAL DINAMO 40W (60W) - ADAPTADORES-Y-CABLES",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$219.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE MAGNETICO KABON AUDIFONOS NUEVO",
+    "original_name": "ESTUCHE MAGNÉTICO KABON - AUDIFONOS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE MAGSAFE BORDE AUDIFONOS NUEVO",
+    "original_name": "ESTUCHE MAGSAFE BORDE NEGRO - AUDIFONOS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE MAGSAFE BOTON AUDIFONOS NUEVO",
+    "original_name": "ESTUCHE MAGSAFE BOTÓN PLATEADO - AUDIFONOS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE MAGSAFE CON SOPORTE AUDIFONOS NUEVO",
+    "original_name": "ESTUCHE MAGSAFE CON SOPORTE - AUDIFONOS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "DIADEMA SOUNDCOOL HEADSET TD 02 AUDIFONOS NUEVO",
+    "original_name": "DIADEMA SOUNDCOOL HEADSET TD-02 - AUDIFONOS",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$177.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CABLE CONCISE 30W LIGHTNING NUEVO",
+    "original_name": "CABLE CONCISE 30W LIGHTNING - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$34.990,00",
+    "url": ""
+  },
+  {
     "normalized_name": "CABLE CARGA MOVISUN L434 NUEVO",
     "original_name": "CABLE DE CARGA - MOVISUN L434 - ALL",
     "brand": "",
@@ -1877,16 +2107,6 @@
     "sim_type": null,
     "storage_capacity": "",
     "price": "$14.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG CABLE CARGA RAPIDA TIPO C A NUEVO",
-    "original_name": "CABLE DE CARGA RÁPIDA  TIPO C A TIPO  C SAMSUNG | FULL CALIDAD - ALL",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$19.990,00",
     "url": ""
   },
   {
@@ -1900,86 +2120,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 15 SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 15 128GB DE EXH PREMIUM SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "128GB",
-    "price": "$2.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16E SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 16E 128GB NUEVO SIM FISICA - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 14 PRO MAX SIM VIRTUAL SEMINUEVO 256GB",
-    "original_name": "IPHONE 14 PRO MAX 256GB EXH SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "256GB",
-    "price": "$3.149.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 15 SIM VIRTUAL NUEVO 128GB",
-    "original_name": "IPHONE 15 128GB NUEVO SIM VIRTUAL - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "128GB",
-    "price": "$2.849.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16 256GB NUEVO SIM FISICA - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$3.849.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 PRO MAX SIM FISICA SEMINUEVO 256GB",
-    "original_name": "IPHONE 13 PRO MAX 256GB DE EXH - APPLE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$2.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPAD 11❞ CHIP A16 NUEVO 128GB",
-    "original_name": "IPAD 11❞ CHIP A16 128GB - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "128GB",
-    "price": "$1.599.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI BUDS 6 ACTIVE AUDIFONOS NUEVO",
-    "original_name": "XIAOMI REDMI BUDS 6 ACTIVE - AUDIFONOS",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$94.990,00",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE CABLE CARGA RAPIDA TIPO C TRENZADO ORIGINAL IPHONE 2M NUEVO",
     "original_name": "CABLE DE CARGA RÁPIDA TIPO C TRENZADO ORIGINAL IPHONE 2M - ALL",
     "brand": "APPLE",
@@ -1987,6 +2127,16 @@
     "sim_type": null,
     "storage_capacity": "",
     "price": "$169.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CABLE THOR DIGITAL 100W TIPO C NUEVO",
+    "original_name": "CABLE THOR DIGITAL 100W TIPO C - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$59.990,00",
     "url": ""
   },
   {
@@ -2001,7 +2151,7 @@
   },
   {
     "normalized_name": "CABLE USB C A LIGHTNING 1 METRO ORIGINAL CELUDMOVIL NUEVO",
-    "original_name": "CABLE USB - C A LIGHTNING 1 METRO ORIGINAL CELUDMOVIL - ALL",
+    "original_name": "CABLE USB-C A LIGHTNING DE 1 METRO ORIGINAL CELUDMOVIL - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
@@ -2010,43 +2160,63 @@
     "url": ""
   },
   {
-    "normalized_name": "CARGADOR CARGA RAPIDA MC 60 MOVISUN NUEVO",
-    "original_name": "CARGADOR CARGA RAPIDA  MC - 60 MOVISUN - ALL",
+    "normalized_name": "CABLE VIGOR LIGHTNING NUEVO",
+    "original_name": "CABLE VIGOR LIGHTNING - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$29.990,00",
+    "price": "$39.990,00",
     "url": ""
   },
   {
-    "normalized_name": "CARGADOR CARGA RAPIDA MC 80 MOVISUN NUEVO",
-    "original_name": "CARGADOR CARGA RAPIDA  MC - 80 MOVISUN - ALL",
+    "normalized_name": "CABLE VIGOR TIPO C NUEVO",
+    "original_name": "CABLE VIGOR TIPO C - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$29.990,00",
+    "price": "$39.990,00",
     "url": ""
   },
   {
-    "normalized_name": "CARGADOR CARGA RAPIDA MQC 50 MOVISUN NUEVO",
-    "original_name": "CARGADOR CARGA RAPIDA  MQC- 50 MOVISUN - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$24.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "CARGADOR COMPLETO CELUDMOVIL CUBO 20WTS + CABLE LIGHTNING NUEVO",
-    "original_name": "CARGADOR COMPLETO CELUDMOVIL CUBO 20WTS + CABLE LIGHTNING - ALL",
+    "normalized_name": "CARGADOR CELUDMOVIL CUBO 20W + CABLE LIGHTNING NUEVO",
+    "original_name": "CARGADOR CELUDMOVIL CUBO 20W + CABLE LIGHTNING - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
     "price": "$109.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CARGADOR CUBE 33W LIGHTNING NUEVO",
+    "original_name": "CARGADOR CUBE 33W LIGHTNING - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$89.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CARGADOR CUBE 33W TIPO C NUEVO",
+    "original_name": "CARGADOR CUBE 33W TIPO C - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$89.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CARGADOR ESSEN 30W NUEVO",
+    "original_name": "CARGADOR ESSEN 30W - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$89.990,00",
     "url": ""
   },
   {
@@ -2100,23 +2270,13 @@
     "url": ""
   },
   {
-    "normalized_name": "CARGADOR PARA CARRO C10 MOVISUN NUEVO",
-    "original_name": "CARGADOR PARA CARRO C10 - MOVISUN - ALL",
-    "brand": "",
+    "normalized_name": "SAMSUNG CARGADOR ORIGINAL 45W NUEVO",
+    "original_name": "CARGADOR SAMSUNG ORIGINAL 45W - ALL",
+    "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$22.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE CASE UAG TORNASOL PARA IPHONE NUEVO",
-    "original_name": "CASE UAG TORNASOL PARA IPHONE - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$29.990,00",
+    "price": "$199.990,00",
     "url": ""
   },
   {
@@ -2127,6 +2287,66 @@
     "sim_type": null,
     "storage_capacity": "",
     "price": "$24.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CLASSIC CASE ATOMIC MAGSAFE NUEVO",
+    "original_name": "CLASSIC CASE ATOMIC MAGSAFE - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$79.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CLEAR CASE ATOMIC MAGSAFE NUEVO",
+    "original_name": "CLEAR CASE ATOMIC MAGSAFE - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$69.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CLEAR CASE ATOMIC MAGSAFE 17 NUEVO",
+    "original_name": "CLEAR CASE ATOMIC MAGSAFE 17 - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$69.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "CLEAR CASE ATOMIC MAGSAFE 17 AIR NUEVO",
+    "original_name": "CLEAR CASE ATOMIC MAGSAFE 17 AIR - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$69.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "SONY CONTROL PS5 SENSE NUEVO",
+    "original_name": "CONTROL PS5 DUAL SENSE NUEVO - ALL",
+    "brand": "SONY",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$319.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE CUBO CARGA RAPIDA IPHONE ORIGINAL DINAMO 40W (60W) NUEVO",
+    "original_name": "CUBO CARGA RÁPIDA IPHONE ORIGINAL DINAMO 40W (60W) - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$219.990,00",
     "url": ""
   },
   {
@@ -2166,7 +2386,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$84.990,00",
+    "price": "$64.990,00",
     "url": ""
   },
   {
@@ -2180,23 +2400,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE CUBO ORIGINAL + CABLE (LIGHTNING 1 METRO) NUEVO",
-    "original_name": "CUBO ORIGINAL DE APPLE + CABLE ORIGINAL (LIGHTNING  1 METRO) - ALL",
-    "brand": "APPLE",
+    "normalized_name": "CUBO ESSEN 30W TIPO C NUEVO",
+    "original_name": "CUBO ESSEN 30W TIPO C - ALL",
+    "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$209.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE CUBO ORIGINAL + CABLE (TIPO C A 1 METRO) NUEVO",
-    "original_name": "CUBO ORIGINAL DE APPLE + CABLE ORIGINAL (TIPO C A C  1 METRO) - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$209.990,00",
+    "price": "$89.990,00",
     "url": ""
   },
   {
@@ -2210,13 +2420,33 @@
     "url": ""
   },
   {
-    "normalized_name": "BOSE DIADEMAS QUIETCOMFORT 45 NUEVO",
-    "original_name": "DIADEMAS BOSE QUIETCOMFORT 45 - BLANCO - ALL",
-    "brand": "BOSE",
+    "normalized_name": "DIADEMA ELITE HEADSET NUEVO",
+    "original_name": "DIADEMA ELITE HEADSET - ALL",
+    "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$1.549.990,00",
+    "price": "$144.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "DIADEMA K10 MOVISUN NUEVO",
+    "original_name": "DIADEMA K10 - MOVISUN - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$56.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "DIADEMA SOUNDCOOL HEADSET TD 02 NUEVO",
+    "original_name": "DIADEMA SOUNDCOOL HEADSET TD-02 - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$177.990,00",
     "url": ""
   },
   {
@@ -2230,6 +2460,16 @@
     "url": ""
   },
   {
+    "normalized_name": "ESSENTIALS CASE ATOMIC MAGSAFE NUEVO",
+    "original_name": "ESSENTIALS CASE ATOMIC MAGSAFE - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$89.990,00",
+    "url": ""
+  },
+  {
     "normalized_name": "APPLE ESTUCHE SILICONE CASE IPHONE 7/8/7 PLUS/8 PLUS/X/XS/XR NUEVO",
     "original_name": "ESTUCHE - SILICONE CASE IPHONE 7/8/7 PLUS/8 PLUS/X/XS/XR - ALL",
     "brand": "APPLE",
@@ -2237,6 +2477,26 @@
     "sim_type": null,
     "storage_capacity": "",
     "price": "$9.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE 3D GLITTER MAGSAFE TRANSPARENTE UNIQ NUEVO",
+    "original_name": "ESTUCHE 3D GLITTER MAGSAFE TRANSPARENTE UNIQ - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$129.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE AIR FENDER ID UNIQ NUEVO",
+    "original_name": "ESTUCHE AIR FENDER ID UNIQ - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$129.990,00",
     "url": ""
   },
   {
@@ -2250,6 +2510,96 @@
     "url": ""
   },
   {
+    "normalized_name": "ESTUCHE COMBAT MAGSAFE UNIQ NUEVO",
+    "original_name": "ESTUCHE COMBAT MAGSAFE UNIQ - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$129.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE CREME UNIQ NUEVO",
+    "original_name": "ESTUCHE CREME UNIQ - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$129.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE DUCATI CUERO NUEVO",
+    "original_name": "ESTUCHE DUCATI CUERO - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$149.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE GUESS LIQUID GLITTER NUEVO",
+    "original_name": "ESTUCHE GUESS LIQUID GLITTER - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$149.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE GUESS LIQUID GLITTER FUCSIA NUEVO",
+    "original_name": "ESTUCHE GUESS LIQUID GLITTER FUCSIA - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$149.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE KARL LAGERFELD NUEVO",
+    "original_name": "ESTUCHE KARL LAGERFELD - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$149.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE LINEAR IRIDESCENT UNIQ NUEVO",
+    "original_name": "ESTUCHE LINEAR IRIDESCENT UNIQ - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$129.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE LYDEN UNIQ NUEVO",
+    "original_name": "ESTUCHE LYDEN UNIQ - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$129.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE MAGNETICO KABON NUEVO",
+    "original_name": "ESTUCHE MAGNÉTICO KABON - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
     "normalized_name": "ESTUCHE MAGSAFE GEAR4 NUEVO",
     "original_name": "ESTUCHE MAGSAFE - GEAR4 - ALL",
     "brand": "",
@@ -2260,6 +2610,46 @@
     "url": ""
   },
   {
+    "normalized_name": "ESTUCHE MAGSAFE BORDE NUEVO",
+    "original_name": "ESTUCHE MAGSAFE BORDE NEGRO - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE MAGSAFE BOTON NUEVO",
+    "original_name": "ESTUCHE MAGSAFE BOTÓN PLATEADO - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE MAGSAFE CON SOPORTE NUEVO",
+    "original_name": "ESTUCHE MAGSAFE CON SOPORTE - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$99.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "ESTUCHE SAVON BUBBLE PRISM UNIQ NUEVO",
+    "original_name": "ESTUCHE SAVON BUBBLE PRISM UNIQ - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$129.990,00",
+    "url": ""
+  },
+  {
     "normalized_name": "APPLE ESTUCHE SPACE PARA IPHONE SIM FISICA NUEVO",
     "original_name": "ESTUCHE SPACE PARA IPHONE - ALL",
     "brand": "APPLE",
@@ -2267,16 +2657,6 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "",
     "price": "$19.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE ESTUCHES ORIGINALES BMW, AUDI, DUCATI PARA IPHONE SIM FISICA NUEVO",
-    "original_name": "ESTUCHES ORIGINALES DE BMW, AUDI, DUCATI PARA IPHONE - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "$149.990,00",
     "url": ""
   },
   {
@@ -2300,28 +2680,28 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE FASHION CASE IPHONE NUEVO",
-    "original_name": "FASHION CASE IPHONE - ALL",
+    "normalized_name": "APPLE GALAXY WATCH8 40MM NUEVO",
+    "original_name": "GALAXY WATCH8 40MM NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$179.990,00",
+    "price": "$1.149.990,00",
     "url": ""
   },
   {
-    "normalized_name": "HUAWEI 8A 32GB SIM FISICA NUEVO",
-    "original_name": "HONOR 8A 32GB - ALL",
-    "brand": "HUAWEI",
+    "normalized_name": "GOOGLE PIXEL 10 PRO NUEVO 128GB",
+    "original_name": "GOOGLE PIXEL 10 PRO 128GB - ALL",
+    "brand": "",
     "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "$419.990,00",
+    "sim_type": null,
+    "storage_capacity": "128GB",
+    "price": "$3.849.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPAD 11❞ CHIP A16 NUEVO 128GB",
-    "original_name": "IPAD 11❞ CHIP A16 128GB - ALL",
+    "normalized_name": "APPLE IPAD 11❞ CHIP A16 NUEVA NUEVO 128GB",
+    "original_name": "IPAD 11❞ CHIP A16 128GB NUEVA - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -2330,8 +2710,8 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPAD AIR 11❞ M3 NUEVO 128GB",
-    "original_name": "IPAD AIR 11❞ M3 128GB - ALL",
+    "normalized_name": "APPLE IPAD AIR 13❞ M3 NUEVA (PREVENTA) NUEVO 128GB",
+    "original_name": "IPAD AIR 13❞ M3 128GB NUEVA (PREVENTA) - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -2340,8 +2720,8 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPAD MINI 7TH GENERACION NUEVO 128GB",
-    "original_name": "IPAD MINI 7TH GENERACIÓN 128GB - ALL",
+    "normalized_name": "APPLE IPAD MINI CHIP A17 PRO NUEVA NUEVO 128GB",
+    "original_name": "IPAD MINI CHIP A17 PRO 128GB NUEVA - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -2350,53 +2730,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 11 PRO MAX + VIDRIO ATOMIC SEMIAUTOMATICO SEMINUEVO 256GB",
-    "original_name": "IPHONE 11 PRO MAX  256GB DE EXH + VIDRIO ATOMIC SEMIAUTOMATICO - ALL",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$1.449.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 12 MINI 64GB SIM FISICA SEMINUEVO",
-    "original_name": "IPHONE 12 MINI 64GB EXH - ALL",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "$1.199.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 12 PRO + VIDRIO ATOMIC SEMIAUTOMATICO SEMINUEVO 128GB",
-    "original_name": "IPHONE 12 PRO 128GB DE EXH + VIDRIO ATOMIC SEMIAUTOMATICO - ALL",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": null,
-    "storage_capacity": "128GB",
-    "price": "$1.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 13 128GB EXH - ALL",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$1.599.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 13 128GB NUEVO - ALL",
+    "normalized_name": "APPLE IPAD PRO M5 13❞ WIFI NUEVO 256GB",
+    "original_name": "IPAD PRO M5 13❞ 256GB WIFI - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$2.499.990,00",
+    "sim_type": null,
+    "storage_capacity": "256GB",
+    "price": "$5.399.990,00",
     "url": ""
   },
   {
@@ -2406,77 +2746,77 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$2.849.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 MINI SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 13 MINI 128GB DE EXH - ALL",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$1.299.999,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 13 PRO MAX SIM FISICA SEMINUEVO 256GB",
-    "original_name": "IPHONE 13 PRO MAX 256GB DE EXH - ALL",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
     "price": "$2.499.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 13 PRO SIM FISICA SEMINUEVO 512GB",
+    "original_name": "IPHONE 13 PRO 512GB DE EXH - ALL",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$1.999.990,00",
     "url": ""
   },
   {
     "normalized_name": "APPLE IPHONE 14 SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 14 128GB DE EXH SIM VIRTUAL - ALL",
+    "original_name": "IPHONE 14 128GB EXH SIM VIRTUAL - ALL",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "128GB",
-    "price": "$1.749.990,00",
+    "price": "$1.589.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 14 PRO MAX SIM VIRTUAL SEMINUEVO 256GB",
-    "original_name": "IPHONE 14 PRO MAX 256GB EXH SIM VIRTUAL - ALL",
+    "normalized_name": "APPLE IPHONE 14 PRO SIM VIRTUAL SEMINUEVO 256GB",
+    "original_name": "IPHONE 14 PRO 256GB DE EXH SIM VIRTUAL - ALL",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "256GB",
-    "price": "$3.149.990,00",
+    "price": "$2.299.990,00",
     "url": ""
   },
   {
     "normalized_name": "APPLE IPHONE 15 SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 15 128GB DE EXH PREMIUM SIM VIRTUAL - ALL",
+    "original_name": "IPHONE 15 128GB EXH SIM VIRTUAL - ALL",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "128GB",
-    "price": "$2.499.990,00",
+    "price": "$1.899.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 15 SIM VIRTUAL NUEVO 128GB",
-    "original_name": "IPHONE 15 128GB NUEVO SIM VIRTUAL - ALL",
+    "normalized_name": "APPLE IPHONE 15 SIM FISICA NUEVO 128GB",
+    "original_name": "IPHONE 15 128GB SIM FISICA NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
-    "sim_type": "SIM VIRTUAL",
+    "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$2.849.990,00",
+    "price": "$2.789.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 15 PRO SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 15 PRO 128GB EXH PREMIUM SIM VIRTUAL - ALL",
+    "normalized_name": "APPLE IPHONE 15 SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 15 256GB SIM FISICA NUEVO - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$2.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 PLUS SIM VIRTUAL SEMINUEVO 128GB",
+    "original_name": "IPHONE 15 PLUS 128GB EXH SIM VIRTUAL - ALL",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "128GB",
-    "price": "$3.099.990,00",
+    "price": "$2.299.990,00",
     "url": ""
   },
   {
@@ -2486,102 +2826,82 @@
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "128GB",
-    "price": "$2.999.990,00",
+    "price": "$2.399.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 PRO SIM VIRTUAL SEMINUEVO 256GB",
+    "original_name": "IPHONE 15 PRO 256GB EXH SIM VIRTUAL - ALL",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$2.579.990,00",
     "url": ""
   },
   {
     "normalized_name": "APPLE IPHONE 15 PRO MAX SIM VIRTUAL SEMINUEVO 256GB",
-    "original_name": "IPHONE 15 PRO MAX  256GB DE EXH SIM VIRTUAL - ALL",
+    "original_name": "IPHONE 15 PRO MAX  256GB EXH SIM VIRTUAL - ALL",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "256GB",
-    "price": "$3.699.990,00",
+    "price": "$2.999.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 / SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 16 128GB NUEVO SIM FISICA/DUAL SIM FISICA - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$3.249.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16 256GB NUEVO SIM FISICA - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$3.849.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PLUS SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 16 PLUS 128GB EXH SIM VIRTUAL - ALL",
+    "normalized_name": "APPLE IPHONE 15 PRO MAX SIM VIRTUAL SEMINUEVO 512GB",
+    "original_name": "IPHONE 15 PRO MAX  512GB EXH SIM VIRTUAL - ALL",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "128GB",
-    "price": "$3.049.990,00",
+    "storage_capacity": "512GB",
+    "price": "$3.099.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PLUS SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16 PLUS 256GB NUEVO SIM FISICA - ALL",
+    "normalized_name": "APPLE IPHONE 16 SIM FISICA NUEVO 128GB",
+    "original_name": "IPHONE 16 128GB SIM FISICA NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$5.499.990,00",
+    "storage_capacity": "128GB",
+    "price": "$3.099.990,00",
     "url": ""
   },
   {
     "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL SEMINUEVO 128GB",
-    "original_name": "IPHONE 16 PRO 128GB EXH PREMIUM SIM VIRTUAL - ALL",
+    "original_name": "IPHONE 16 PRO 128GB EXH SIM VIRTUAL - ALL",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "128GB",
-    "price": "$3.699.990,00",
+    "price": "$3.179.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL NUEVO 128GB",
-    "original_name": "IPHONE 16 PRO 128GB NUEVO SIM VIRTUAL - ALL",
+    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL SEMINUEVO 256GB",
+    "original_name": "IPHONE 16 PRO 256GB EXH SIM VIRTUAL - ALL",
     "brand": "APPLE",
-    "condition": "NUEVO",
+    "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "128GB",
-    "price": "$3.999.990,00",
+    "storage_capacity": "256GB",
+    "price": "$3.329.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL NUEVO 512GB",
-    "original_name": "IPHONE 16 PRO 512GB NUEVO SIM VIRTUAL - ALL",
+    "normalized_name": "APPLE IPHONE 16 PRO SIM VIRTUAL SEMINUEVO 512GB",
+    "original_name": "IPHONE 16 PRO 512GB EXH SIM VIRTUAL - ALL",
     "brand": "APPLE",
-    "condition": "NUEVO",
+    "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
     "storage_capacity": "512GB",
-    "price": "$5.599.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX 1TERA SIM VIRTUAL NUEVO",
-    "original_name": "IPHONE 16 PRO MAX 1TERA NUEVO SIM VIRTUAL - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "",
-    "price": "$6.549.990,00",
+    "price": "$3.499.990,00",
     "url": ""
   },
   {
     "normalized_name": "APPLE IPHONE 16 PRO MAX SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16 PRO MAX 256GB NUEVO SIM FISICA - ALL",
+    "original_name": "IPHONE 16 PRO MAX 256GB SIM FISICA NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -2590,28 +2910,18 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX SIM VIRTUAL NUEVO 256GB",
-    "original_name": "IPHONE 16 PRO MAX 256GB NUEVO SIM VIRTUAL - ALL",
+    "normalized_name": "APPLE IPHONE 16E SIM VIRTUAL SEMINUEVO 128GB",
+    "original_name": "IPHONE 16E 128GB EXH PREMIUM SIM VIRTUAL - ALL",
     "brand": "APPLE",
-    "condition": "NUEVO",
+    "condition": "SEMINUEVO",
     "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "256GB",
-    "price": "$4.699.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 16 PRO MAX SIM VIRTUAL NUEVO 512GB",
-    "original_name": "IPHONE 16 PRO MAX 512GB NUEVO SIM VIRTUAL - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": "SIM VIRTUAL",
-    "storage_capacity": "512GB",
-    "price": "$5.499.990,00",
+    "storage_capacity": "128GB",
+    "price": "$1.999.990,00",
     "url": ""
   },
   {
     "normalized_name": "APPLE IPHONE 16E SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 16E 128GB NUEVO SIM FISICA - ALL",
+    "original_name": "IPHONE 16E 128GB SIM FISICA NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -2621,7 +2931,7 @@
   },
   {
     "normalized_name": "APPLE IPHONE 16E SIM FISICA NUEVO 256GB",
-    "original_name": "IPHONE 16E 256GB NUEVO SIM FISICA - ALL",
+    "original_name": "IPHONE 16E 256GB SIM FISICA NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -2630,8 +2940,128 @@
     "url": ""
   },
   {
-    "normalized_name": "LAMPER CASE COLAB SBQ GIOCONDA NUEVO",
-    "original_name": "LAMPER CASE COLAB SBQ GIOCONDA - ALL",
+    "normalized_name": "APPLE IPHONE 17 SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17 256GB NUEVO DUAL SIM FISICA - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$3.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 256GB SIM VIRTUAL  NUEVO - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$3.899.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 AIR SIM VIRTUAL SEMINUEVO 256GB",
+    "original_name": "IPHONE 17 AIR 256GB EXH SIM VIRTUAL - ALL",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$3.249.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 AIR ACTIVADO SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 AIR 256GB NUEVO ACTIVADO - SIM VIRTUAL - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$3.499.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 AIR (PREVENTA) SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 AIR 256GB SIM VIRTUAL NUEVO (PREVENTA) - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$3.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 AIR SIM VIRTUAL NUEVO 512GB",
+    "original_name": "IPHONE 17 AIR 512GB SIM VIRTUAL NUEVO - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "512GB",
+    "price": "$5.499.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO 256GB SIM VIRTUAL NUEVO - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$5.099.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO ACTIVADO (SIN CAJA) (PREVENTA) SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO 256GB SIM VIRTUAL NUEVO ACTIVADO (SIN CAJA) (PREVENTA) - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$4.499.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO MAX SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO MAX 256GB SIM VIRTUAL NUEVO - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$5.599.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO MAX ACTIVADO (SIN CAJA) (PREVENTA) SIM VIRTUAL NUEVO 256GB",
+    "original_name": "IPHONE 17 PRO MAX 256GB SIM VIRTUAL NUEVO ACTIVADO (SIN CAJA) (PREVENTA) - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "256GB",
+    "price": "$4.949.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO MAX 2TERAS SIM VIRTUAL NUEVO",
+    "original_name": "IPHONE 17 PRO MAX 2TERAS SIM VIRTUAL NUEVO - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "",
+    "price": "$8.999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17 PRO MAX SIM VIRTUAL NUEVO 512GB",
+    "original_name": "IPHONE 17 PRO MAX 512GB SIM VIRTUAL NUEVO - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM VIRTUAL",
+    "storage_capacity": "512GB",
+    "price": "$6.799.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "LEATHER WALLET MAGSAFE NUEVO",
+    "original_name": "LEATHER WALLET MAGSAFE - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
@@ -2640,73 +3070,23 @@
     "url": ""
   },
   {
-    "normalized_name": "MAC MINI CHIP M4 NUEVO 256GB",
-    "original_name": "MAC MINI CHIP M4 256GB - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$2.999.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK AIR M1 13❞ NUEVO 256GB",
-    "original_name": "MACBOOK AIR M1 13❞ 256GB NUEVO - ALL",
+    "normalized_name": "APPLE MACBOOK PRO M5 14❞ 16 RAM NUEVO 512GB",
+    "original_name": "MACBOOK PRO M5 14❞ 512GB 16 RAM - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$3.149.990,00",
+    "storage_capacity": "512GB",
+    "price": "$6.599.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE MACBOOK AIR M2 13” NUEVO 256GB",
-    "original_name": "MACBOOK AIR M2 13” 256GB - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$4.049.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK AIR M3 13❞ NUEVO 256GB",
-    "original_name": "MACBOOK AIR M3 13❞ 256GB - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK AIR M4 13❞ NUEVO 256GB",
-    "original_name": "MACBOOK AIR M4 13❞ 256GB - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$4.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "MALETA MANO BMW ORIGINAL NUEVO",
-    "original_name": "MALETA DE MANO BMW ORIGINAL - NEGRO - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$289.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MANILLA PARA WATCH NUEVO",
-    "original_name": "MANILLA PARA APPLE WATCH - ALL",
+    "normalized_name": "APPLE MAGSAFE DUO CHARGER NUEVO",
+    "original_name": "MAGSAFE DUO CHARGER - APPLE - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$19.990,00",
+    "price": "$499.990,00",
     "url": ""
   },
   {
@@ -2716,7 +3096,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "",
-    "price": "$26.990,00",
+    "price": "$24.990,00",
     "url": ""
   },
   {
@@ -2740,23 +3120,83 @@
     "url": ""
   },
   {
-    "normalized_name": "MORRAL BMW ORIGINAL NUEVO",
-    "original_name": "MORRAL BMW ORIGINAL - NEGRO - ALL",
-    "brand": "",
+    "normalized_name": "MOTOROLA EDGE 60 5G SIM FISICA NUEVO 512GB",
+    "original_name": "MOTOROLA EDGE 60 5G 512GB NUEVO - ALL",
+    "brand": "MOTOROLA",
     "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$309.990,00",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$1.799.990,00",
     "url": ""
   },
   {
-    "normalized_name": "NOKIA 105 4G SIM FISICA NUEVO",
-    "original_name": "NOKIA 105 4G NUEVO - ALL",
-    "brand": "NOKIA",
+    "normalized_name": "MOTOROLA EDGE 60 FUSION 5G SIM FISICA NUEVO 256GB",
+    "original_name": "MOTOROLA EDGE 60 FUSION 5G 256GB NUEVO - ALL",
+    "brand": "MOTOROLA",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$899.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "MOTOROLA EDGE 60 PRO 5G SIM FISICA NUEVO 512GB",
+    "original_name": "MOTOROLA EDGE 60 PRO 5G 512GB NUEVO - ALL",
+    "brand": "MOTOROLA",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$2.299.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "MOTOROLA G06 SIM FISICA NUEVO 128GB",
+    "original_name": "MOTOROLA G06 128GB NUEVO - ALL",
+    "brand": "MOTOROLA",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$389.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "MOTOROLA G15 SIM FISICA NUEVO 256GB",
+    "original_name": "MOTOROLA G15 256GB NUEVO - ALL",
+    "brand": "MOTOROLA",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$449.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "MOTOROLA G56 5G SIM FISICA NUEVO 256GB",
+    "original_name": "MOTOROLA G56 5G 256GB NUEVO - ALL",
+    "brand": "MOTOROLA",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$749.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "MOTOROLA RAZR 60 ULTRA 5G SIM FISICA NUEVO 1TB",
+    "original_name": "MOTOROLA RAZR 60 ULTRA 5G 1TB NUEVO - ALL",
+    "brand": "MOTOROLA",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "1TB",
+    "price": "$5.599.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "NINTENDO SWITCH 2 BUNDLE CON MARIO KART 8 NUEVO",
+    "original_name": "NINTENDO SWITCH 2 BUNDLE CON MARIO KART 8 - ALL",
+    "brand": "NINTENDO",
+    "condition": "NUEVO",
+    "sim_type": null,
     "storage_capacity": "",
-    "price": "$99.990,00",
+    "price": "$2.299.990,00",
     "url": ""
   },
   {
@@ -2770,23 +3210,23 @@
     "url": ""
   },
   {
-    "normalized_name": "OPPO A20 SIM FISICA NUEVO 128GB",
-    "original_name": "OPPO A20 128GB NUEVO - ALL",
-    "brand": "OPPO",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO A60 SIM FISICA NUEVO 256GB",
-    "original_name": "OPPO A60 256GB NUEVO - ALL",
+    "normalized_name": "OPPO A5 5G SIM FISICA NUEVO 256GB",
+    "original_name": "OPPO A5 5G 256GB - ALL",
     "brand": "OPPO",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$849.990,00",
+    "price": "$999.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "OPPO A5X SIM FISICA NUEVO 128GB",
+    "original_name": "OPPO A5X 128GB NUEVO - ALL",
+    "brand": "OPPO",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "$549.990,00",
     "url": ""
   },
   {
@@ -2797,36 +3237,6 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
     "price": "$999.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO A79 5G SIM FISICA NUEVO 256GB",
-    "original_name": "OPPO A79 5G 256GB - ALL",
-    "brand": "OPPO",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$999.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO A80 5G SIM FISICA NUEVO 256GB",
-    "original_name": "OPPO A80 5G 256GB NUEVO - ALL",
-    "brand": "OPPO",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$909.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO RENO 10 SIM FISICA NUEVO 256GB",
-    "original_name": "OPPO RENO 10 256GB NUEVO - ALL",
-    "brand": "OPPO",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.799.990,00",
     "url": ""
   },
   {
@@ -2856,17 +3266,17 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$3.299.990,00",
+    "price": "$3.099.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE OPPO RENO 13F + SMARTWATCH NUEVO 512GB",
-    "original_name": "OPPO RENO 13F 5G 512GB + SMARTWATCH - ALL",
-    "brand": "APPLE",
+    "normalized_name": "OPPO RENO7 SIM FISICA NUEVO 256GB",
+    "original_name": "OPPO RENO7 256GB NUEVO - ALL",
+    "brand": "OPPO",
     "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "512GB",
-    "price": "$2.299.990,00",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$1.169.990,00",
     "url": ""
   },
   {
@@ -2881,7 +3291,7 @@
   },
   {
     "normalized_name": "BOSE PARLANTE SOUNDLINK MICRO NUEVO",
-    "original_name": "PARLANTE BOSE SOUNDLINK MICRO - ALL",
+    "original_name": "PARLANTE BOSE SOUNDLINK MICRO NUEVO - ALL",
     "brand": "BOSE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -2890,58 +3300,28 @@
     "url": ""
   },
   {
-    "normalized_name": "PARLANTE FUERZA 20 MOVISUN NUEVO",
-    "original_name": "PARLANTE FUERZA-20 MOVISUN - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$159.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "JBL PARLANTE CHARGE 5 NUEVO",
-    "original_name": "PARLANTE JBL CHARGE 5 - ALL",
+    "normalized_name": "JBL PARLANTE BOOMBOX 4 NUEVO",
+    "original_name": "PARLANTE JBL BOOMBOX 4 NUEVO - ALL",
     "brand": "JBL",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$699.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "JBL PARLANTE CLIP 4 NUEVO",
-    "original_name": "PARLANTE JBL CLIP 4 - ALL",
-    "brand": "JBL",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$209.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "JBL PARLANTE CLIP 5 NUEVO",
-    "original_name": "PARLANTE JBL CLIP 5 - ALL",
-    "brand": "JBL",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$249.990,00",
+    "price": "$1.999.990,00",
     "url": ""
   },
   {
     "normalized_name": "JBL PARLANTE FLIP 6 NUEVO",
-    "original_name": "PARLANTE JBL FLIP 6 - ALL",
+    "original_name": "PARLANTE JBL FLIP 6 NUEVO - ALL",
     "brand": "JBL",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$599.990,00",
+    "price": "$499.990,00",
     "url": ""
   },
   {
     "normalized_name": "JBL PARLANTE GO4 NUEVO",
-    "original_name": "PARLANTE JBL GO4 - ALL",
+    "original_name": "PARLANTE JBL GO4 NUEVO - ALL",
     "brand": "JBL",
     "condition": "NUEVO",
     "sim_type": null,
@@ -2951,7 +3331,7 @@
   },
   {
     "normalized_name": "JBL PARLANTE PULSE 5 NUEVO",
-    "original_name": "PARLANTE JBL PULSE 5 - ALL",
+    "original_name": "PARLANTE JBL PULSE 5 NUEVO - ALL",
     "brand": "JBL",
     "condition": "NUEVO",
     "sim_type": null,
@@ -2960,73 +3340,43 @@
     "url": ""
   },
   {
-    "normalized_name": "JBL PARLANTE XTREME 4 NUEVO",
-    "original_name": "PARLANTE JBL XTREME 4 - ALL",
-    "brand": "JBL",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.399.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "PARLANTE POWER SOLAR MOVISUN NUEVO",
-    "original_name": "PARLANTE POWER SOLAR - MOVISUN - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$69.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "PARLANTE PUMPA MOVISUN NUEVO",
-    "original_name": "PARLANTE PUMPA - MOVISUN - ALL",
-    "brand": "",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$49.990,00",
-    "url": ""
-  },
-  {
     "normalized_name": "BOSE PARLANTE S01 PRO PLUS NUEVO",
-    "original_name": "PARLANTE S01 PRO PLUS - BOSE - ALL",
+    "original_name": "PARLANTE S01 PRO PLUS - BOSE NUEVO - ALL",
     "brand": "BOSE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$3.249.990,00",
+    "price": "$3.219.990,00",
     "url": ""
   },
   {
-    "normalized_name": "PLAY STATION 5 DISCO 1TERA EDICION FORNITE NUEVO",
-    "original_name": "PLAY STATION 5 DISCO 1TERA EDICIÓN FORNITE - ALL",
+    "normalized_name": "PLAY STATION 5 DIGITAL 825GB EDICION FORTNITE NUEVO",
+    "original_name": "PLAY STATION 5 DIGITAL 825GB EDICIÓN FORTNITE - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$2.419.990,00",
+    "price": "$2.049.990,00",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI F7 PRO SIM FISICA NUEVO 512GB",
-    "original_name": "POCO F7 PRO 512GB - ALL",
-    "brand": "XIAOMI",
+    "normalized_name": "PLAY STATION 5 EDICION ESPECIAL GHOST OF YOTEI DISCO NUEVO 1TB",
+    "original_name": "PLAY STATION 5 EDICIÓN ESPECIAL GHOST OF YOTEI DISCO 1TB - ALL",
+    "brand": "",
     "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "De $2.499.990,00",
+    "sim_type": null,
+    "storage_capacity": "1TB",
+    "price": "$2.649.990,00",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI X7 5G SIM FISICA NUEVO 512GB",
-    "original_name": "POCO X7  5G 512GB - ALL",
+    "normalized_name": "XIAOMI X7 PRO 5G SIM FISICA NUEVO 256GB",
+    "original_name": "POCO X7 PRO 5G 256GB - ALL",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$1.249.990,00",
+    "storage_capacity": "256GB",
+    "price": "$1.299.990,00",
     "url": ""
   },
   {
@@ -3040,13 +3390,113 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE PROTECTOR CARGADOR 20W IPHONE NUEVO",
-    "original_name": "PROTECTOR DE CARGADOR 20W - IPHONE - ALL",
-    "brand": "APPLE",
+    "normalized_name": "PORTATIL ASUS VIVOBOOK 14” CORE I7 (X1404) SIM FISICA NUEVO 512GB",
+    "original_name": "PORTATIL ASUS VIVOBOOK 14” CORE I7 (X1404) 512GB - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$2.049.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "PORTATIL ASUS VIVOBOOK 15” (F1504V) SIM FISICA NUEVO 512GB",
+    "original_name": "PORTATIL ASUS VIVOBOOK 15” (F1504V) 512GB - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$2.099.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "PORTATIL ASUS VIVOBOOK 16” CORE I7 (F1605V) SIM FISICA NUEVO 512GB",
+    "original_name": "PORTATIL ASUS VIVOBOOK 16” CORE I7 (F1605V) 512GB - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$2.549.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK 10000 MAH SMARTBANK A+ NUEVO",
+    "original_name": "POWER BANK 10000 MAH - SMARTBANK A+ - ALL",
+    "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$19.990,00",
+    "price": "$209.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK ELITE 10.000MAH NUEVO",
+    "original_name": "POWER BANK ELITE 10.000MAH - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$234.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG POWER BANK 20.000MAH SIM FISICA NUEVO",
+    "original_name": "POWER BANK GALAXY 20.000MAH - ALL",
+    "brand": "SAMSUNG",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "",
+    "price": "$246.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK MAGNETIC 10.000MAH NUEVO",
+    "original_name": "POWER BANK MAGNETIC 10.000MAH - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$164.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK SNAP CUBE 10.000MAH NUEVO",
+    "original_name": "POWER BANK SNAP CUBE 10.000MAH - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$189.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK TRUNK 10.000MAH NUEVO",
+    "original_name": "POWER BANK TRUNK 10.000MAH - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$214.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK WIWU ROCK 20.000MAH NUEVO",
+    "original_name": "POWER BANK WIWU ROCK 20.000MAH - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$215.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "POWER BANK WIWU WI P032 BATERIA PORTATIL 10.000MAH NUEVO",
+    "original_name": "POWER BANK WIWU WI-P032 BATERÍA PORTÁTIL 10.000MAH - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$119.990,00",
     "url": ""
   },
   {
@@ -3071,67 +3521,47 @@
   },
   {
     "normalized_name": "SAMSUNG A06 SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A06 128GB - ALL",
+    "original_name": "SAMSUNG GALAXY A06 128GB NUEVO - ALL",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$399.990,00",
+    "price": "$369.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A16 SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A16 128GB NUEVO - ALL",
+    "normalized_name": "SAMSUNG A16 4 RAM SIM FISICA NUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A16 128GB 4 RAM NUEVO - ALL",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$499.990,00",
+    "price": "$434.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A16 5G SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A16 5G 128GB NUEVO - ALL",
+    "normalized_name": "SAMSUNG A17 SIM FISICA NUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A17 128GB NUEVO - ALL",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$619.990,00",
+    "price": "$599.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A26 5G SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A26 5G 256GB - ALL",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$899.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A36 5G SIM FISICA NUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A36 5G 128GB - ALL",
+    "normalized_name": "SAMSUNG A17 5G SIM FISICA NUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A17 5G 128GB NUEVO - ALL",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$999.990,00",
+    "price": "$699.990,00",
     "url": ""
   },
   {
     "normalized_name": "SAMSUNG A36 5G SIM FISICA NUEVO 256GB",
     "original_name": "SAMSUNG GALAXY A36 5G 256GB - ALL",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.549.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A55 5G SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A55 5G 256GB NUEVO - ALL",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -3146,7 +3576,17 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.899.990,00",
+    "price": "$1.599.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG BUDS CORE NUEVO",
+    "original_name": "SAMSUNG GALAXY BUDS CORE NUEVO - ALL",
+    "brand": "SAMSUNG",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$209.990,00",
     "url": ""
   },
   {
@@ -3160,53 +3600,13 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S24 FE SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S24 FE 256GB NUEVO - ALL",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$2.499.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S24 ULTRA SIM FISICA NUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S24 ULTRA 256GB NUEVO - ALL",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$3.599.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S24 ULTRA SIM FISICA NUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY S24 ULTRA 512GB NUEVO - ALL",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$3.899.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S25 ULTRA 256GB EXH - ALL",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$3.949.990,00",
-    "url": ""
-  },
-  {
     "normalized_name": "SAMSUNG S25 ULTRA SIM FISICA NUEVO 256GB",
     "original_name": "SAMSUNG GALAXY S25 ULTRA 256GB NUEVO - ALL",
     "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$4.099.990,00",
+    "price": "$3.849.990,00",
     "url": ""
   },
   {
@@ -3216,32 +3616,52 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$4.349.990,00",
+    "price": "$4.299.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SCOOTER PATINETA ELECTRICA FULLER MACHINERY NUEVO",
-    "original_name": "SCOOTER PATINETA ELECTRICA FULLER MACHINERY - ALL",
+    "normalized_name": "SAMSUNG TAB S10FE WIFI NUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY TAB S10FE WIFI 128GB - ALL",
+    "brand": "SAMSUNG",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "128GB",
+    "price": "$1.449.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG SUPER FAST WIRELESS CHARGE DUO 15W NUEVO",
+    "original_name": "SAMSUNG SUPER FAST WIRELESS CHARGE DUO 15W - ALL",
+    "brand": "SAMSUNG",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$199.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "SLIM CASE ATOMIC MAGSAFE NUEVO",
+    "original_name": "SLIM CASE ATOMIC MAGSAFE - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$1.199.990,00",
+    "price": "$89.990,00",
     "url": ""
   },
   {
-    "normalized_name": "SILICONE NEW FASHION MAGSAFE NUEVO",
-    "original_name": "SILICONE NEW FASHION MAGSAFE - ALL",
-    "brand": "",
+    "normalized_name": "APPLE SMART WATCH SW01 NUEVO",
+    "original_name": "SMART WATCH SW01 - ALL",
+    "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$39.990,00",
+    "price": "$184.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE SMARTWATCH G TIDE S1 LITE NUEVO",
-    "original_name": "SMARTWATCH G-TIDE S1 LITE - ALL",
+    "normalized_name": "APPLE SMART WATCH SW01 PRO NUEVO",
+    "original_name": "SMART WATCH SW01 PRO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -3250,8 +3670,38 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE SMARTWATCH H9 PLUS + 3 MANILLAS INTERCAMBIABLES NUEVO",
-    "original_name": "SMARTWATCH H9 PLUS + 3 MANILLAS INTERCAMBIABLES - ALL",
+    "normalized_name": "APPLE SMART WATCH SW01 ULTRA NUEVO",
+    "original_name": "SMART WATCH SW01 ULTRA - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$189.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SMART WATCH SW01 ULTRA MAX NUEVO",
+    "original_name": "SMART WATCH SW01 ULTRA MAX - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$239.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SMART WATCH SW02 NUEVO",
+    "original_name": "SMART WATCH SW02 - ALL",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$264.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE SMARTWATCH H10 PLUS NUEVO",
+    "original_name": "SMARTWATCH H10 PLUS NUEVO - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
@@ -3270,53 +3720,33 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE SMARTWATCH SK1 MOBULAA NUEVO",
-    "original_name": "SMARTWATCH SK1 - MOBULAA - ALL",
+    "normalized_name": "APPLE SMARTWATCH NOVA 46MM A+ NUEVO",
+    "original_name": "SMARTWATCH NOVA 46MM A+ - ALL",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$139.990,00",
+    "price": "$429.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE SMARTWATCH SK10 MOBULAA NUEVO",
-    "original_name": "SMARTWATCH SK10 - MOBULAA - ALL",
-    "brand": "APPLE",
+    "normalized_name": "TABLET HYUNDAI HYTAB PLUS NUEVO 128GB",
+    "original_name": "TABLET HYUNDAI HYTAB PLUS 128GB - ALL",
+    "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
-    "storage_capacity": "",
-    "price": "$159.990,00",
+    "storage_capacity": "128GB",
+    "price": "$549.990,00",
     "url": ""
   },
   {
-    "normalized_name": "APPLE SMARTWATCH SK8 MOBULAA NUEVO",
-    "original_name": "SMARTWATCH SK8 - MOBULAA - ALL",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$199.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG SUPER FAST WIRELESS CHARGE DUO / NUEVO",
-    "original_name": "SUPER FAST WIRELESS CHARGE DUO / SAMSUNG - ALL",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$299.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "TARJETA MICRO SD NIA 32GB NUEVO",
-    "original_name": "TARJETA MICRO SD NIA - 32GB - ALL",
+    "normalized_name": "UNIVERSAL PHONE POUCH KARL LAGERFELD NUEVO",
+    "original_name": "UNIVERSAL PHONE POUCH KARL LAGERFELD - ALL",
     "brand": "",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "$29.990,00",
+    "price": "$219.990,00",
     "url": ""
   },
   {
@@ -3370,18 +3800,78 @@
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI 14T PRO SIM FISICA NUEVO 512GB",
-    "original_name": "XIAOMI 14T PRO 512GB NUEVO - ALL",
+    "normalized_name": "VIDRIO PROTECTOR HD IVISTA NUEVO",
+    "original_name": "VIDRIO PROTECTOR HD IVISTA - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$29.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "VIDRIO PROTECTOR HD IVISTA MATTE NUEVO",
+    "original_name": "VIDRIO PROTECTOR HD IVISTA MATTE - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$34.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "VIDRIO TEMPLADO ANTI ESPIA IPRIVACY NUEVO",
+    "original_name": "VIDRIO TEMPLADO ANTI-ESPÍA IPRIVACY - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$49.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "VIDRIO TEMPLADO EASY CON INSTALADOR NUEVO",
+    "original_name": "VIDRIO TEMPLADO EASY CON INSTALADOR - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$34.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "WALLET UNIVERSAL PHONE STRAP GUESS NUEVO",
+    "original_name": "WALLET UNIVERSAL PHONE STRAP GUESS - ALL",
+    "brand": "",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "$219.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI 15 ULTRA SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI 15 ULTRA 512GB NUEVO - ALL",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "$2.539.990,00",
+    "price": "$4.649.990,00",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI 15 (VERSION CAMARA LEICA) SIM FISICA NUEVO 512GB",
-    "original_name": "XIAOMI 15 512GB (VERSIÓN CÁMARA LEICA) - ALL",
+    "normalized_name": "XIAOMI 15T PRO + PAD 2 SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI 15T PRO 512GB + XIAOMI REDMI PAD 2 128GB - ALL",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$3.749.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI 15T PRO CAMARA LEICA SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI 15T PRO 512GB CÁMARA LEICA NUEVO - ALL",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
@@ -3396,37 +3886,27 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$899.990,00",
+    "price": "$949.990,00",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI NOTE 14 PRO 5G SIM FISICA NUEVO 256GB",
-    "original_name": "XIAOMI NOTE 14 PRO 5G 256GB - ALL",
+    "normalized_name": "XIAOMI NOTE 14 PRO PLUS 5G SIM FISICA NUEVO 512GB",
+    "original_name": "XIAOMI NOTE 14 PRO PLUS 5G 512GB NUEVO - ALL",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "$1.499.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI 15C SIM FISICA NUEVO 256GB",
+    "original_name": "XIAOMI REDMI 15C 256GB - ALL",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$1.189.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI NOTE 14 PRO PLUS 5G SIM FISICA NUEVO 256GB",
-    "original_name": "XIAOMI NOTE 14 PRO PLUS 5G 256GB - ALL",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$1.449.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 14C SIM FISICA NUEVO 256GB",
-    "original_name": "XIAOMI REDMI 14C 256GB - ALL",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "$489.990,00",
+    "price": "$519.990,00",
     "url": ""
   },
   {
@@ -3436,37 +3916,47 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "",
-    "price": "$369.990,00",
+    "price": "$289.990,00",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI BUDS 6 ACTIVE NUEVO",
-    "original_name": "XIAOMI REDMI BUDS 6 ACTIVE - ALL",
+    "normalized_name": "XIAOMI NOTE 14 SIM FISICA NUEVO 256GB",
+    "original_name": "XIAOMI REDMI NOTE 14 256GB - ALL",
     "brand": "XIAOMI",
     "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$94.990,00",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$649.990,00",
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI NOTE 14 SIM FISICA NUEVO 128GB",
-    "original_name": "XIAOMI REDMI NOTE 14 128GB - ALL",
+    "normalized_name": "XIAOMI NOTE 15 PRO 4G SIM FISICA NUEVO 256GB",
+    "original_name": "XIAOMI REDMI NOTE 15 PRO 4G 256GB NUEVO - ALL",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$1.049.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 15 PRO 5G SIM FISICA NUEVO 256GB",
+    "original_name": "XIAOMI REDMI NOTE 15 PRO 5G 256GB NUEVO - ALL",
+    "brand": "XIAOMI",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "$1.199.990,00",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI PAD 2 NUEVA SIM FISICA NUEVO 128GB",
+    "original_name": "XIAOMI REDMI PAD 2 128GB NUEVA - ALL",
     "brand": "XIAOMI",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$599.990,00",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI PAD SE 8.7\" SIM FISICA NUEVO 128GB",
-    "original_name": "XIAOMI REDMI PAD SE 8.7\"  128GB - ALL",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "$449.990,00",
+    "price": "$399.990,00",
     "url": ""
   }
 ]

@@ -24,7 +24,7 @@ try:
     from connect_microsoft import subir_archivos_normalizados
     SHAREPOINT_DISPONIBLE = True
 except ImportError:
-    print("⚠️ Módulo de SharePoint no disponible. Se omitirá la subida.")
+    print("ADVERTENCIA: Modulo de SharePoint no disponible. Se omitira la subida.")
     SHAREPOINT_DISPONIBLE = False
 
 def ejecutar_spider(spider_name):
@@ -41,20 +41,20 @@ def ejecutar_spider(spider_name):
         print(f"🕷️ Ejecutando spider: {spider_name}")
         resultado = subprocess.run(comando, shell=True, capture_output=True, text=True, cwd="price_comparison")
         if resultado.returncode == 0:
-            print(f"✅ Spider {spider_name} ejecutado exitosamente")
+            print(f"[OK] Spider {spider_name} ejecutado exitosamente")
             return True
         else:
-            print(f"❌ Error al ejecutar spider {spider_name}:")
+            print(f"[ERROR] Error al ejecutar spider {spider_name}:")
             print(resultado.stderr)
             return False
     except Exception as e:
-        print(f"❌ Error inesperado al ejecutar spider {spider_name}: {str(e)}")
+        print(f"[ERROR] Error inesperado al ejecutar spider {spider_name}: {str(e)}")
         return False
 
 def normalizar_datos():
     """Normaliza todos los datos después del scraping"""
     try:
-        print("\n🔧 Iniciando normalización de datos...")
+        print("\n[INFO] Iniciando normalizacion de datos...")
         normalizer = DataNormalizer()
         
         # Configuración de archivos
@@ -74,12 +74,12 @@ def normalizar_datos():
                 count = normalizer.normalize_store_data(input_file, output_file)
                 total_products += count
             else:
-                print(f"⚠️ Archivo no encontrado: {input_file}")
+                print(f"[ADVERTENCIA] Archivo no encontrado: {input_file}")
         
-        print(f"✅ Normalización completada! Total: {total_products} productos")
+        print(f"[OK] Normalizacion completada! Total: {total_products} productos")
         return True, total_products
     except Exception as e:
-        print(f"❌ Error durante la normalización: {str(e)}")
+        print(f"[ERROR] Error durante la normalizacion: {str(e)}")
         return False, 0
 
 def mostrar_estadisticas():
@@ -88,12 +88,12 @@ def mostrar_estadisticas():
         carpeta_normalized = "price_comparison/results_normalized"
         
         if not os.path.exists(carpeta_normalized):
-            print("⚠️ No se encontró carpeta de archivos normalizados")
+            print("[ADVERTENCIA] No se encontro carpeta de archivos normalizados")
             return
         
         archivos_normalizados = [f for f in os.listdir(carpeta_normalized) if f.endswith('_normalized.json')]
         
-        print(f"\n📊 ESTADÍSTICAS DETALLADAS:")
+        print(f"\n[ESTADISTICAS DETALLADAS]")
         print("=" * 70)
         
         total_productos = 0
@@ -115,11 +115,11 @@ def mostrar_estadisticas():
                     # Mostrar ejemplo del primer producto
                     if data:
                         ejemplo = data[0]
-                        print(f"   💡 Ejemplo: {ejemplo['name'][:65]}")
-                        print(f"   💰 Precio:  {ejemplo['price']}")
+                        print(f"   Ejemplo: {ejemplo['name'][:65]}")
+                        print(f"   Precio:  {ejemplo['price']}")
                         print()
             except Exception as e:
-                print(f"❌ {tienda}: Error leyendo archivo - {str(e)}")
+                print(f"[ERROR] {tienda}: Error leyendo archivo - {str(e)}")
         
         print("=" * 70)
         print(f"🎯 TOTAL GENERAL: {total_productos:>6} productos normalizados")
@@ -136,14 +136,14 @@ def mostrar_estadisticas():
         return total_productos
         
     except Exception as e:
-        print(f"❌ Error mostrando estadísticas: {str(e)}")
+        print(f"[ERROR] Error mostrando estadisticas: {str(e)}")
         return 0
 
 def verificar_archivos_entrada():
     """Verifica que existan los archivos de entrada necesarios"""
     carpeta_scrap = "price_comparison/results_scrap"
     if not os.path.exists(carpeta_scrap):
-        print(f"❌ Carpeta no encontrada: {carpeta_scrap}")
+        print(f"[ERROR] Carpeta no encontrada: {carpeta_scrap}")
         return False
     
     archivos_requeridos = ['clevercel.json', 'itech.json', 'phoneelectric.json', 'tooho.json', 'celudmovil.json']
@@ -154,16 +154,16 @@ def verificar_archivos_entrada():
         if os.path.exists(ruta_archivo):
             archivos_encontrados.append(archivo)
         else:
-            print(f"⚠️ Archivo no encontrado: {archivo}")
+            print(f"[ADVERTENCIA] Archivo no encontrado: {archivo}")
     
-    print(f"📁 Archivos encontrados: {len(archivos_encontrados)}/{len(archivos_requeridos)}")
+    print(f"[INFO] Archivos encontrados: {len(archivos_encontrados)}/{len(archivos_requeridos)}")
     return len(archivos_encontrados) > 0
 
 def main():
     """Función principal que ejecuta todo el proceso"""
-    print("🚀 INICIANDO PROCESO COMPLETO DE WEB SCRAPING")
+    print("INICIANDO PROCESO COMPLETO DE WEB SCRAPING")
     print("=" * 70)
-    print(f"🕒 Inicio: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"Inicio: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 70)
     
     # Lista de spiders a ejecutar
@@ -176,7 +176,7 @@ def main():
     ]
     
     # PASO 1: Ejecutar spiders
-    print("\n📊 PASO 1: EJECUTANDO WEB SCRAPING")
+    print("\n[PASO 1: EJECUTANDO WEB SCRAPING]")
     print("-" * 40)
     
     spiders_exitosos = 0
@@ -185,25 +185,25 @@ def main():
         if ejecutar_spider(spider):
             spiders_exitosos += 1
     
-    print(f"\n✅ Scraping completado: {spiders_exitosos}/{len(spiders)} spiders exitosos")
+    print(f"\n[OK] Scraping completado: {spiders_exitosos}/{len(spiders)} spiders exitosos")
     
     if spiders_exitosos == 0:
-        print("❌ No se pudo ejecutar ningún spider. Abortando proceso.")
+        print("[ERROR] No se pudo ejecutar ningun spider. Abortando proceso.")
         return
     
     # Verificar archivos generados
     if not verificar_archivos_entrada():
-        print("❌ No se encontraron archivos de datos. Abortando normalización.")
+        print("[ERROR] No se encontraron archivos de datos. Abortando normalizacion.")
         return
     
     # PASO 2: Normalizar datos
-    print("\n🔧 PASO 2: NORMALIZANDO DATOS")
+    print("\n[PASO 2: NORMALIZANDO DATOS]")
     print("-" * 40)
     
     exito_normalizacion, total_productos = normalizar_datos()
     
     if not exito_normalizacion:
-        print("❌ Error en la normalización. Abortando proceso.")
+        print("[ERROR] Error en la normalizacion. Abortando proceso.")
         return
     
     # Mostrar estadísticas detalladas
@@ -211,31 +211,31 @@ def main():
     
     # PASO 3: Subir a SharePoint (opcional)
     if SHAREPOINT_DISPONIBLE:
-        print("\n📤 PASO 3: SUBIENDO A SHAREPOINT")
+        print("\n[PASO 3: SUBIENDO A SHAREPOINT]")
         print("-" * 40)
         
         try:
             if subir_archivos_normalizados():
-                print("✅ Archivos subidos exitosamente a SharePoint")
+                print("[OK] Archivos subidos exitosamente a SharePoint")
             else:
-                print("⚠️ Algunos archivos no se pudieron subir a SharePoint")
+                print("[ADVERTENCIA] Algunos archivos no se pudieron subir a SharePoint")
         except Exception as e:
-            print(f"❌ Error al subir a SharePoint: {str(e)}")
-            print("💡 Los archivos están disponibles localmente en results_normalized/")
+            print(f"[ERROR] Error al subir a SharePoint: {str(e)}")
+            print("[INFO] Los archivos estan disponibles localmente en results_normalized/")
     else:
-        print("\n📁 PASO 3: ARCHIVOS LISTOS LOCALMENTE")
+        print("\n[PASO 3: ARCHIVOS LISTOS LOCALMENTE]")
         print("-" * 40)
-        print("📂 Los archivos normalizados están disponibles en:")
-        print("   📁 price_comparison/results_normalized/")
-        print("💡 Para subir a SharePoint, configurar connect_microsoft.py")
+        print("[INFO] Los archivos normalizados estan disponibles en:")
+        print("   price_comparison/results_normalized/")
+        print("[INFO] Para subir a SharePoint, configurar connect_microsoft.py")
     
     # Resumen final
     print("\n" + "=" * 70)
-    print("🎉 PROCESO COMPLETADO EXITOSAMENTE")
+    print("[PROCESO COMPLETADO EXITOSAMENTE]")
     print("=" * 70)
-    print(f"📊 Productos procesados: {total_productos}")
-    print(f"🕒 Finalizado: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("📁 Archivos disponibles en: price_comparison/results_normalized/")
+    print(f"Productos procesados: {total_productos}")
+    print(f"Finalizado: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("Archivos disponibles en: price_comparison/results_normalized/")
     print("=" * 70)
 
 if __name__ == "__main__":
