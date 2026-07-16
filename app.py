@@ -87,49 +87,59 @@ def ejecutar_proceso_completo():
             print(f"[PROCESO] {linea}")
             
             # Detectar progreso según patrones en la salida
-            if "[1/5]" in linea or "celudmovil" in linea.lower():
+            if "[1/7]" in linea or "celudmovil" in linea.lower():
                 proceso_estado["paso_actual"] = "Scraping: Celudmovil"
-                proceso_estado["progreso"] = 15
+                proceso_estado["progreso"] = 10
                 proceso_estado["mensaje"] = "Extrayendo productos de Celudmovil..."
             
-            elif "[2/5]" in linea or ("tooho" in linea.lower() and "spider" in linea.lower()):
+            elif "[2/7]" in linea or ("tooho" in linea.lower() and "spider" in linea.lower()):
                 proceso_estado["paso_actual"] = "Scraping: Tooho"
-                proceso_estado["progreso"] = 25
+                proceso_estado["progreso"] = 20
                 proceso_estado["mensaje"] = "Extrayendo productos de Tooho..."
             
-            elif "[3/5]" in linea or ("clevercel" in linea.lower() and "spider" in linea.lower()):
+            elif "[3/7]" in linea or ("clevercel" in linea.lower() and "spider" in linea.lower()):
                 proceso_estado["paso_actual"] = "Scraping: Clevercel"
-                proceso_estado["progreso"] = 35
+                proceso_estado["progreso"] = 30
                 proceso_estado["mensaje"] = "Extrayendo productos de Clevercel..."
             
-            elif "[4/5]" in linea or ("itech" in linea.lower() and "spider" in linea.lower()):
+            elif "[4/7]" in linea or ("itech" in linea.lower() and "spider" in linea.lower()):
                 proceso_estado["paso_actual"] = "Scraping: iTech"
-                proceso_estado["progreso"] = 45
+                proceso_estado["progreso"] = 40
                 proceso_estado["mensaje"] = "Extrayendo productos de iTech..."
             
-            elif "[5/5]" in linea or ("phoneelectric" in linea.lower() and "spider" in linea.lower()):
+            elif "[5/7]" in linea or ("phoneelectric" in linea.lower() and "spider" in linea.lower()):
                 proceso_estado["paso_actual"] = "Scraping: PhoneElectric"
-                proceso_estado["progreso"] = 55
+                proceso_estado["progreso"] = 50
                 proceso_estado["mensaje"] = "Extrayendo productos de PhoneElectric..."
             
-            elif "scraping completado" in linea.lower() or "5/5 spiders exitosos" in linea.lower():
-                proceso_estado["paso_actual"] = "Scraping completado"
+            elif "[6/7]" in linea or ("celetiene" in linea.lower() and "spider" in linea.lower()):
+                proceso_estado["paso_actual"] = "Scraping: Celetiene"
+                proceso_estado["progreso"] = 60
+                proceso_estado["mensaje"] = "Extrayendo productos de Celetiene..."
+            
+            elif "[7/7]" in linea or ("celucambio" in linea.lower() and "spider" in linea.lower()):
+                proceso_estado["paso_actual"] = "Scraping: Celucambio"
                 proceso_estado["progreso"] = 65
+                proceso_estado["mensaje"] = "Extrayendo productos de Celucambio..."
+            
+            elif "scraping completado" in linea.lower() or "7/7 spiders exitosos" in linea.lower():
+                proceso_estado["paso_actual"] = "Scraping completado"
+                proceso_estado["progreso"] = 70
                 proceso_estado["mensaje"] = "Scraping completado exitosamente"
             
             elif "paso 2" in linea.lower() or "normalizando" in linea.lower():
                 proceso_estado["paso_actual"] = "Normalizando datos"
-                proceso_estado["progreso"] = 70
+                proceso_estado["progreso"] = 75
                 proceso_estado["mensaje"] = "Normalizando y limpiando datos..."
             
             elif "normalizacion completada" in linea.lower():
                 proceso_estado["paso_actual"] = "Normalización completada"
-                proceso_estado["progreso"] = 75
+                proceso_estado["progreso"] = 80
                 proceso_estado["mensaje"] = "Datos normalizados correctamente"
             
             elif "paso 3" in linea.lower() or "subiendo" in linea.lower():
                 proceso_estado["paso_actual"] = "Subiendo a SharePoint"
-                proceso_estado["progreso"] = 80
+                proceso_estado["progreso"] = 85
                 proceso_estado["mensaje"] = "Subiendo archivos a SharePoint..."
             
             elif "proceso completado" in linea.lower() or "archivos subidos" in linea.lower():

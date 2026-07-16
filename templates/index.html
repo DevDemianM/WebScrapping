@@ -4,324 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panel de Control - Web Scraping MICELU</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
-            background-color: #f5f7fa;
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
-        }
-
-        .container {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-            max-width: 1200px;
-            width: 100%;
-            overflow: hidden;
-        }
-
-        .header {
-            background: rgba(0, 0, 0, 0.85);
-            backdrop-filter: blur(10px);
-            color: white;
-            padding: 25px 40px;
-            text-align: center;
-            border-bottom: 2px solid rgba(102, 126, 234, 0.3);
-        }
-
-        .header h1 {
-            font-size: 2.2em;
-            margin-bottom: 8px;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-        }
-
-        .header p {
-            opacity: 0.85;
-            font-size: 1em;
-            color: rgba(255, 255, 255, 0.9);
-        }
-
-        .content {
-            padding: 30px 40px;
-        }
-
-        .control-panel {
-            background: rgba(248, 249, 250, 0.6);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 25px;
-            text-align: center;
-            border: 1px solid rgba(102, 126, 234, 0.1);
-            margin-bottom: 25px;
-        }
-
-        .control-panel {
-            background: rgba(248, 249, 250, 0.6);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 25px;
-            text-align: center;
-            border: 1px solid rgba(102, 126, 234, 0.1);
-        }
-
-        .btn-ejecutar {
-            background: rgba(0, 0, 0, 0.85);
-            color: white;
-            border: 2px solid rgba(102, 126, 234, 0.5);
-            padding: 20px 50px;
-            font-size: 1.2em;
-            font-weight: bold;
-            border-radius: 50px;
-            cursor: pointer;
-            transition: all 0.3s ease;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .btn-ejecutar:hover:not(:disabled) {
-            transform: translateY(-3px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
-            border-color: rgba(102, 126, 234, 0.8);
-            background: rgba(0, 0, 0, 0.95);
-        }
-
-        .btn-ejecutar:active:not(:disabled) {
-            transform: translateY(-1px);
-        }
-
-        .btn-ejecutar:disabled {
-            opacity: 0.6;
-            cursor: not-allowed;
-        }
-
-        .btn-ejecutar .ripple {
-            position: absolute;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.6);
-            transform: scale(0);
-            animation: ripple 0.6s ease-out;
-        }
-
-        @keyframes ripple {
-            to {
-                transform: scale(4);
-                opacity: 0;
-            }
-        }
-
-        .status-panel {
-            background: rgba(248, 249, 250, 0.6);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 25px;
-            display: none;
-            border: 1px solid rgba(102, 126, 234, 0.1);
-            margin-bottom: 25px;
-        }
-
-        .status-panel.active {
-            display: block;
-        }
-
-        .status-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-
-        .status-badge {
-            padding: 8px 20px;
-            border-radius: 20px;
-            font-weight: bold;
-            font-size: 0.9em;
-        }
-
-        .status-badge.ejecutando {
-            background: #ffc107;
-            color: #000;
-        }
-
-        .status-badge.completado {
-            background: #28a745;
-            color: white;
-        }
-
-        .status-badge.error {
-            background: #dc3545;
-            color: white;
-        }
-
-        .progress-container {
-            background: #e9ecef;
-            border-radius: 10px;
-            height: 30px;
-            overflow: hidden;
-            margin-bottom: 15px;
-        }
-
-        .progress-bar {
-            background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
-            height: 100%;
-            transition: width 0.5s ease;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
-            font-weight: bold;
-        }
-
-        .status-message {
-            padding: 15px;
-            background: white;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
-            margin-bottom: 15px;
-        }
-
-        .info-section {
-            background: rgba(248, 249, 250, 0.6);
-            backdrop-filter: blur(10px);
-            border-radius: 15px;
-            padding: 25px;
-            border: 1px solid rgba(102, 126, 234, 0.1);
-        }
-
-        .info-section h2 {
-            color: #667eea;
-            margin-bottom: 20px;
-            font-size: 1.5em;
-        }
-
-        .info-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 15px;
-            margin-bottom: 20px;
-        }
-
-        @media (max-width: 768px) {
-            .info-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .info-card {
-            background: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(5px);
-            padding: 18px;
-            border-radius: 10px;
-            border-left: 4px solid #667eea;
-        }
-
-        .info-card h3 {
-            color: #667eea;
-            margin-bottom: 10px;
-            font-size: 1.1em;
-        }
-
-        .info-card p {
-            color: #6c757d;
-            line-height: 1.6;
-        }
-
-        .step-list {
-            list-style: none;
-            counter-reset: step-counter;
-        }
-
-        .step-list li {
-            counter-increment: step-counter;
-            padding: 12px 15px 12px 55px;
-            margin-bottom: 8px;
-            background: rgba(255, 255, 255, 0.8);
-            backdrop-filter: blur(5px);
-            border-radius: 10px;
-            position: relative;
-        }
-
-        .step-list li::before {
-            content: counter(step-counter);
-            position: absolute;
-            left: 12px;
-            top: 50%;
-            transform: translateY(-50%);
-            background: linear-gradient(135deg, rgba(102, 126, 234, 0.9) 0%, rgba(118, 75, 162, 0.9) 100%);
-            color: white;
-            width: 32px;
-            height: 32px;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: bold;
-            font-size: 0.9em;
-        }
-
-        .highlight {
-            background: rgba(255, 243, 205, 0.6);
-            backdrop-filter: blur(5px);
-            padding: 15px;
-            border-radius: 10px;
-            border-left: 4px solid #ffc107;
-            margin-top: 15px;
-        }
-
-        .highlight strong {
-            color: #856404;
-        }
-
-        @keyframes pulse {
-            0%, 100% {
-                opacity: 1;
-            }
-            50% {
-                opacity: 0.5;
-            }
-        }
-
-        .loading {
-            animation: pulse 1.5s ease-in-out infinite;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Precios de la Competencia</h1>
-            <p>Sistema de Web Scraping y Comparación de Precios - MICELU</p>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <div class="sidebar-logo">M</div>
+            <div class="sidebar-brand">
+                <span class="sidebar-brand-name">Micelu</span>
+                <span class="sidebar-brand-domain">.co</span>
+            </div>
         </div>
+        <div class="sidebar-menu">
+            <div class="sidebar-menu-item active">
+                <i class="fa-solid fa-chart-line"></i> Precios
+            </div>
+        </div>
+    </div>
 
-        <div class="content">
-            <!-- Panel de Control -->
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="status-indicator">
+            <span class="status-dot"></span>
+            <span>Sistema activo</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <div class="container">
+            <!-- Page Header -->
+            <div class="page-header">
+                <div class="page-subtitle">—COMPARACIÓN DE PRECIOS</div>
+                <h1 class="page-title">Precios de la Competencia</h1>
+                <p class="page-description">Monitoreo automático de precios frente a tiendas competidoras.</p>
+            </div>
+
+            <!-- Control Panel -->
             <div class="control-panel">
-                <h2 style="margin-bottom: 18px; color: #667eea; font-size: 1.3em;">Control de Ejecución</h2>
+                <div class="control-panel-header">Control de ejecución</div>
+                <h2 class="control-panel-title">Proceso de scraping y actualización</h2>
+                <br>
                 <button id="btnEjecutar" class="btn-ejecutar" onclick="ejecutarProceso()">
-                    ▶️ Ejecutar Proceso Completo
+                    ▶ Ejecutar proceso completo
                 </button>
-                <p style="margin-top: 12px; color: #6c757d; font-size: 0.9em;">
-                    Haz clic para iniciar el scraping, normalización y actualización del Excel
-                </p>
             </div>
 
             <!-- Panel de Estado -->
             <div id="statusPanel" class="status-panel">
                 <div class="status-header">
-                    <h3 style="color: #667eea; font-size: 1.3em;">Estado del Proceso</h3>
+                    <h3>Estado del Proceso</h3>
                     <span id="statusBadge" class="status-badge ejecutando">Ejecutando</span>
                 </div>
                 
@@ -333,68 +67,10 @@
                     Iniciando proceso...
                 </div>
                 
-                <div id="statusDetails" style="font-size: 0.85em; color: #6c757d;">
-                    <p style="margin: 5px 0;"><strong>Paso actual:</strong> <span id="pasoActual">-</span></p>
-                    <p style="margin: 5px 0;"><strong>Inicio:</strong> <span id="horaInicio">-</span></p>
-                    <p style="margin: 5px 0;"><strong>Fin:</strong> <span id="horaFin">-</span></p>
-                </div>
-            </div>
-
-            <!-- Información del Proceso -->
-            <div class="info-section">
-                <h2 style="font-size: 1.5em; margin-bottom: 18px;">📋 ¿Cómo Funciona el Proceso?</h2>
-                
-                <div class="info-grid">
-                    <div class="info-card">
-                        <h3 style="font-size: 1.05em; margin-bottom: 8px;">🕷️ Paso 1: Web Scraping</h3>
-                        <p style="font-size: 0.9em; line-height: 1.5;">Extrae precios de 5 tiendas online: Celudmovil, Clevercel, iTech, PhoneElectric y Tooho.</p>
-                    </div>
-                    
-                    <div class="info-card">
-                        <h3 style="font-size: 1.05em; margin-bottom: 8px;">🔧 Paso 2: Normalización</h3>
-                        <p style="font-size: 0.9em; line-height: 1.5;">Limpia y estandariza los datos, filtrando solo productos NUEVOS y SEMINUEVOS.</p>
-                    </div>
-                    
-                    <div class="info-card">
-                        <h3 style="font-size: 1.05em; margin-bottom: 8px;">☁️ Paso 3: Subida a SharePoint</h3>
-                        <p style="font-size: 0.9em; line-height: 1.5;">Sube los archivos normalizados a SharePoint, sobrescribiendo los anteriores.</p>
-                    </div>
-                    
-                    <div class="info-card">
-                        <h3 style="font-size: 1.05em; margin-bottom: 8px;">📊 Paso 4: Generación de Excel</h3>
-                        <p style="font-size: 0.9em; line-height: 1.5;">n8n procesa los datos y genera el Excel de comparación de precios.</p>
-                    </div>
-                </div>
-
-                <h3 style="color: #667eea; margin-top: 25px; margin-bottom: 12px; font-size: 1.2em;">Flujo Detallado</h3>
-                <ol class="step-list">
-                    <li>
-                        <strong style="font-size: 0.95em;">Scraping de Tiendas</strong><br>
-                        <span style="font-size: 0.85em;">Se ejecutan 5 spiders de Scrapy que extraen productos de cada tienda (~4-5 min)</span>
-                    </li>
-                    <li>
-                        <strong style="font-size: 0.95em;">Normalización de Datos</strong><br>
-                        <span style="font-size: 0.85em;">Se limpian nombres, detectan marcas, extraen especificaciones y filtran condiciones (~1-2 min)</span>
-                    </li>
-                    <li>
-                        <strong style="font-size: 0.95em;">Subida a SharePoint</strong><br>
-                        <span style="font-size: 0.85em;">Se suben 5 archivos JSON a SharePoint/results_normalized/ (~1 min)</span>
-                    </li>
-                    <li>
-                        <strong style="font-size: 0.95em;">Trigger de n8n</strong><br>
-                        <span style="font-size: 0.85em;">Se notifica a n8n para que procese los archivos y genere el Excel (~2-3 min)</span>
-                    </li>
-                    <li>
-                        <strong style="font-size: 0.95em;">Excel Actualizado</strong><br>
-                        <span style="font-size: 0.85em;">El archivo results_comparison_complete.xlsx está disponible en SharePoint</span>
-                    </li>
-                </ol>
-
-                <div class="highlight">
-                    <strong style="font-size: 0.95em;">✨ Mejora Implementada:</strong> 
-                    <span style="font-size: 0.9em;">Los archivos ahora se <strong>sobrescriben</strong> en lugar de acumularse. 
-                    Esto significa que SharePoint siempre tendrá solo los 5 archivos más recientes (uno por tienda), 
-                    evitando la acumulación de versiones antiguas y asegurando que el Excel solo contenga precios actuales.</span>
+                <div id="statusDetails">
+                    <p><strong>Paso actual:</strong> <span id="pasoActual">-</span></p>
+                    <p><strong>Inicio:</strong> <span id="horaInicio">-</span></p>
+                    <p><strong>Fin:</strong> <span id="horaFin">-</span></p>
                 </div>
             </div>
         </div>

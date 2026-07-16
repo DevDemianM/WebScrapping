@@ -89,7 +89,9 @@ def main():
         "tooho",
         "clevercel",
         "itech", 
-        "phoneelectric"
+        "phoneelectric",
+        "celetiene",
+        "celucambio"
     ]
     
     print("[INFO] 🚀 Iniciando proceso completo de scraping...")

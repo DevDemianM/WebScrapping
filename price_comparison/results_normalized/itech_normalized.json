@@ -1,12 +1,52 @@
 [
   {
+    "normalized_name": "APPLE MACBOOK NEO NUEVO 512GB",
+    "original_name": "MACBOOK NEO 512GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "512GB",
+    "price": "3,299,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE MACBOOK PRO M5 NUEVO 256GB",
+    "original_name": "MACBOOK PRO M5 256GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "256GB",
+    "price": "6,699,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 17E SIM FISICA NUEVO 256GB",
+    "original_name": "IPHONE 17E 256GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "2,699,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE MACBOOK NEO NUEVO 256GB",
+    "original_name": "MACBOOK NEO 256GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": null,
+    "storage_capacity": "256GB",
+    "price": "2,750,000",
+    "url": ""
+  },
+  {
     "normalized_name": "APPLE IPHONE 17 PRO MAX SIM FISICA NUEVO 256GB",
     "original_name": "IPHONE 17 PRO MAX 256GB - ",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "5,799,999",
+    "price": "4,899,999",
     "url": ""
   },
   {
@@ -16,7 +56,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "4,099,999",
+    "price": "3,499,999",
     "url": ""
   },
   {
@@ -26,7 +66,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "4,299,999",
+    "price": "4,099,999",
     "url": ""
   },
   {
@@ -36,7 +76,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "5,299,999",
+    "price": "4,599,999",
     "url": ""
   },
   {
@@ -56,7 +96,7 @@
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "256GB",
-    "price": "4,299,999",
+    "price": "4,499,999",
     "url": ""
   },
   {
@@ -66,7 +106,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "2,599,999",
+    "price": "2,399,999",
     "url": ""
   },
   {
@@ -96,7 +136,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "5,199,999",
+    "price": "4,599,999",
     "url": ""
   },
   {
@@ -120,43 +160,23 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 SIM FISICA NUEVO 128GB",
-    "original_name": "IPHONE 16 128GB - ",
-    "brand": "APPLE",
+    "normalized_name": "SAMSUNG S26 ULTRA SIM FISICA NUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY S26 ULTRA 512GB - ",
+    "brand": "SAMSUNG",
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "3,199,999",
+    "storage_capacity": "512GB",
+    "price": "4,799,999",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPAD 10 64GB NUEVO",
-    "original_name": "IPAD 10 64GB - ",
-    "brand": "APPLE",
+    "normalized_name": "SAMSUNG S26 ULTRA SIM FISICA NUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S26 ULTRA 256GB - ",
+    "brand": "SAMSUNG",
     "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "1,799,999",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK AIR M3 NUEVO 256GB",
-    "original_name": "MACBOOK AIR M3 256GB - ",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
+    "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "4,399,999",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK PRO M3 NUEVO",
-    "original_name": "MACBOOK PRO M3 - ",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "6,599,999",
+    "price": "4,199,999",
     "url": ""
   },
   {
@@ -166,7 +186,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "3,999,999",
+    "price": "3,699,999",
     "url": ""
   },
   {
@@ -176,7 +196,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "4,399,999",
+    "price": "4,099,999",
     "url": ""
   },
   {
@@ -186,7 +206,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "4,099,999",
+    "price": "4,399,999",
     "url": ""
   },
   {
@@ -196,7 +216,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "3,699,999",
+    "price": "3,999,999",
     "url": ""
   },
   {
@@ -237,26 +257,6 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
     "price": "1,599,999",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI F3 SIM FISICA NUEVO 128GB",
-    "original_name": "XIAOMI POCO F3 128GB - ",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "1,349,999",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI NOTE 10 PRO SIM FISICA NUEVO 128GB",
-    "original_name": "XIAOMI NOTE 10 PRO 128GB - ",
-    "brand": "XIAOMI",
-    "condition": "NUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "1,150,000",
     "url": ""
   },
   {
@@ -330,23 +330,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE WATCH SERIE 9 41MM NUEVO",
-    "original_name": "APPLE WATCH SERIE 9 41MM - ",
+    "normalized_name": "APPLE IPAD 10 64GB NUEVO",
+    "original_name": "IPAD 10 64GB - ",
     "brand": "APPLE",
     "condition": "NUEVO",
     "sim_type": null,
     "storage_capacity": "",
-    "price": "1,599,999",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH SERIE 9 45MM NUEVO",
-    "original_name": "APPLE WATCH SERIE 9 45MM - ",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "1,750,000",
+    "price": "1,799,999",
     "url": ""
   },
   {
@@ -376,7 +366,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "2,299,999",
+    "price": "2,199,999",
     "url": ""
   },
   {
@@ -397,6 +387,26 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
     "price": "2,399,999",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 SIM FISICA NUEVO 128GB",
+    "original_name": "IPHONE 15 128GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "2,750,000",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 PRO SIM FISICA NUEVO 128GB",
+    "original_name": "IPHONE 15 PRO 128GB - ",
+    "brand": "APPLE",
+    "condition": "NUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "4,299,999",
     "url": ""
   }
 ]

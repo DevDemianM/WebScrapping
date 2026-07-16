@@ -1,7 +1,57 @@
 [
   {
-    "normalized_name": "SAMSUNG S22 5G SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S22 5G - 256GB - SEMI NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG S20 FE SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S20 FE - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "574.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S20 FE SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY S20 FE - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "474.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG Z FOLD 4 SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY Z FOLD 4 (2023) - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "2.599.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG Z FOLD 4 SIM FISICA SEMINUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY Z FOLD 4 (2023) - 512GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "2.899.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG A52S SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A52S (2021) - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "699.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S20 ULTRA SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S20 ULTRA - 256GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
@@ -10,13 +60,103 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S22 5G SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY S22 5G - 128GB - SEMI NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG S20 ULTRA SIM FISICA SEMINUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY S20 ULTRA - 512GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "1.699.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S20 ULTRA SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY S20 ULTRA - 128GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "1.099.900",
+    "price": "1.149.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S23 PLUS 5G SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S23 PLUS 5G - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.899.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S23 PLUS 5G SIM FISICA SEMINUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY S23 PLUS 5G - 512GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "2.199.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG Z FLIP 4 SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY Z FLIP 4 - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.799.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG Z FLIP 4 SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY Z FLIP 4 - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "1.699.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG A51 SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A51 (2019) - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "574.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG A51 64GB SIM FISICA SEMINUEVO",
+    "original_name": "SAMSUNG GALAXY A51 (2019) - 64GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "",
+    "price": "524.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG A05 SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A05 - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "224.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG A05 64GB SIM FISICA SEMINUEVO",
+    "original_name": "SAMSUNG GALAXY A05 - 64GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "",
+    "price": "174.900",
     "url": ""
   },
   {
@@ -130,143 +270,103 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S20 PLUS SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S20 PLUS - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "MOTOROLA EDGE 40 SIM FISICA SEMINUEVO 256GB",
+    "original_name": "MOTOROLA MOTO EDGE 40 - 256GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "MOTOROLA",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "$599.900",
+    "price": "1.049.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S20 PLUS SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY S20 PLUS - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "MOTOROLA EDGE 40 SIM FISICA SEMINUEVO 128GB",
+    "original_name": "MOTOROLA MOTO EDGE 40 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "MOTOROLA",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "699.900",
+    "price": "949.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S22 PLUS 5G SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S22 PLUS 5G - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "HUAWEI X8B SIM FISICA SEMINUEVO 256GB",
+    "original_name": "HONOR X8B - 256GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "HUAWEI",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "1.499.900",
+    "price": "899.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S22 PLUS 5G SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY S22 PLUS 5G - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "HUAWEI X8B SIM FISICA SEMINUEVO 512GB",
+    "original_name": "HONOR X8B - 512GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "HUAWEI",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "1.149.900",
+    "storage_capacity": "512GB",
+    "price": "$799.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S21 5G SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S21 5G - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "924.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S21 5G SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY S21 5G - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "824.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S21 FE 5G SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S21 FE 5G - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "MOTOROLA EDGE 30 SIM FISICA SEMINUEVO 256GB",
+    "original_name": "MOTOROLA MOTO EDGE 30 - 256GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "MOTOROLA",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "824.900",
+    "price": "974.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S21 FE 5G SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY S21 FE 5G - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "MOTOROLA EDGE 30 SIM FISICA SEMINUEVO 128GB",
+    "original_name": "MOTOROLA MOTO EDGE 30 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "MOTOROLA",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
+    "price": "874.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI X3 PRO SIM FISICA SEMINUEVO 256GB",
+    "original_name": "XIAOMI POCO X3 PRO - 256GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "XIAOMI",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
     "price": "724.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG Z FOLD 4 SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY Z FOLD 4 (2023) - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "2.599.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG Z FOLD 4 SIM FISICA SEMINUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY Z FOLD 4 (2023) - 512GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "2.899.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A52S SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A52S (2021) - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "XIAOMI X3 PRO SIM FISICA SEMINUEVO 128GB",
+    "original_name": "XIAOMI POCO X3 PRO - 128GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "XIAOMI",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "699.900",
+    "price": "674.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S20 ULTRA SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S20 ULTRA - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "XIAOMI 11 LITE 5G NE SIM FISICA SEMINUEVO 256GB",
+    "original_name": "XIAOMI 11 LITE 5G NE - 256GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "XIAOMI",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "1.149.900",
+    "price": "799.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S20 ULTRA SIM FISICA SEMINUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY S20 ULTRA - 512GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "1.699.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S20 ULTRA SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY S20 ULTRA - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
+    "normalized_name": "XIAOMI 11 LITE 5G NE SIM FISICA SEMINUEVO 128GB",
+    "original_name": "XIAOMI 11 LITE 5G NE - 128GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "XIAOMI",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "1.149.900",
+    "price": "709.900",
     "url": ""
   },
   {
@@ -280,16 +380,6 @@
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI NOTE 10 PRO 64GB SIM FISICA SEMINUEVO",
-    "original_name": "XIAOMI REDMI NOTE 10 PRO - 64GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "699.900",
-    "url": ""
-  },
-  {
     "normalized_name": "XIAOMI NOTE 10 PRO SIM FISICA SEMINUEVO 128GB",
     "original_name": "XIAOMI REDMI NOTE 10 PRO - 128GB - SEMI NUEVO - OTRAS-MARCAS",
     "brand": "XIAOMI",
@@ -297,6 +387,16 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
     "price": "799.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 10 PRO 64GB SIM FISICA SEMINUEVO",
+    "original_name": "XIAOMI REDMI NOTE 10 PRO - 64GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "XIAOMI",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "",
+    "price": "699.900",
     "url": ""
   },
   {
@@ -340,13 +440,13 @@
     "url": ""
   },
   {
-    "normalized_name": "MOTOROLA G85 5G SIM FISICA SEMINUEVO 256GB",
-    "original_name": "MOTOROLA MOTO G85 5G - 256GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
+    "normalized_name": "XIAOMI NOTE 11S SIM FISICA SEMINUEVO 128GB",
+    "original_name": "XIAOMI REDMI NOTE 11S - 128GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "XIAOMI",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "629.900",
+    "storage_capacity": "128GB",
+    "price": "624.900",
     "url": ""
   },
   {
@@ -357,16 +457,6 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "",
     "price": "574.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI NOTE 11S SIM FISICA SEMINUEVO 128GB",
-    "original_name": "XIAOMI REDMI NOTE 11S - 128GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "624.900",
     "url": ""
   },
   {
@@ -390,113 +480,33 @@
     "url": ""
   },
   {
-    "normalized_name": "VIVO Y35 SIM FISICA SEMINUEVO 256GB",
-    "original_name": "VIVO Y35 - 256GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "VIVO",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "599.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "VIVO Y35 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "VIVO Y35 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "VIVO",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "549.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A36 5G SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A36 5G (2025) - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "999.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A36 5G SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A36 5G (2025) - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "899.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG TAB S9 ULTRA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY TAB S9 ULTRA - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "2.999.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S23 FE + A05 CREAM SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S23 FE 256GB  - SEMI NUEVO + SAMSUNG GALAXY A05 64GB - COMO NUEVO - CREAM - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "1.499.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S23 FE + A05 GRAY SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S23 FE 256GB  - SEMI NUEVO + SAMSUNG GALAXY A05 64GB - COMO NUEVO - GRAY - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "1.499.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S23 FE + A05 PURPLE SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S23 FE 256GB  - SEMI NUEVO + SAMSUNG GALAXY A05 64GB - COMO NUEVO - PURPLE - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "1.499.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 12 MINI 64GB SIM FISICA SEMINUEVO",
-    "original_name": "IPHONE 12 MINI - 64GB - SEMI NUEVO - IPHONE",
+    "normalized_name": "APPLE IPHONE SE 3RA GEN SIM FISICA SEMINUEVO 128GB",
+    "original_name": "IPHONE SE 3RA GEN - 128GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "",
+    "storage_capacity": "128GB",
+    "price": "949.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE SE 3RA GEN SIM FISICA SEMINUEVO 256GB",
+    "original_name": "IPHONE SE 3RA GEN - 256GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
     "price": "1.024.900",
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 12 MINI SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 12 MINI - 128GB - SEMI NUEVO - IPHONE",
+    "normalized_name": "APPLE IPHONE SE 3RA GEN 64GB SIM FISICA SEMINUEVO",
+    "original_name": "IPHONE SE 3RA GEN - 64GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "1.124.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPHONE 12 MINI SIM FISICA SEMINUEVO 256GB",
-    "original_name": "IPHONE 12 MINI - 256GB - SEMI NUEVO - IPHONE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "1.149.900",
+    "storage_capacity": "",
+    "price": "874.900",
     "url": ""
   },
   {
@@ -517,16 +527,6 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
     "price": "1.799.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 14T SIM FISICA SEMINUEVO 512GB",
-    "original_name": "XIAOMI 14T - 512GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "1.649.900",
     "url": ""
   },
   {
@@ -680,36 +680,6 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG TAB S7 FE 64GB SEMINUEVO",
-    "original_name": "SAMSUNG GALAXY TAB S7 FE - 64GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "1.499.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG TAB S7 FE SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY TAB S7 FE - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": null,
-    "storage_capacity": "128GB",
-    "price": "1.599.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG TAB S7 FE SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY TAB S7 FE - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$1.499.900",
-    "url": ""
-  },
-  {
     "normalized_name": "OPPO RENO 11 SIM FISICA SEMINUEVO 256GB",
     "original_name": "OPPO RENO 11 - 256GB - SEMI NUEVO - OTRAS-MARCAS",
     "brand": "OPPO",
@@ -780,6 +750,36 @@
     "url": ""
   },
   {
+    "normalized_name": "SAMSUNG TAB S7 FE SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY TAB S7 FE - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": null,
+    "storage_capacity": "128GB",
+    "price": "1.599.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG TAB S7 FE SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY TAB S7 FE - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": null,
+    "storage_capacity": "256GB",
+    "price": "$1.499.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG TAB S7 FE 64GB SEMINUEVO",
+    "original_name": "SAMSUNG GALAXY TAB S7 FE - 64GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "1.499.900",
+    "url": ""
+  },
+  {
     "normalized_name": "VIVO V30 SIM FISICA SEMINUEVO 256GB",
     "original_name": "VIVO V30 - 256GB - SEMI NUEVO - OTRAS-MARCAS",
     "brand": "VIVO",
@@ -820,103 +820,33 @@
     "url": ""
   },
   {
-    "normalized_name": "MOTOROLA EDGE 40 SIM FISICA SEMINUEVO 256GB",
-    "original_name": "MOTOROLA MOTO EDGE 40 - 256GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "1.049.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "MOTOROLA EDGE 40 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "MOTOROLA MOTO EDGE 40 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
+    "normalized_name": "APPLE IPHONE 12 MINI SIM FISICA SEMINUEVO 128GB",
+    "original_name": "IPHONE 12 MINI - 128GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "949.900",
+    "price": "1.124.900",
     "url": ""
   },
   {
-    "normalized_name": "HUAWEI X8B SIM FISICA SEMINUEVO 256GB",
-    "original_name": "HONOR X8B - 256GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "HUAWEI",
+    "normalized_name": "APPLE IPHONE 12 MINI SIM FISICA SEMINUEVO 256GB",
+    "original_name": "IPHONE 12 MINI - 256GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "899.900",
+    "price": "1.149.900",
     "url": ""
   },
   {
-    "normalized_name": "HUAWEI X8B SIM FISICA SEMINUEVO 512GB",
-    "original_name": "HONOR X8B - 512GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "HUAWEI",
+    "normalized_name": "APPLE IPHONE 12 MINI 64GB SIM FISICA SEMINUEVO",
+    "original_name": "IPHONE 12 MINI - 64GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "$799.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "MOTOROLA EDGE 30 SIM FISICA SEMINUEVO 256GB",
-    "original_name": "MOTOROLA MOTO EDGE 30 - 256GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "974.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "MOTOROLA EDGE 30 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "MOTOROLA MOTO EDGE 30 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "874.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 11 LITE 5G NE SIM FISICA SEMINUEVO 256GB",
-    "original_name": "XIAOMI 11 LITE 5G NE - 256GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "799.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 11 LITE 5G NE SIM FISICA SEMINUEVO 128GB",
-    "original_name": "XIAOMI 11 LITE 5G NE - 128GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "709.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI X3 PRO SIM FISICA SEMINUEVO 256GB",
-    "original_name": "XIAOMI POCO X3 PRO - 256GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "724.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI X3 PRO SIM FISICA SEMINUEVO 128GB",
-    "original_name": "XIAOMI POCO X3 PRO - 128GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "674.900",
+    "storage_capacity": "",
+    "price": "1.024.900",
     "url": ""
   },
   {
@@ -980,13 +910,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 11 PRO MAX 64GB SIM FISICA SEMINUEVO",
-    "original_name": "IPHONE 11 PRO MAX - 64GB - SEMI NUEVO - IPHONE",
+    "normalized_name": "APPLE IPHONE 11 PRO MAX SIM FISICA SEMINUEVO 256GB",
+    "original_name": "IPHONE 11 PRO MAX - 256GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "1.499.900",
+    "storage_capacity": "256GB",
+    "price": "1.699.900",
     "url": ""
   },
   {
@@ -1000,13 +930,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 11 PRO MAX SIM FISICA SEMINUEVO 256GB",
-    "original_name": "IPHONE 11 PRO MAX - 256GB - SEMI NUEVO - IPHONE",
+    "normalized_name": "APPLE IPHONE 11 PRO MAX 64GB SIM FISICA SEMINUEVO",
+    "original_name": "IPHONE 11 PRO MAX - 64GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "1.699.900",
+    "storage_capacity": "",
+    "price": "1.499.900",
     "url": ""
   },
   {
@@ -1040,16 +970,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 11 64GB SIM FISICA SEMINUEVO",
-    "original_name": "IPHONE 11 - 64GB - SEMI NUEVO - IPHONE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "924.900",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE IPHONE 11 SIM FISICA SEMINUEVO 128GB",
     "original_name": "IPHONE 11 - 128GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
@@ -1067,6 +987,56 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
     "price": "1.124.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 11 64GB SIM FISICA SEMINUEVO",
+    "original_name": "IPHONE 11 - 64GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "",
+    "price": "924.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG TAB S9 ULTRA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY TAB S9 ULTRA - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": null,
+    "storage_capacity": "256GB",
+    "price": "2.999.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S23 FE + A05 GRAY SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S23 FE 256GB  - SEMI NUEVO + SAMSUNG GALAXY A05 64GB - COMO NUEVO - GRAY - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.499.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S23 FE + A05 CREAM SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S23 FE 256GB  - SEMI NUEVO + SAMSUNG GALAXY A05 64GB - COMO NUEVO - CREAM - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.499.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S23 FE + A05 PURPLE SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S23 FE 256GB  - SEMI NUEVO + SAMSUNG GALAXY A05 64GB - COMO NUEVO - PURPLE - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.499.900",
     "url": ""
   },
   {
@@ -1117,6 +1087,56 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "1TB",
     "price": "5.399.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S22 + A05 VIOLET SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S22 256GB - SEMI NUEVO + SAMSUNG GALAXY A05 64GB - COMO NUEVO - VIOLET - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.299.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S22 + A05 BLACK SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S22 256GB - SEMI NUEVO + SAMSUNG GALAXY A05 64GB - COMO NUEVO - BLACK - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.299.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S22 + A05 PINK SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S22 256GB - SEMI NUEVO + SAMSUNG GALAXY A05 64GB - COMO NUEVO - PINK - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.299.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG A36 5G SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY A36 5G (2025) - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "999.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG A36 5G SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A36 5G (2025) - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "899.900",
     "url": ""
   },
   {
@@ -1210,26 +1230,6 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A16 SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A16 (2025) - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "599.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A16 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A16 (2025) - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "549.900",
-    "url": ""
-  },
-  {
     "normalized_name": "SAMSUNG TAB S7 PLUS SEMINUEVO 256GB",
     "original_name": "SAMSUNG GALAXY TAB S7 PLUS - 256GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
@@ -1247,6 +1247,26 @@
     "sim_type": null,
     "storage_capacity": "128GB",
     "price": "1.899.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG Z FLIP 6 SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY Z FLIP 6 - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "2.999.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG Z FLIP 6 SIM FISICA SEMINUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY Z FLIP 6 - 512GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "512GB",
+    "price": "3.299.900",
     "url": ""
   },
   {
@@ -1280,23 +1300,13 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG Z FLIP 6 SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY Z FLIP 6 - 256GB - SEMI NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG A06 SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A06 - 128GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "2.999.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG Z FLIP 6 SIM FISICA SEMINUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY Z FLIP 6 - 512GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "512GB",
-    "price": "3.299.900",
+    "storage_capacity": "128GB",
+    "price": "349.900",
     "url": ""
   },
   {
@@ -1310,26 +1320,6 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A06 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A06 - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "349.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG TAB S6 LITE 64GB SEMINUEVO",
-    "original_name": "SAMSUNG GALAXY TAB S6 LITE - 64GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "749.900",
-    "url": ""
-  },
-  {
     "normalized_name": "SAMSUNG TAB S6 LITE SEMINUEVO 128GB",
     "original_name": "SAMSUNG GALAXY TAB S6 LITE - 128GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
@@ -1340,23 +1330,13 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A55 5G SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY A55 5G (2024) - 256GB - SEMI NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG TAB S6 LITE 64GB SEMINUEVO",
+    "original_name": "SAMSUNG GALAXY TAB S6 LITE - 64GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "1.024.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A55 5G SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A55 5G (2024) - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "949.900",
+    "sim_type": null,
+    "storage_capacity": "",
+    "price": "749.900",
     "url": ""
   },
   {
@@ -1390,6 +1370,46 @@
     "url": ""
   },
   {
+    "normalized_name": "SAMSUNG A55 5G SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY A55 5G (2024) - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.024.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG A55 5G SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY A55 5G (2024) - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "949.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "VIVO Y35 SIM FISICA SEMINUEVO 256GB",
+    "original_name": "VIVO Y35 - 256GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "VIVO",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "599.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "VIVO Y35 SIM FISICA SEMINUEVO 128GB",
+    "original_name": "VIVO Y35 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "VIVO",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "549.900",
+    "url": ""
+  },
+  {
     "normalized_name": "VIVO Y33S SIM FISICA SEMINUEVO 128GB",
     "original_name": "VIVO Y33S - 128GB - SEMI NUEVO - OTRAS-MARCAS",
     "brand": "VIVO",
@@ -1400,16 +1420,6 @@
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI NOTE 11 64GB SIM FISICA SEMINUEVO",
-    "original_name": "XIAOMI REDMI NOTE 11 - 64GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "524.900",
-    "url": ""
-  },
-  {
     "normalized_name": "XIAOMI NOTE 11 SIM FISICA SEMINUEVO 128GB",
     "original_name": "XIAOMI REDMI NOTE 11 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
     "brand": "XIAOMI",
@@ -1417,6 +1427,16 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
     "price": "574.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "XIAOMI NOTE 11 64GB SIM FISICA SEMINUEVO",
+    "original_name": "XIAOMI REDMI NOTE 11 - 64GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "XIAOMI",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "",
+    "price": "524.900",
     "url": ""
   },
   {
@@ -1460,16 +1480,6 @@
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI NOTE 9 PRO 64GB SIM FISICA SEMINUEVO",
-    "original_name": "XIAOMI REDMI NOTE 9 PRO - 64GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "524.900",
-    "url": ""
-  },
-  {
     "normalized_name": "XIAOMI NOTE 9 PRO SIM FISICA SEMINUEVO 128GB",
     "original_name": "XIAOMI REDMI NOTE 9 PRO - 128GB - SEMI NUEVO - OTRAS-MARCAS",
     "brand": "XIAOMI",
@@ -1480,23 +1490,13 @@
     "url": ""
   },
   {
-    "normalized_name": "MOTOROLA G04 64GB SIM FISICA SEMINUEVO",
-    "original_name": "MOTOROLA MOTO G04 - 64GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
+    "normalized_name": "XIAOMI NOTE 9 PRO 64GB SIM FISICA SEMINUEVO",
+    "original_name": "XIAOMI REDMI NOTE 9 PRO - 64GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "XIAOMI",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "",
-    "price": "499.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "MOTOROLA G04 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "MOTOROLA MOTO G04 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "549.900",
+    "price": "524.900",
     "url": ""
   },
   {
@@ -1507,26 +1507,6 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
     "price": "469.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO A58 SIM FISICA SEMINUEVO 256GB",
-    "original_name": "OPPO A58 - 256GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "OPPO",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "449.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "OPPO A58 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "OPPO A58 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "OPPO",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "399.900",
     "url": ""
   },
   {
@@ -1550,36 +1530,6 @@
     "url": ""
   },
   {
-    "normalized_name": "MOTOROLA G22 64GB SIM FISICA SEMINUEVO",
-    "original_name": "MOTOROLA MOTO G22 - 64GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "349.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "MOTOROLA G22 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "MOTOROLA MOTO G22 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "399.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "XIAOMI 9 64GB SIM FISICA SEMINUEVO",
-    "original_name": "XIAOMI REDMI 9 - 64GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "XIAOMI",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "349.900",
-    "url": ""
-  },
-  {
     "normalized_name": "XIAOMI 9 SIM FISICA SEMINUEVO 128GB",
     "original_name": "XIAOMI REDMI 9 - 128GB - SEMI NUEVO - OTRAS-MARCAS",
     "brand": "XIAOMI",
@@ -1600,13 +1550,13 @@
     "url": ""
   },
   {
-    "normalized_name": "XIAOMI A3 64GB SIM FISICA SEMINUEVO",
-    "original_name": "XIAOMI REDMI A3 - 64GB - SEMI NUEVO - OTRAS-MARCAS",
+    "normalized_name": "XIAOMI 9 64GB SIM FISICA SEMINUEVO",
+    "original_name": "XIAOMI REDMI 9 - 64GB - SEMI NUEVO - OTRAS-MARCAS",
     "brand": "XIAOMI",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "",
-    "price": "224.900",
+    "price": "349.900",
     "url": ""
   },
   {
@@ -1620,13 +1570,13 @@
     "url": ""
   },
   {
-    "normalized_name": "MOTOROLA E20 32GB SIM FISICA SEMINUEVO",
-    "original_name": "MOTOROLA MOTO E20 - 32GB - SEMI NUEVO - OTRAS-MARCAS",
-    "brand": "MOTOROLA",
+    "normalized_name": "XIAOMI A3 64GB SIM FISICA SEMINUEVO",
+    "original_name": "XIAOMI REDMI A3 - 64GB - SEMI NUEVO - OTRAS-MARCAS",
+    "brand": "XIAOMI",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "",
-    "price": "199.900",
+    "price": "224.900",
     "url": ""
   },
   {
@@ -1740,13 +1690,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 11 PRO 64GB SIM FISICA SEMINUEVO",
-    "original_name": "IPHONE 11 PRO - 64GB - SEMI NUEVO - IPHONE",
+    "normalized_name": "APPLE IPHONE 11 PRO SIM FISICA SEMINUEVO 256GB",
+    "original_name": "IPHONE 11 PRO - 256GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "1.149.900",
+    "storage_capacity": "256GB",
+    "price": "1.499.900",
     "url": ""
   },
   {
@@ -1760,13 +1710,13 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 11 PRO SIM FISICA SEMINUEVO 256GB",
-    "original_name": "IPHONE 11 PRO - 256GB - SEMI NUEVO - IPHONE",
+    "normalized_name": "APPLE IPHONE 11 PRO 64GB SIM FISICA SEMINUEVO",
+    "original_name": "IPHONE 11 PRO - 64GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
-    "price": "1.499.900",
+    "storage_capacity": "",
+    "price": "1.149.900",
     "url": ""
   },
   {
@@ -1800,16 +1750,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 12 64GB SIM FISICA SEMINUEVO",
-    "original_name": "IPHONE 12 - 64GB - SEMI NUEVO - IPHONE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "1.149.900",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE IPHONE 12 SIM FISICA SEMINUEVO 128GB",
     "original_name": "IPHONE 12 - 128GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
@@ -1827,6 +1767,16 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
     "price": "1.599.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 12 64GB SIM FISICA SEMINUEVO",
+    "original_name": "IPHONE 12 - 64GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "",
+    "price": "1.149.900",
     "url": ""
   },
   {
@@ -1880,16 +1830,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 13 PRO MAX SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 13 PRO MAX - 128GB - SEMI NUEVO - IPHONE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "2.499.900",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE IPHONE 13 PRO MAX SIM FISICA SEMINUEVO 1TB",
     "original_name": "IPHONE 13 PRO MAX - 1024GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
@@ -1897,6 +1837,16 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "1TB",
     "price": "3.299.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 13 PRO MAX SIM FISICA SEMINUEVO 128GB",
+    "original_name": "IPHONE 13 PRO MAX - 128GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "2.499.900",
     "url": ""
   },
   {
@@ -1920,16 +1870,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 13 PRO SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 13 PRO - 128GB - SEMI NUEVO - IPHONE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "2.299.900",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE IPHONE 13 PRO SIM FISICA SEMINUEVO 1TB",
     "original_name": "IPHONE 13 PRO - 1024GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
@@ -1937,6 +1877,16 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "1TB",
     "price": "3.099.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 13 PRO SIM FISICA SEMINUEVO 128GB",
+    "original_name": "IPHONE 13 PRO - 128GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "2.299.900",
     "url": ""
   },
   {
@@ -1960,16 +1910,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 14 PRO SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 14 PRO - 128GB - SEMI NUEVO - IPHONE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "2.599.900",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE IPHONE 14 PRO SIM FISICA SEMINUEVO 1TB",
     "original_name": "IPHONE 14 PRO - 1024GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
@@ -1977,6 +1917,16 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "1TB",
     "price": "3.499.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 14 PRO SIM FISICA SEMINUEVO 128GB",
+    "original_name": "IPHONE 14 PRO - 128GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "2.599.900",
     "url": ""
   },
   {
@@ -2150,16 +2100,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 16 PRO SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 16 PRO - 128GB - SEMI NUEVO - IPHONE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "3.599.900",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE IPHONE 16 PRO SIM FISICA SEMINUEVO 1TB",
     "original_name": "IPHONE 16 PRO - 1024GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
@@ -2167,6 +2107,16 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "1TB",
     "price": "4.799.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 16 PRO SIM FISICA SEMINUEVO 128GB",
+    "original_name": "IPHONE 16 PRO - 128GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "3.599.900",
     "url": ""
   },
   {
@@ -2250,16 +2200,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 14 PRO MAX SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 14 PRO MAX - 128GB - SEMI NUEVO - IPHONE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "2.899.900",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE IPHONE 14 PRO MAX SIM FISICA SEMINUEVO 1TB",
     "original_name": "IPHONE 14 PRO MAX - 1024GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
@@ -2267,6 +2207,16 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "1TB",
     "price": "3.799.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 14 PRO MAX SIM FISICA SEMINUEVO 128GB",
+    "original_name": "IPHONE 14 PRO MAX - 128GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "2.899.900",
     "url": ""
   },
   {
@@ -2290,16 +2240,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE IPHONE 15 PRO SIM FISICA SEMINUEVO 128GB",
-    "original_name": "IPHONE 15 PRO - 128GB - SEMI NUEVO - IPHONE",
-    "brand": "APPLE",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "3.199.900",
-    "url": ""
-  },
-  {
     "normalized_name": "APPLE IPHONE 15 PRO SIM FISICA SEMINUEVO 1TB",
     "original_name": "IPHONE 15 PRO - 1024GB - SEMI NUEVO - IPHONE",
     "brand": "APPLE",
@@ -2307,6 +2247,16 @@
     "sim_type": "SIM FISICA",
     "storage_capacity": "1TB",
     "price": "4.099.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "APPLE IPHONE 15 PRO SIM FISICA SEMINUEVO 128GB",
+    "original_name": "IPHONE 15 PRO - 128GB - SEMI NUEVO - IPHONE",
+    "brand": "APPLE",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "3.199.900",
     "url": ""
   },
   {
@@ -2340,93 +2290,113 @@
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S23 PLUS 5G SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY S23 PLUS 5G - 256GB - SEMI NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG S20 PLUS SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S20 PLUS - 256GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "256GB",
-    "price": "1.899.900",
+    "price": "$599.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG S23 PLUS 5G SIM FISICA SEMINUEVO 512GB",
-    "original_name": "SAMSUNG GALAXY S23 PLUS 5G - 512GB - SEMI NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG S20 PLUS SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY S20 PLUS - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "699.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S22 PLUS 5G SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S22 PLUS 5G - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.499.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S22 PLUS 5G SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY S22 PLUS 5G - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "1.149.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S21 5G SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S21 5G - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "924.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S21 5G SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY S21 5G - 128GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "128GB",
+    "price": "824.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S21 ULTRA 5G SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S21 ULTRA 5G - 256GB - SEMI NUEVO - SAMSUNG",
+    "brand": "SAMSUNG",
+    "condition": "SEMINUEVO",
+    "sim_type": "SIM FISICA",
+    "storage_capacity": "256GB",
+    "price": "1.599.900",
+    "url": ""
+  },
+  {
+    "normalized_name": "SAMSUNG S21 ULTRA 5G SIM FISICA SEMINUEVO 512GB",
+    "original_name": "SAMSUNG GALAXY S21 ULTRA 5G - 512GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "512GB",
-    "price": "2.199.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG S20 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY S20 - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "549.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG Z FLIP 4 SIM FISICA SEMINUEVO 256GB",
-    "original_name": "SAMSUNG GALAXY Z FLIP 4 - 256GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "256GB",
     "price": "1.799.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG Z FLIP 4 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY Z FLIP 4 - 128GB - SEMI NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG S21 ULTRA 5G SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY S21 ULTRA 5G - 128GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "1.699.900",
+    "price": "1.149.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A51 64GB SIM FISICA SEMINUEVO",
-    "original_name": "SAMSUNG GALAXY A51 (2019) - 64GB - SEMI NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG S22 5G SIM FISICA SEMINUEVO 256GB",
+    "original_name": "SAMSUNG GALAXY S22 5G - 256GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "524.900",
+    "storage_capacity": "256GB",
+    "price": "1.149.900",
     "url": ""
   },
   {
-    "normalized_name": "SAMSUNG A51 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A51 (2019) - 128GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "128GB",
-    "price": "574.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A05 64GB SIM FISICA SEMINUEVO",
-    "original_name": "SAMSUNG GALAXY A05 - 64GB - SEMI NUEVO - SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "SEMINUEVO",
-    "sim_type": "SIM FISICA",
-    "storage_capacity": "",
-    "price": "174.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG A05 SIM FISICA SEMINUEVO 128GB",
-    "original_name": "SAMSUNG GALAXY A05 - 128GB - SEMI NUEVO - SAMSUNG",
+    "normalized_name": "SAMSUNG S22 5G SIM FISICA SEMINUEVO 128GB",
+    "original_name": "SAMSUNG GALAXY S22 5G - 128GB - SEMI NUEVO - SAMSUNG",
     "brand": "SAMSUNG",
     "condition": "SEMINUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "224.900",
+    "price": "1.099.900",
     "url": ""
   }
 ]

@@ -63,7 +63,9 @@ def normalizar_datos():
             'itech': 'price_comparison/results_scrap/itech.json',
             'phoneelectric': 'price_comparison/results_scrap/phoneelectric.json',
             'tooho': 'price_comparison/results_scrap/tooho.json',
-            'celudmovil': 'price_comparison/results_scrap/celudmovil.json'
+            'celudmovil': 'price_comparison/results_scrap/celudmovil.json',
+            'celetiene': 'price_comparison/results_scrap/celetiene.json',
+            'celucambio': 'price_comparison/results_scrap/celucambio.json'
         }
         
         total_products = 0
@@ -115,8 +117,10 @@ def mostrar_estadisticas():
                     # Mostrar ejemplo del primer producto
                     if data:
                         ejemplo = data[0]
-                        print(f"   Ejemplo: {ejemplo['name'][:65]}")
-                        print(f"   Precio:  {ejemplo['price']}")
+                        nombre_ejemplo = ejemplo.get('normalized_name', ejemplo.get('name', 'N/A'))
+                        precio_ejemplo = ejemplo.get('price', 'N/A')
+                        print(f"   Ejemplo: {nombre_ejemplo[:65]}")
+                        print(f"   Precio:  {precio_ejemplo}")
                         print()
             except Exception as e:
                 print(f"[ERROR] {tienda}: Error leyendo archivo - {str(e)}")
@@ -172,7 +176,9 @@ def main():
         "tooho", 
         "clevercel",
         "itech",
-        "phoneelectric"
+        "phoneelectric",
+        "celetiene",
+        "celucambio"
     ]
     
     # PASO 1: Ejecutar spiders

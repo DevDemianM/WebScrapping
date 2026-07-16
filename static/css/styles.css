@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f5f5f5;
+    min-height: 100vh;
+    display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 260px;
+    background: #1a1d2e;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.sidebar-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.sidebar-logo {
+    width: 45px;
+    height: 45px;
+    background: #5b5fef;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+}
+
+.sidebar-brand {
+    display: flex;
+    align-items: baseline;
+    gap: 2px;
+}
+
+.sidebar-brand-name {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.sidebar-brand-domain {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.sidebar-menu {
+    flex: 1;
+}
+
+.sidebar-menu-item {
+    padding: 12px 16px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    color: #a0a4b8;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sidebar-menu-item:hover {
+    background: rgba(91, 95, 239, 0.1);
+    color: #5b5fef;
+}
+
+.sidebar-menu-item.active {
+    background: #5b5fef;
+    color: white;
+    font-weight: 700;
+}
+
+/* Top Bar */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 260px;
+    right: 0;
+    height: 70px;
+    background: #1a1d2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    z-index: 100;
+}
+
+.status-indicator {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #a0a4b8;
+    font-size: 14px;
+}
+
+.status-dot {
+    width: 8px;
+    height: 8px;
+    background: #10b981;
+    border-radius: 50%;
+    animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 260px;
+    margin-top: 70px;
+    width: calc(100% - 260px);
+    padding: 40px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.page-header {
+    margin-bottom: 30px;
+}
+
+.page-subtitle {
+    font-size: 14px;
+    color: #5b5fef;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.page-title {
+    font-size: 36px;
+    color: #1a1d2e;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.page-description {
+    font-size: 16px;
+    color: #64748b;
+}
+
+/* Control Panel Card */
+.control-panel {
+    background: linear-gradient(135deg, #1a1d2e 0%, #2d3250 100%);
+    border-radius: 20px;
+    padding: 40px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.control-panel-header {
+    color: #a0a4b8;
+    font-size: 14px;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.control-panel-title {
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.control-panel-description {
+    color: #a0a4b8;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.btn-ejecutar {
+    background: #5b5fef;
+    color: white;
+    border: none;
+    padding: 16px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(91, 95, 239, 0.3);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.btn-ejecutar:hover:not(:disabled) {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(91, 95, 239, 0.4);
+    background: #4a4ed9;
+}
+
+.btn-ejecutar:active:not(:disabled) {
+    transform: translateY(0);
+}
+
+.btn-ejecutar:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Status Panel */
+.status-panel {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: none;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+}
+
+.status-panel.active {
+    display: block;
+}
+
+.status-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.status-header h3 {
+    color: #1a1d2e;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.status-badge {
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-badge.ejecutando {
+    background: #fef3c7;
+    color: #92400e;
+}
+
+.status-badge.completado {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+.status-badge.error {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.progress-container {
+    background: #f1f5f9;
+    border-radius: 12px;
+    height: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.progress-bar {
+    background: linear-gradient(90deg, #5b5fef 0%, #7c3aed 100%);
+    height: 100%;
+    transition: width 0.5s ease;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    min-width: 0;
+}
+
+.status-message {
+    padding: 16px;
+    background: #f8fafc;
+    border-radius: 12px;
+    border-left: 4px solid #5b5fef;
+    margin-bottom: 20px;
+    color: #1a1d2e;
+    font-size: 14px;
+}
+
+#statusDetails {
+    font-size: 13px;
+    color: #64748b;
+}
+
+#statusDetails p {
+    margin: 8px 0;
+}
+
+#statusDetails strong {
+    color: #1a1d2e;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.loading {
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .sidebar {
+        width: 80px;
+        padding: 20px 10px;
+    }
+
+    .sidebar-brand span {
+        display: none;
+    }
+
+    .sidebar-menu-item {
+        font-size: 0;
+        padding: 12px;
+        text-align: center;
+    }
+
+    .top-bar {
+        left: 80px;
+    }
+
+    .main-content {
+        margin-left: 80px;
+        width: calc(100% - 80px);
+        padding: 20px;
+    }
+
+    .page-title {
+        font-size: 28px;
+    }
+}

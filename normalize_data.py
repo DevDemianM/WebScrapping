@@ -103,7 +103,10 @@ class DataNormalizer:
             'NUEVO': 'NUEVO',
             'REFURBISHED': 'USADO',
             'REACONDICIONADO': 'USADO',
-            'OPEN BOX': 'USADO'
+            'OPEN BOX': 'USADO',
+            'USADO ESTANDAR': 'SEMINUEVO',
+            'USADO ESTÁNDAR': 'SEMINUEVO',
+            'USADO PREMIUM': 'SEMINUEVO'
         }
         
         # Diccionario de tipos de SIM normalizados
