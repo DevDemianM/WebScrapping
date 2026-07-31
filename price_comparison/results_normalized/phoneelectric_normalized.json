@@ -666,7 +666,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "1TB",
-    "price": "$6.149.900",
+    "price": "$6.399.900",
     "url": ""
   },
   {
@@ -776,7 +776,7 @@
     "condition": "NUEVO",
     "sim_type": "SIM FISICA",
     "storage_capacity": "128GB",
-    "price": "$2.699.900",
+    "price": "$2.799.900",
     "url": ""
   },
   {
@@ -1060,226 +1060,6 @@
     "url": ""
   },
   {
-    "normalized_name": "APPLE SAMSUNG GALAXY WATCH ULTRA 47MM NUEVO",
-    "original_name": "SAMSUNG GALAXY WATCH ULTRA 47MM - ACCESORIOS-ACCESORIOS-SAMSUNG",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.419.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE SAMSUNG GALAXY WATCH 8 CLASSIC 46MM NUEVO",
-    "original_name": "SAMSUNG GALAXY WATCH 8 CLASSIC 46MM - ACCESORIOS-ACCESORIOS-SAMSUNG",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.319.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE SAMSUNG GALAXY WATCH 8 44MM NUEVO",
-    "original_name": "SAMSUNG GALAXY WATCH 8 44MM - ACCESORIOS-ACCESORIOS-SAMSUNG",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.119.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE SAMSUNG GALAXY WATCH 8 40MM NUEVO",
-    "original_name": "SAMSUNG GALAXY WATCH 8 40MM - ACCESORIOS-ACCESORIOS-SAMSUNG",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.159.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SAMSUNG CARGADOR 45W + CABLE NUEVO",
-    "original_name": "CARGADOR SAMSUNG 45W + CABLE - ACCESORIOS-ACCESORIOS-SAMSUNG",
-    "brand": "SAMSUNG",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$119.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH ULTRA 3 49MM GPS + NUEVO",
-    "original_name": "APPLE WATCH ULTRA 3 49MM GPS + CELULAR - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$2.849.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH SERIES 11 46MM GPS NUEVO",
-    "original_name": "APPLE WATCH SERIES 11 46MM GPS - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.499.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE WATCH SERIES 11 42MM GPS NUEVO",
-    "original_name": "APPLE WATCH SERIES 11 42MM GPS - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.379.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE AIRPODS PRO 3 NUEVO",
-    "original_name": "AIRPODS PRO 3 - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$959.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE PENCIL PRO NUEVO",
-    "original_name": "APPLE PENCIL PRO - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$589.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE AIRPODS MAX NUEVO",
-    "original_name": "AIRPODS MAX - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.699.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE AIRPODS PRO 2. GENERACION NUEVO",
-    "original_name": "AIRPODS PRO 2.ª GENERACIÓN - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$819.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE CARGADOR 20W NUEVO",
-    "original_name": "CARGADOR APPLE 20W - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$119.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE CABLE 1 METRO NUEVO",
-    "original_name": "CABLE 1 METRO DE APPLE - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$69.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE CABLE 2 METROS NUEVO",
-    "original_name": "CABLE 2 METROS DE APPLE - ACCESORIOS-ACCESORIOS-APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$119.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPAD PRO M5 13\" NUEVO 256GB",
-    "original_name": "IPAD PRO M5 13\" 256GB - APPLE-IPAD",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$4.649.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPAD A16 WIFI NUEVO 128GB",
-    "original_name": "IPAD 128GB A16 WIFI - APPLE-IPAD",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "128GB",
-    "price": "$1.399.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE IPAD A16 WIFI NUEVO 256GB",
-    "original_name": "IPAD 256GB A16 WIFI - APPLE-IPAD",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$1.999.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK AIR M5 NUEVO 512GB",
-    "original_name": "MACBOOK AIR M5 512GB - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "512GB",
-    "price": "$4.599.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK NEO NUEVO 256GB",
-    "original_name": "MACBOOK NEO 256GB - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$2.649.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK AIR M2 13\" NUEVO 256GB",
-    "original_name": "MACBOOK AIR M2 13\" 256GB - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$4.199.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "APPLE MACBOOK AIR M1 13\" NUEVO 256GB",
-    "original_name": "MACBOOK AIR M1 13\" 256GB - APPLE",
-    "brand": "APPLE",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "256GB",
-    "price": "$2.949.900",
-    "url": ""
-  },
-  {
     "normalized_name": "BOSE S1 PRO NUEVO",
     "original_name": "BOSE S1 PRO - BOSE",
     "brand": "BOSE",
@@ -1287,26 +1067,6 @@
     "sim_type": null,
     "storage_capacity": "",
     "price": "$3.199.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "SONY PLAYSTATION 5 PS5 SLIM DIGITAL CONSOLAS NUEVO",
-    "original_name": "PLAYSTATION 5 PS5 SLIM DIGITAL - CONSOLAS",
-    "brand": "SONY",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$2.349.900",
-    "url": ""
-  },
-  {
-    "normalized_name": "NINTENDO SWITCH OLED CONSOLAS NUEVO",
-    "original_name": "NINTENDO SWITCH OLED - CONSOLAS",
-    "brand": "NINTENDO",
-    "condition": "NUEVO",
-    "sim_type": null,
-    "storage_capacity": "",
-    "price": "$1.349.900",
     "url": ""
   }
 ]

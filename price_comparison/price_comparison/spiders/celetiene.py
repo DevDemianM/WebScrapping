@@ -18,7 +18,6 @@ class CeletieneSpider(scrapy.Spider):
         productos = response.css('div.product-card')
         
         for producto in productos:
-            # Solo excluir "Disponible Pronto", permitir productos sin badge o con "Oferta"
             badge = producto.css('.badge::text').get()
             if badge and "Disponible Pronto" in badge:
                 continue
